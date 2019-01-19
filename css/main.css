@@ -1,0 +1,49 @@
+*  { 
+    margin: 0; 
+    box-sizing: border-box; 
+}
+body {
+    font-size: 16px;
+    line-height: 32px;
+    font-family: Ubuntu/;
+    color: Black;
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+h2 {
+    font-size: 20px;
+    text-align: center; 
+    border-bottom: 1px solid #bbb;
+    width: auto;
+}
+header, main, footer {
+    margin: 1.25rem auto;
+    background-color: white;   
+    padding: .5rem;
+    max-width: 750px;
+}
+header, footer, footer a {
+    text-align: center;
+    background-color: rgb(33, 30, 196);
+    color: whitesmoke;
+    text-align: center;
+}
+header img {
+    width: auto;
+    height: auto;
+    float: right;
+}
+footer {
+    font-size: smaller;
+}
+ul {
+    margin: 0 auto;
+}
+p{
+    min-width: 300px;
+    max-width: 500px;
+    width: auto
+}
