@@ -14,7 +14,7 @@ h1 {
 
 h2 {
     font-size: 2.0rem;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid #bbb;
 }
 
@@ -40,7 +40,11 @@ header img {
 
 footer {
     font-size: smaller1.6rem;
+    line-height: 1.5;
 }
+
+main ul li{
+    line-height: 1.5;
 
 img {
     float: right;
@@ -55,3 +59,8 @@ img {
     padding-right: 20px;
     padding-top: 10px;
 }
+
+#lastupdated {
+    color: yellow;
+}
+
