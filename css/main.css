@@ -2,7 +2,7 @@
 body {
     font-size: 16px;
     line-height: 35px;
-    font-family:'Playball', "Trebuchet MS", Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: Black;
 }
 
@@ -10,6 +10,7 @@ body {
 h1 {
     font-size: 2.4rem;
     color: white;
+    font-family: 'Yeseva One', cursive;
 }
 
 h2 {
