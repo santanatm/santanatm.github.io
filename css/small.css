@@ -1,0 +1,67 @@
+*  { margin: 0; box-sizing: border-box; }
+body {
+    font-size: 16px;
+    line-height: 35px;
+    font-family: 'Montserrat', sans-serif;
+    color: Black;
+}
+
+
+h1 {
+    font-size: 2.4rem;
+    color: white;
+    font-family: 'Yeseva One', cursive;
+}
+
+h2 {
+    font-size: 2.0rem;
+    text-align: left;
+    border-bottom: 1px solid #bbb;
+}
+
+#lastMod {
+    color: yellow;
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 800px;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: #0B8066;
+    color: whitesmoke;
+    border-radius:10px;
+    padding:15px;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    float: right;
+    box-shadow: 0px 0px 20px #222629;
+}
+
+footer {
+    font-size: smaller1.6rem;
+    line-height: 1.5;
+}
+
+main ul li{
+    line-height: 1.5;
+
+img {
+    float: right;
+    width: 130px;
+    height: auto;
+    -webkit-box-shadow: 0px 0px 10px #222629;
+    -moz-box-shadow: 0px 0px 10px #222629;
+    box-shadow: 0px 0px 20px #222629;
+}
+
+#imagecontainer {
+    padding-right: 20px;
+    padding-top: 10px;
+}
