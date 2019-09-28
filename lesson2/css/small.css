@@ -15,15 +15,9 @@ header, footer{
     background-color: #0B8066;
     color: whitesmoke;
 }
-header h1 {
+header h1 h3 {
 	font-family: 'Yeseva One', cursive;
     font-size:1.5rem;
-    font-weight: bold;
-    color: whitesmoke;
-}
-header h3 {
-	font-family: 'Yeseva One', cursive;
-    font-size:2rem;
     font-weight: bold;
     color: whitesmoke;
 }
