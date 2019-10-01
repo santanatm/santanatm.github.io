@@ -19,17 +19,18 @@ h2 {
     border-bottom: 1px solid #bbb;
 }
 
-#lastMod {
-    padding: 1em;
-    font-size: 1em;
-    color: yellow;
-}
-
 #footer {
-    padding: .5em;
+    padding: 1.0rem;
     font-size: .5rem;
     text-align: center;
     color: white;
+}
+
+#lastMod {
+    font-size: 1.0rem;
+    padding: .5rem;
+    text-align: center;
+    color: yellow;   
 }
 
 header, main, footer {
