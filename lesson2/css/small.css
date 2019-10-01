@@ -8,6 +8,20 @@ body {
     max-width:900px;
     margin:0 auto;
 }
+
+#footer {
+    padding: 0.75em;
+    font-size: 0.75em;
+    text-align: center;
+    color: whitesmoke;
+}
+#lastMod {
+    padding: 0.75em;
+    font-size: 0.75em;
+    text-align: center;
+    color: yellow;   
+}
+
 header, footer{
     margin: 1.25rem auto;
     padding:1rem;
@@ -65,21 +79,9 @@ section p {
     padding:20px;
 }
 footer {
-    font-size: 1.6rem;
+    font-size: 1.0rem;
     line-height: 1.5;
 }
 footer a{
     color: whitesmoke;
-}
-#footer {
-    padding: 0.75em;
-    font-size: 0.75em;
-    text-align: center;
-    color: whitesmoke;
-}
-#lastMod {
-    padding: 0.75em;
-    font-size: 0.75em;
-    text-align: center;
-    color: yellow;   
 }
