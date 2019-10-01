@@ -20,7 +20,15 @@ h2 {
 }
 
 #lastMod {
+    padding: 1em;
+    font-size: 1em;
     color: yellow;
+}
+
+#footer {
+    padding: 1em;
+    font-size: 1em;
+    color: white;
 }
 
 header, main, footer {
