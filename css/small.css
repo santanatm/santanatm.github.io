@@ -23,7 +23,7 @@ h2 {
     padding: 0.5em;
     font-size: 0.5em;
     text-align: center;
-    color: white;
+    color: whitesmoke;
 }
 
 #lastMod {
@@ -55,7 +55,7 @@ header img {
 }
 
 footer {
-    font-size: 1.6rem;
+    font-size: 1.0rem;
     line-height: 1.5;
 }
 
