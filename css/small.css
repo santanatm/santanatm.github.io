@@ -44,13 +44,11 @@ header, footer, footer a {
     background-color: #0B8066;
     color: whitesmoke;
     border-radius:10px;
-    padding:15px;
-}
+    }
 
 header img {
     width: 150px;
     height: auto;
-    float: right;
     box-shadow: 0px 0px 20px #222629;
 }
 
@@ -64,7 +62,6 @@ main ul li{
 }
 
 img {
-    float: right;
     width: 130px;
     height: auto;
     -webkit-box-shadow: 0px 0px 10px #222629;
