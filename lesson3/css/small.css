@@ -103,9 +103,9 @@ main a{
     color:rgb(68, 65, 65);
 }
 #Color_Palette{
-    width:350px;
-    box-shadow:0px 0px 15px;
-    border:1px solid #000;
+    width: 150px;
+    height: auto;
+    box-shadow: 0px 0px 20px #222629;
 }
 main section picture img{
     width:150px;
