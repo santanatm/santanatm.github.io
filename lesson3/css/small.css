@@ -66,6 +66,15 @@ main {
     font-size: 0.8rem;
     grid-template-columns: 1fr;
 }
+main menu{
+    margin: 0.5rem;
+    padding: 0 1rem;
+    font-size: rem;
+    background-color: rgb(238, 238, 238);
+    text-align:center;
+	border-radius:10px;
+	border: 1px solid #BBBBBB;
+}
 main section{
     margin: 0.5rem;
     padding: 0 1rem;
