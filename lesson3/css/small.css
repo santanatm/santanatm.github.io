@@ -8,7 +8,6 @@ body {
     margin-right: auto;
     max-width:900px;
 }
-
 @media only screen and (min-width: 37.5em) {
 	/* Horizontal Flex Menu */
 		nav ul { display: flex; }
@@ -46,7 +45,6 @@ nav a:hover {
     text-align: center;
     color: yellow;   
 }
-
 header, footer{
     margin: 1.25rem auto;
     padding:1rem;
