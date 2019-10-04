@@ -29,11 +29,17 @@ header, footer{
     background-color: #0B8066;
     color: whitesmoke;
 }
-header h1, h3 {
+header h1 {
     font-family: 'Yeseva One', cursive;
     font-size:1.5rem;
     font-weight: bold;
     color: #5caed0;
+}
+header h3 {
+    font-family: 'Yeseva One', cursive;
+    font-size:1.5rem;
+    font-weight: bold;
+    color: #E5E9EA;
 }
 main {
     max-width:900px;
