@@ -102,6 +102,11 @@ main h3{
 main a{
     color:rgb(68, 65, 65);
 }
+table, th, td {
+    border: 2px solid #2a324b;
+    border-collapse: collapse;
+    max-width: 100%;
+}
 .black_color {
     background: #000000;
     color:#ffffff;
