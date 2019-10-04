@@ -102,12 +102,27 @@ main h3{
 main a{
     color:rgb(68, 65, 65);
 }
-#Color_Palette img{
-    width: 130px;
-    height: auto;
-    -webkit-box-shadow: 0px 0px 10px #222629;
-    -moz-box-shadow: 0px 0px 10px #222629;
-    box-shadow: 0px 0px 20px #222629;
+.black_color {
+    background: #000000;
+    color:#ffffff;
+}
+
+.blue_color {
+    background: #5caed0;
+    color: #000000;
+}
+
+.gray_color {
+    background:#e5e9ea;
+    color: #000000;
+}
+.green_color {
+    background:#e5e9ea;
+    color: #000000;
+}
+.white_color {
+    background:#e5e9ea;
+    color: #5caed0;
 }
 main section picture img{
     width:150px;
