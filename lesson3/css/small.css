@@ -69,8 +69,8 @@ main {
 main section{
     margin: 0.5rem;
 	padding: 0 1rem;
-    background-color: #EEEEEE;
-    text-align:center;
+    background-color: #whitesmoke;
+    text-align:left;
 	border-radius:10px;
 	border: 1px solid #BBBBBB;
 }
