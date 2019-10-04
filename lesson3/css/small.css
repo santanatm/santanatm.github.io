@@ -10,8 +10,7 @@ body {
 }
 
 @media only screen and (min-width: 37.5em) {
-	/* Horizontal Menu Examples */
-	/* Flex *********************/
+	/* Horizontal Flex Menu */
 		nav ul { display: flex; }
             nav ul li { flex: 1 1 100%; }
 }
