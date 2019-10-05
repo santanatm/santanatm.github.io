@@ -8,6 +8,13 @@ body {
     margin-right: auto;
     max-width:900px;
 }
+section ul {
+    font-weight:500;
+    padding:20px;
+    font-weight:1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: yellow;
+}
 @media only screen and (min-width: 37.5em) {
 	/* Horizontal Flex Menu */
 		nav ul { display: flex; }
@@ -32,13 +39,6 @@ nav a:hover {
 	background-color: #0B8066;
     color: #E5E9Ea;
     border-radius:10px;
-}
-section ul {
-    font-weight:500;
-    padding:20px;
-    font-weight:1.5rem;
-    font-family: 'Montserrat', sans-serif;
-    color: #5caed0;
 }
 #footer {
     padding: 0.75em;
