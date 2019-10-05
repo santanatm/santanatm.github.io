@@ -106,7 +106,8 @@ main a{
 }
 
 table, th, td {
-    display: flex;
+    display: flex ;
+    flex: 1 1 100%
     border: 2px solid #2a324b;
     border-collapse: collapse;
     font-size: 20px;
