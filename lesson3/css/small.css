@@ -157,7 +157,7 @@ section p {
     font-weight:500;
     padding:20px;
 }
-section li {
+section ul li {
     font-weight:1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
