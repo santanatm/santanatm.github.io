@@ -159,7 +159,7 @@ section p {
 }
 section li {
     font-weight:1rem;
-    padding:20px;
+    font-family: 'Montserrat', sans-serif;
 }
 footer {
     font-size: 1.0rem;
