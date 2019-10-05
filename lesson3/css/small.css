@@ -106,6 +106,7 @@ main a{
 }
 
 table, th, td {
+    display:unset;
     border: 2px solid #2a324b;
     border-collapse: collapse;
     font-size: 16px;
