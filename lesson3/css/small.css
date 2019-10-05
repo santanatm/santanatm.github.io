@@ -74,7 +74,6 @@ main {
 #menu {
     margin: 0.5rem;
     padding: 0 1rem;
-    font-size:2rem;
     background-color: #E5E9Ea;
     font-size: 2rem;
     color: #0B8066;
@@ -104,6 +103,7 @@ main a{
     color:rgb(68, 65, 65);
 }
 table, th, td {
+    font-size:2rem;
     border: 2px solid #2a324b;
     border-collapse: collapse;
     max-width: 100%;
