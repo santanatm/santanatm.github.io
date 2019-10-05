@@ -139,8 +139,10 @@ table, th, td {
 }
 main section picture img{
     width:150px;
+    height: auto;
     box-shadow:0px 0px 15px;
     border:1px solid #000;
+    
 }
 main p{
     font-size:1rem;
