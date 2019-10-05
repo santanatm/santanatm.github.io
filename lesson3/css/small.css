@@ -142,7 +142,16 @@ main a{
 	height: 20%;
 	padding: 0;
 }
-
+.left-td {
+    width: 35%;
+    text-align: right;
+    padding-right: 15px;
+    vertical-align: text-top;
+  }
+  
+  .right-td {
+    padding-left: 15px;
+  }
 main section picture img{
     width:150px;
     height: auto;
