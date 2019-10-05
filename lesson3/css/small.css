@@ -105,38 +105,43 @@ main a{
     color:rgb(68, 65, 65);
 }
 
-table, th, td {
-    border: 2px solid #2a324b;
-    border-collapse: collapse;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
-	margin-left: auto; 
-    margin-right: auto;
-}
-.black_color {
+#black_color {
     background: #000000;
     color:#ffffff;
+    width: 100%;
+	height: 20%;
+	padding: 0;
 }
 
-.blue_color {
+#blue_color {
     background: #5caed0;
     color: #000000;
+    width: 100%;
+	height: 20%;
+	padding: 0;
 }
 
-.gray_color {
+#gray_color {
     background:#e5e9ea;
     color: #000000;
+    width: 100%;
+	height: 20%;
+	padding: 0;
 }
-.green_color {
+#green_color {
     background:#0b8066;
     color: #5caed0;
+    width: 100%;
+	height: 20%;
+	padding: 0;
 }
-.white_color {
+#white_color {
     background:#ffffff;
     color: #000000;
+    width: 100%;
+	height: 20%;
+	padding: 0;
 }
-
 
 main section picture img{
     width:150px;
