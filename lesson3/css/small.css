@@ -106,7 +106,6 @@ main a{
 }
 
 table, th, td {
-    display:none;
     border: 2px solid #2a324b;
     border-collapse: collapse;
     font-size: 16px;
@@ -114,7 +113,8 @@ table, th, td {
     font-weight: 300;
 	margin-left: auto; 
     margin-right: auto;
-    max-width:900px;
+    width:100%;
+    overflow: hidden;
 }
 .black_color {
     background: #000000;
@@ -138,12 +138,13 @@ table, th, td {
     background:#ffffff;
     color: #000000;
 }
+
+
 main section picture img{
     width:150px;
     height: auto;
     box-shadow:0px 0px 15px;
     border:1px solid #000;
-    
 }
 main p{
     font-size:1rem;
