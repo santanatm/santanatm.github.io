@@ -157,9 +157,10 @@ section p {
     font-weight:500;
     padding:20px;
 }
-section ul li {
+section ul {
     font-weight:1.5rem;
     font-family: 'Montserrat', sans-serif;
+    color: #5caed0;
 }
 section h3 {
     font-family: 'Yeseva One', cursive;
