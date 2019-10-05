@@ -11,7 +11,7 @@ body {
 @media only screen and (min-width: 37.5em) {
 	/* Horizontal Flex Menu */
 		nav ul { display: flex; }
-            nav ul li { flex: 1 1 100%; }
+        nav ul li { flex: 1 1 100%; }
 }
 nav ul {
 	list-style-type: none;
@@ -106,9 +106,10 @@ main a{
 }
 
 table, th, td {
+    display: flex;
     border: 2px solid #2a324b;
     border-collapse: collapse;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 	margin-left: auto; 
