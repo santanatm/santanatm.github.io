@@ -1,18 +1,51 @@
-*  { margin: 0; box-sizing: border-box; }
+/* Phone View */
 body {
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    color: #000000;
-    font-weight: 300;
-	margin-left: auto; 
-    margin-right: auto;
-    max-width:900px;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    display: flow-root;
+    border-style: solid;
+    border-radius: 25px;
+    width:150px;
+    box-shadow:0px 0px 15px;
+    border:1px solid #000;
+}
+
+header {
+    background-color: #0B8066;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 6px;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+}
+
+.hero, .forcast, .article, .contact {
+    display: block;
+    margin: 10px auto;
+    background-color: #d9d9d9;
+    box-shadow: inset 0 0 6px;
+    border: 1px dashed black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+footer {
+    background-color: #0B8066;
+    padding: 0.75em;
+    font-size: 1em;
+    text-align: center;
+    color: whitesmoke;
 }
 #footer {
     padding: 0.75em;
     font-size: 1em;
     text-align: center;
-    color: #E5E9Ea;
+    color: whitesmoke;
 }
 #lastMod {
     padding: 0.75em;
@@ -20,108 +53,98 @@ body {
     text-align: center;
     color: #5caed0;   
 }
-header picture img{
-    display:inline-block;
-}
-header, footer{
-    margin: 1.25rem auto;
-    padding:1rem;
-    text-align: center;
-    background-color: #0B8066;
-    color: #E5E9EA;
-}
-header h1 {
-    font-family: 'Yeseva One', cursive;
-    font-size:1.5rem;
-    font-weight: bold;
-    color: #5caed0;
-}
-header h3 {
-    font-family: 'Yeseva One', cursive;
-    font-size:1.5rem;
-    font-weight: bold;
-    color: #E5E9EA;
-}
-main {
-    font-size: 0.8rem;
-	max-width:900px;
-    margin:0 auto;
-    font-size: 0.8rem;
-    grid-template-columns: 1fr;
-}
-main h2{
-    font-size:1.5rem;
-    color: #0B8066;
-    margin-top:20px;
-}
-main h3{
-    font-size:1rem;
-    font-weight: 300;
-    margin: 30px 0;
-}
-main a{
-    color:#0B8066
+
+.headings {
+    margin: 0 0 0 17px;
 }
 
-main p{
-    font-size:1rem;
-    text-align:justify; 
-}
-section p {
-    font-weight:500;
-    padding:20px;
-}
-section h3 {
-    font-family: 'Yeseva One', cursive;
-    font-size:1.5rem;
-    font-weight: bold;
+.slogan {
+    margin-left: 20px;
     color: #5caed0;
-}
-footer {
-    font-size: 1.0rem;
-    line-height: 1.5;
-}
-footer a{
-    color: #E5E9Ea;
-}
-nav {
-	margin: 0 auto;
-    background-color: #E5E9Ea;
-    text-align: center;
-    font-size: 0.95rem;
-}
-.navigation {
-	list-style: none;
-	text-align: center;
-    padding: 0;
-    overflow: hidden;
-}
-.navigation li:first-child{
-    display: block;
-    background:#5caed0;
-}
-.navigation li:first-child a{
-    color:#E5E9Ea;
-}
-.navigation li {
-    display: none;
-}
-.navigation a {
-	display: block;
-	padding: 0.75rem;
-	text-align: center;
-	text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    font-weight:bolder;
-    color:#5caed0;
 }
+
+ul {
+    margin: 0;
+}
+
+nav {
+    font-family: 'Cabin', sans-serif;
+    background-color: #36454f;
+}
+
+/*nav ul li a {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}*/
+
+.navigation {
+    padding: 0;
+}
+
+.navigation li:first-child {
+	display: block;
+}
+
+.navigation li {
+	display: none;
+}
+
+.navigation a {
+    display: block;
+    color: #40c9a2;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+}
+
 .navigation a:hover {
-	background-color:#0B8066;
+    color: #d9d9d9;
+    background-color: #41535f;
+    font-weight: 700;
 }
-.navigation li .active{
-    background: #0B8066;
-    color:#E5E9Ea;
-}
+
 .responsive li {
 	display: block;
+}
+
+a {
+    color: #40c9a2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d9d9d9;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+    text-shadow: 2px 2px black;
+    font-size: 1.5rem;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #0B8066;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: inset 0 0 20px;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    margin: 0;
+}
+
+h4 {
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+    text-shadow: 2px 2px black;
+    padding: 20px;
+    font-size: .9rem;
+    font-weight: bold;
 }
