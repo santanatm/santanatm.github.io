@@ -14,7 +14,7 @@
         <script src ="js/hamburgermenu.js"></script>
         <script src ="js/refreshdate.js"></script>
 	</head>
-    <body onload="RefreshDates()">
+    <body onload="UpdateDates()">
 
         <header>
             <img class="logo" src="images/weather.png" alt="Weather Site - Think Green Logo">
@@ -44,11 +44,17 @@
             <div class="contact">Contact Information</div>
         </main>
 
-		<footer>
-			<div id="footer">
-				&copy;2019 &star; Tadeo M. Santana &star; Dominican Republic &star; 
-				<a href="http://www.byui.edu/online" target="_blank">BYU-Idaho Online Learning</a>
-			</div>
-			<div id="lastMod"></div>
-		</footer>
+            <footer>
+                <div class="footer">
+                    <small>
+                        &copy; <span id="copyrightdate"></span> </span> &star; Weather Site - Think Green &star; Tadeo M. Santana &star; <a href="https://www.byui.edu/online">BYUI Online Learning</a>
+                    </small>
+        
+                    <br>
+        
+                    <small id="lastMod">
+                        <span id="currentdate"></span>
+                    </small>
+                </div>
+            </footer>
     </body>
