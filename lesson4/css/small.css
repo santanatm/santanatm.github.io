@@ -2,6 +2,13 @@
 body {
     padding: 0;
     margin: 0;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: 300;
+    margin-left: auto; 
+    margin-right: auto;
+    max-width:1000px;
 }
 
 .logo {
@@ -15,6 +22,7 @@ body {
 
 header {
     background-color: #0B8066;
+    font-family: 'Yeseva One', cursive;
     padding: 10px 0;
     display: flex;
     align-items: center;
@@ -39,13 +47,13 @@ footer {
     padding: 0.75em;
     font-size: 1em;
     text-align: center;
-    color: whitesmoke;
+    color: #E5E9EA;
 }
 #footer {
-    padding: 0.75em;
+
     font-size: 1em;
     text-align: center;
-    color: whitesmoke;
+    color: #E5E9EA;
 }
 #lastMod {
     padding: 0.75em;
@@ -70,13 +78,9 @@ ul {
 }
 
 nav {
-    font-family: 'Cabin', sans-serif;
-    background-color: #36454f;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #E5E9Ea;
 }
-
-/*nav ul li a {
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
-}*/
 
 .navigation {
     padding: 0;
@@ -91,17 +95,19 @@ nav {
 }
 
 .navigation a {
-    display: block;
-    color: #40c9a2;
-    padding: 0.75rem;
-    text-align: center;
-    text-decoration: none;
+display: block;
+	color: #0B8066;
+	font-family: 'Yeseva One', cursive;
+	text-align: center;
+	padding: 0.75rem;
+	text-decoration: none;
+	font-size: 1rem;
 }
 
 .navigation a:hover {
-    color: #d9d9d9;
-    background-color: #41535f;
-    font-weight: 700;
+    background-color: #0B8066;
+    color: #E5E9Ea;
+    border-radius:10px;
 }
 
 .responsive li {
@@ -114,11 +120,11 @@ a {
 }
 
 a:hover {
-    color: #d9d9d9;
+    color: #E5E9EA;
 }
 
 h1 {
-    color: whitesmoke;
+    color: #E5E9EA;
     text-align: center;
     font-family: 'Yeseva One', cursive;
     text-shadow: 2px 2px black;
@@ -134,13 +140,13 @@ h2 {
     border-radius: 10px;
     text-align: center;
     box-shadow: inset 0 0 20px;
-    color: whitesmoke;
+    color: #E5E9EA;
     text-shadow: 2px 2px black;
     margin: 0;
 }
 
 h4 {
-    color: whitesmoke;
+    color: #E5E9EA;
     text-align: center;
     font-family: 'Cabin', sans-serif;
     text-shadow: 2px 2px black;
