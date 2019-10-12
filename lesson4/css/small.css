@@ -112,8 +112,8 @@ nav {
 }
 
 .navigation a:hover {
-    background-color: #0B8066;
-    color: #E5E9Ea;
+    background-color: #E5E9Ea;
+    color: #0B8066;
     border-radius:10px;
 }
 
