@@ -18,11 +18,11 @@
     }
 
     footer {
-        max-width: 1500px;
+        max-width: 900px;
     }
     
     .hero, .forcast, .article, .contact {
-        max-width: 1450px;
+        max-width: 900px;
     }
 
     h1 {

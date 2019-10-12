@@ -2,11 +2,11 @@
 @media only screen and (min-width: 32.5em) {
 
     footer {
-        max-width: 750px;
+        max-width: 900px;
     }
 
     .hero, .forcast, .article, .contact {
-        max-width: 700px;
+        max-width: 900px;
     }
 
     h1 {
