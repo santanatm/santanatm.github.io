@@ -20,7 +20,9 @@
     footer {
         max-width: 900px;
     }
-    
+    .slogan {
+        font-size: 1rem;
+    } 
     .hero, .forcast, .article, .contact {
         max-width: 900px;
     }
@@ -33,6 +35,15 @@
         font-size: 2rem;
     }
 
+    h4 {
+        font-size: 1.5rem;
+    }
+    #footer {
+        font-size: 1rem;
+    }
+    #lastMod {
+        font-size: 1rem;
+    }
     nav li a {
         font-size: 1.1rem;
     }
