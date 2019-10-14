@@ -16,7 +16,9 @@
     .navigatoin li a {
         color: #40c9a2;
     }
-
+    .logo {
+        width:150px;
+    }
     footer {
         max-width: 900px;
         font-size: 1.3rem;

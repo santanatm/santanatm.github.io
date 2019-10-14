@@ -1,6 +1,8 @@
 /* Tablet View CSS */
 @media only screen and (min-width: 32.5em) {
-
+    .logo {
+        width:125px;
+    }
     footer {
         max-width: 900px;
         font-size: 1rem;
