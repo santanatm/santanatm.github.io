@@ -1,5 +1,5 @@
 /* Tablet View CSS */
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 40em) {
     .logo {
         width:125px;
     }
