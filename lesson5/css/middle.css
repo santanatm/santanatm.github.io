@@ -13,6 +13,13 @@
     .hero, .forcast, .article, .contact {
         max-width: 900px;
     }
+    .fivedaytable {
+        display: block;
+        margin-bottom: 20px;
+    }
+    .bannerimage {
+        max-width: 100%;
+    }
 
     h1 {
         font-size: 2rem;
