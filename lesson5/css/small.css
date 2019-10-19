@@ -51,6 +51,13 @@ td, th {
     border: 1px solid #000000;
 }
 
+th {
+    color: #5caed0; 
+    background-color: #0B8066;
+    padding: 8px;
+    width: 100px;
+}
+
 .pancakes {
     width: 100%;
     background-color: yellow;
