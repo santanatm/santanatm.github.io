@@ -19,6 +19,12 @@
     .logo {
         width:150px;
     }
+
+    .bodycontent img {
+        float: right;
+        margin: 1em;
+     }
+
     footer {
         max-width: 900px;
         font-size: 1.3rem;
