@@ -17,11 +17,13 @@
         display: block;
         margin-bottom: 20px;
     }
-    .contact img {
-        display: block;
+    .map {
         float: left;
-        margin: 1em;
-        width: 650px;
+        max-width: 100%;
+        width: 350px;
+        display:block;
+        margin:auto;
+        margin-right: 2rem;
      }
     h1 {
         font-size: 2rem;

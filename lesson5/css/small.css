@@ -54,7 +54,7 @@ header {
 }
 .bannerimage {
     max-width: 100%;
-    width: 1100px;
+    width: 900px;
     display:block;
     margin:auto;
     margin-top: -150px;
@@ -98,35 +98,29 @@ table {
 }
 .ArticleSection img {
     max-width: 100%;
-    width: 650px;
+    width: 560px;
     display:block;
     margin:auto;
 }
 .ArticleSection {
-    padding-top: 10px; 
-    padding-bottom: 10px;
-    margin-top: 10px; 
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    max-width: 900px;
+    display: block;
+    margin:auto;
     background-color: #E5E9EA;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
-.contact img {
+.socialmedia {
+    max-width:100%;
+    width: 25px;
+}
+.map {
     display: none;
  }
 .contact {
-    padding-top: 10px; 
-    padding-bottom: 10px;
-    margin-top: 10px; 
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    max-width: 900px;
+    display: block;
+    margin:auto;
     background-color: #E5E9EA;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
