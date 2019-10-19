@@ -51,6 +51,13 @@ td, th {
     border: 1px solid #000000;
 }
 
+.pancakes {
+    width: 100%;
+    background-color: yellow;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
 .fivedaytable {
     display: none;
 }
@@ -67,7 +74,7 @@ table {
     max-width: 100%;
     width: 750px;
     display:block;
-    float: none;
+    margin:auto;
 }
 .bodycontent {
     padding-top: 10px; 
