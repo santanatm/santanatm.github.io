@@ -10,7 +10,7 @@
     .slogan {
         font-size: 0.8rem;
     } 
-    .hero, .forcast, .article, .contact {
+    .hero, .forcast, .article {
         max-width: 900px;
     }
     .fivedaytable {
@@ -20,7 +20,12 @@
     .bannerimage {
         max-width: 100%;
     }
-
+    .contact img {
+        display: block;
+        float: left;
+        margin: 1em;
+        width: 650px;
+     }
     h1 {
         font-size: 2rem;
     }
