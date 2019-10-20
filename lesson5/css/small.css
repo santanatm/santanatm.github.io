@@ -32,38 +32,48 @@ header {
     text-align: center;
 }
 
-.hero, .forcast, .article {
-    display: block;
-    margin: 10px auto;
-    background-color: #E5E9EA;
-    border: 2px dashed black;
-    text-align: center;
-    line-height: 4rem;
-}
-.CurrentWeather {
+.hero {
     position: relative;
-    top: 75px;
-    left: 15%;
-    max-width: 250px;
-    color: #ffffff; 
-    background-color: #0B8066;
-    padding: 10px;
-    font-family: 'Yeseva One', cursive;
-    text-shadow: 2px 2px black;  
-    font-size: 1.2rem;
-}
-.bannerimage {
     max-width: 100%;
     width: 900px;
     display:block;
     margin:auto;
-    margin-top: -150px;
-    margin-bottom: 20px;
 }
+
+#PostOffice {
+    width: 100%;
+}
+
+
+.CurrentWeather {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    background: radial-gradient(#eee, #0B8066);
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+    font-family: 'Yeseva One', cursive;
+    color: #ffffff; 
+    text-shadow: 2px 2px black;
+    font-size: 24px;
+}
+
+.CurrentWeather h2 {
+    color: #ffffff; 
+    text-shadow: 2px 2px black;
+}
+
+.CurrentLabel {
+    justify-content: right;
+}
+
 
 .blue {
     color: #5caed0;
     text-shadow: 2px 2px black;  
+    font-size: 24px;
 }
 
 td, th {
