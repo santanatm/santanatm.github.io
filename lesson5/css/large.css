@@ -25,11 +25,10 @@
      }
      .map {
         float: left;
-        max-width: 100%;
+        max-width: 80%;
         width: 400px;
         display:block;
-        margin:auto;
-        margin-right: 2rem;
+        margin:20px;
      }
     footer {
         max-width: 900px;
