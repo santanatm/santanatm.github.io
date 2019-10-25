@@ -1,15 +1,11 @@
-function calculateWindChill()
-{
-    var temperature = parseFloat(document.getElementById("temperature").innerHTML);
-    var windSpeed = parseFloat(document.getElementById("windspeed").innerHTML);
-    if (temperature > 50 || windSpeed < 3)
-    {
-        document.getElementById("windchill").innerHTML = "N/A";
-    }
-    else
-    {
-        var windChill = 35.74 + (0.6215 * temperature) - (35.75 * Math.pow(windSpeed, 0.16)) + (0.4275 * temperature * Math.pow(windSpeed, 0.16));
-        document.getElementById("windchill").innerHTML = windChill.toFixed(2) + "° F";
-    }    
+var high = parseInt(document.getElementById("high").innerHTML);
+var windSpeed = parseInt(document.getElementById("windspeed").innerHTML);
+var windMilesPerHour = windSpeed * 0.16;
+var windChillFactor = 35.74 + 0.6215 * high - 35.75 * Math.pow(windSpeed, 0.16) + 0.4275 * high * Math.pow(windSpeed, 0.16);
+
+if (high <= 50 && windSpeed >= 3) {
+document.getElementById("windchill").innerHTML = Math.round(windChillFactor) + "° F";
 }
-window.onload = calculateWindChill();
+else {
+document.getElementById("windchill").innerHTML = "0";
+}
