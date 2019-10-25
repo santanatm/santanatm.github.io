@@ -32,10 +32,14 @@ header {
     text-align: center;
 }
 
+.hero img {
+    width: 100%;
+}
+
 .hero {
     position: relative;
     max-width: 100%;
-    width: 900px;
+    width: 960px;
     display:block;
     margin:auto;
 }
@@ -113,7 +117,7 @@ table {
     margin:auto;
 }
 .ArticleSection {
-    max-width: 900px;
+    max-width: 960px;
     display: block;
     margin:auto;
     background-color: #E5E9EA;
@@ -152,7 +156,7 @@ a.preston:active {
     display: none;
  }
 .contact {
-    max-width: 900px;
+    max-width: 960px;
     display: block;
     margin:auto;
     background-color: #E5E9EA;
@@ -166,7 +170,7 @@ a.preston:active {
 }
 
 footer {
-    max-width:900px;
+    max-width:960px;
     background-color: #0B8066;
     font-family: 'Montserrat', sans-serif;
     padding: 10px 0;
@@ -259,7 +263,7 @@ h1 {
 }
 
 h2 {
-    max-width:900px;
+    max-width:960px;
     font-family: 'Yeseva One', cursive;
     font-size: 1.3rem;
     line-height: 5rem;

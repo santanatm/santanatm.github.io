@@ -31,14 +31,17 @@
         margin:20px;
      }
     footer {
-        max-width: 900px;
+        max-width: 960px;
         font-size: 1.3rem;
     }
     .slogan {
         font-size: 1rem;
+    }
+    .hero img {
+        width: 100%;
     } 
     .hero, .forcast, .article {
-        max-width: 900px;
+        max-width: 100%;
     }
 
     h1 {

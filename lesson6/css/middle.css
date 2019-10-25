@@ -4,14 +4,17 @@
         width:125px;
     }
     footer {
-        max-width: 900px;
+        max-width: 960px;
         font-size: 1rem;
     }
     .slogan {
         font-size: 0.8rem;
+    }
+    .hero img {
+        width: 100%;
     } 
     .hero, .forcast, .article {
-        max-width: 900px;
+        max-width: 100%;
     }
     .fivedaytable {
         display: block;

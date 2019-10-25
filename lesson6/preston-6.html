@@ -46,8 +46,13 @@
     
         <main>
                 <h2>Preston Idaho </h2>
+
                 <div class="hero">
-                    <img id="PostOffice" src="images/PostOffice.jpg" alt="Picture of Preston">
+                    <picture>
+                        <source media="(max-width: 690px)" srcset="images/prestonsmall.jpg">
+                        <source media="(max-width: 900px)" srcset="images/prestonmedium.jpg">
+                        <img src="images/prestonlarge.jpg" alt="Photo of a field near Preston, Idaho">
+                    </picture>
         
                     <div class="CurrentWeather">
                         <h2 id="WeatherSummaryTtle">Weather Summary</h2>
