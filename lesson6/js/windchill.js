@@ -1,5 +1,4 @@
   function getWindChill(){
-    tempF = document.getElementById('tempF');
     var tF = parseInt(document.getElementById("tempF").innerHTML);
     var wS = parseInt(document.getElementById("windSpeed").innerHTML);
     if (tempF > 50 || windSpeed < 3){
