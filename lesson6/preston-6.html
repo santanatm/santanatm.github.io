@@ -16,7 +16,7 @@
         <script src="js/windchill.js"></script>
     </head>
 
-    <body onload="UpdateDates(), getWindChill()">
+    <body onload="UpdateDates()">
         <div class="pancakes">
             <span> Saturday = Preston Pancakes in the Park!<br>
                 9:00 a.m. Saturday at the city park pavilion.</span>
@@ -167,6 +167,10 @@
                 </div>
             </footer>
 
+            <script>
+                getWindChill();            
+            </script>
+            
             <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 
             <script>
@@ -175,6 +179,6 @@
                         families: ['Montserrat', 'Yeseva One']
                     }
                 });
-              </script>
+            </script>
     </body>
 </html>
