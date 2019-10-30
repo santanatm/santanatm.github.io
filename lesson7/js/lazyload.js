@@ -5,6 +5,7 @@ const loadImages = (image) => {
     image.removeAttribute('data-src');
   };
 };
+
 if('IntersectionObserver' in window) {
     const observer = new IntersectionObserver((items, observer) => {
       items.forEach((item) => {
@@ -14,10 +15,13 @@ if('IntersectionObserver' in window) {
         }
       });
     });
+
     imagesToLoad.forEach((img) => {
       observer.observe(img);
     });
-  } else {
+  } 
+  
+  else {
     imagesToLoad.forEach((img) => {
       loadImages(img);
     });
