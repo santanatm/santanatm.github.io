@@ -32,6 +32,13 @@ header {
     text-align: center;
 }
 
+.gallery {
+    margin: 0 auto;
+    width:100%;
+    display:grid; 
+    grid-template-columns: 1fr;
+} 
+
 .hero img {
     width: 100%;
 }
