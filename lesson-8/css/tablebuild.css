@@ -24,7 +24,7 @@ tbody tr:nth-child(odd) {
 tbody tr:nth-child(5) {
     font-style: italic;
   }
-  
+
 thead tr th, tfoot {
     background-color: #7fb9c2 ;
 }
@@ -32,11 +32,12 @@ thead tr th, tfoot {
 thead tr td {
     background-color: #628ca6;
     color: white;
-    font-weight: bolder;
+    font-weight:bold;
 }
 
 thead tr th {
     font-size: 2rem;
+    font-weight:bold;
 }
 
 tfoot {
