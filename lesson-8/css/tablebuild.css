@@ -21,6 +21,10 @@ tbody tr:nth-child(odd) {
     background-color: #e7f0ed;
 }
 
+tbody tr:nth-child(5) {
+    font-style: italic;
+  }
+  
 thead tr th, tfoot {
     background-color: #7fb9c2 ;
 }
