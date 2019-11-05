@@ -31,10 +31,6 @@ thead tr td {
     font-weight: bolder;
 }
 
-.ACME {
-    font-weight: bold;
-}
-
 thead tr th {
     font-size: 2rem;
 }
@@ -47,7 +43,4 @@ tfoot {
 .November {
     color: white;
     background-color: #628ca6;
-}
-.BlackFriday {
-    font-style: italic;
 }
