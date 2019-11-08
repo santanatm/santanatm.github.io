@@ -32,6 +32,59 @@ header {
     text-align: center;
 }
 
+.gallery {
+    display:block;
+    width:auto;
+    grid-template-columns: 1fr;
+} 
+
+.hero img {
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+    max-width: 100%;
+    width: 960px;
+    display:block;
+    margin:auto;
+}
+
+#PostOffice {
+    width: 100%;
+}
+
+.CurrentWeather {
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    background: radial-gradient(#eee, #0B8066);
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 0 0 30px #111;
+    opacity: .8;
+    font-family: 'Yeseva One', cursive;
+    color: #ffffff; 
+    text-shadow: 2px 2px 5px black;
+    font-size: 24px;
+}
+
+.CurrentWeather h2 {
+    color: #ffffff; 
+    text-shadow: 2px 2px black;
+}
+
+.CurrentLabel {
+    justify-content: right;
+}
+
+
+.blue {
+    color: #5caed0;
+    text-shadow: 2px 2px black;  
+    font-size: 24px;
+}
+
 td, th {
     border: 1px solid #000000;
 }
@@ -50,7 +103,32 @@ th {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
 }
-
+.fivedaytable {
+    display: none;
+}
+table {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.authorquote{
+    font-style: italic;
+}
+.ArticleSection img {
+    max-width: 100%;
+    width: 560px;
+    display:block;
+    margin:auto;
+}
+.ArticleSection {
+    max-width: 960px;
+    display: block;
+    margin:auto;
+    background-color: #E5E9EA;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
 a.activepage:link {
     background-color: #0B8066;
     color: #E5E9EA;
@@ -68,6 +146,27 @@ a.activepage:hover {
     color: #E5E9EA;
     border-radius:10px;
     box-shadow: inset 0 0 6px;
+}
+a.preston:active {
+    background-color: #0B8066;
+    color: #E5E9EA;
+    border-radius:10px;
+    box-shadow: inset 0 0 6px;
+}
+.socialmedia {
+    max-width:100%;
+    width: 25px;
+}
+.map {
+    display: none;
+ }
+.contact {
+    max-width: 960px;
+    display: block;
+    margin:auto;
+    background-color: #E5E9EA;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 #lastMod {
     font-size: 0.7rem;
@@ -199,6 +298,17 @@ h4 {
     padding: 10px;
     font-size: .9rem;
     font-weight: bold;
+}
+/**********************/
+div.clearfix
+{
+    clear: both;
+}
+
+span.authorquote,
+p
+{
+ padding: 0px 15px;  
 }
 
 .stormcenter {
