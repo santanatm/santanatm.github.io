@@ -316,9 +316,9 @@ p
     margin-bottom: 60px;
     padding: 40px;
     background-color: #0B8066;
-    border: 1px solid #00303F;
+    border: 1px solid #000000;
     border-radius: 10px;
-    max-width: 960px;
+    max-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -330,6 +330,10 @@ p
     border-radius: 10px;
 }
 
+.stormcenter h2{
+    color: #5caed0;
+    text-shadow: 2px 2px black;
+}
 .stormcenter .subsection{
     padding: 30px;
     background: #5caed0;
