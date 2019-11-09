@@ -13,7 +13,6 @@
         <script src ="js/lastmod.js" defer></script>
         <script src ="js/hamburgermenu.js"></script>
         <script src ="js/pancakes_msg.js"></script>
-        <script src ="js/rating.js"></script>
     </head>
 
     <body onload="UpdateDates()">
@@ -73,24 +72,24 @@
                         </datalist>
 
                     <br>
-                    </label>
-                        <label><span >Storm Severity: (1-10)  > <span id="ratingvalue">5</span></span> <br>
-                        1 <input type="range" id="severity" value="5" min="1" max="10" step="1" list="severityoptions" oninput="ShowRating(this.value)" onchange="ShowRating(this.value)"> 10
 
-                        <datalist id="severityoptions">
-                            <option>1</option>   
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6</option>
-                            <option>7</option>
-                            <option>8</option>
-                            <option>9</option>
-                            <option>10</option>
-                        </datalist>
-                    </label>
-                        <label>
+                </label>
+                <label><span >Storm Severity: (1-10) > <span id="ratingvalue">5</span></span> <br>
+                    1 <input type="range" id="severity" value="5" min="1" max="10" step="1" list="sevsettings" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"> 10
+                    <datalist id="sevsettings">
+                        <option>1</option>   <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                    </datalist>
+                </label>
+
+                <label>
                     Storm Region
                         <select name="region">
                         <option value="select" disabled selected>Select Region...</option>
@@ -112,7 +111,7 @@
                     Comments
                         <textarea name="additionalInfo"></textarea>
     
-                    </label>
+                </label>
                     </div>
     
                     <input type="submit" value="Send Report" class="submitButton">
@@ -153,6 +152,12 @@
                     </small>
                 </div>
             </footer>
+
+            <script>
+                function adjustRating(rating) {
+                    document.getElementById("ratingvalue").innerHTML = rating;
+                }
+            </script>
 
             <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
 
