@@ -50,18 +50,18 @@
                     <div class="section">
                         <span>1</span>Personal Information</div>
                     <div class="subsection">
-                        <label>Full Name:<input type="text" name="fullname" placeholder="" pattern="[A-z\s]{5,}" required autocomplete="off"></label>
-                        <label>Email:<input type="email" name="email" placeholder="email@email.com"  autocomplete="off"></label>
-                        <label>Phone Number:<input type="tel" name="phone" required autocomplete="off"></label>
-                        <label>ZIP Code:<input type="text" name="zipcode" pattern="^\d{5,6}(?:[-\s]\d{4})?$" required autocomplete="off"></label>
+                        <label>Full Name*:<input type="text" name="fullname" placeholder="" pattern="[A-z\s]{5,}" required autocomplete="off"></label>
+                        <label>Email Address:<input type="email" name="email" placeholder="email@email.com"  autocomplete="off"></label>
+                        <label>Phone Number*:<input type="tel" name="phone" placeholder="888-888-8888" required autocomplete="off"></label>
+                        <label>Zip Code*:<input type="text" name="zipcode" pattern="^\d{5,6}(?:[-\s]\d{4})?$" required autocomplete="off"></label>
                     </div>
     
                     <div class="section">
                         <span>2</span>Storm Report</div>
                     <div class="subsection">
-                        <label>Storm Date:<input type="date" name="date"></label>
+                        <label>Storm Date:<input type="date" name="date" placeholder="mm/dd/yyyy"></label>
     
-                        <label>Storm Type:<input type="text" name="stormtype" list="storm">
+                        <label>Storm Type:<input type="text" name="stormtype" placeholder="Select Region" list="storm">
     
                     <datalist id="storm">
                         <option value = "Flash Flood"></option>
@@ -116,9 +116,8 @@
     
                 </form>
             </div>
-        </main>
 
-        <div class="contact">
+            <div class="contact">
                 <img src="images/PrestonMap.png" alt="Map of Preston" class="map">
 
                 <h3>Contact Information</h3>
