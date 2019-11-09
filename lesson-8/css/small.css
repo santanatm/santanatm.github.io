@@ -310,18 +310,18 @@ p
 {
  padding: 0px 15px;  
 }
-
+#thanks {
+    font-size: 40px;
+    color: #0B8066;
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+}
 .stormcenter {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.thanks {
-    padding:30px;
-    margin:40px;
-    background: #5caed0;
-    border-radius: 10px;
 }
 
 .stormcenter h2{
