@@ -73,10 +73,11 @@
     
                     </label>
     
-                        <label>Storm Severity<br>
-                        1 <input type="range" id="severity" value="5" min="1" max="10" step="1" list="sevsettings"> 10
-                        <datalist id="sevsettings">
-                            <option>1</option>   <option>2</option>
+                        <label>Storm Severity (1-10)<br>
+                        1 <input type="range" id="severity" value="5" min="1" max="10" step="1" list="severityoptions"> 10
+                        <datalist id="severityoptions">
+                            <option>1</option>   
+                            <option>2</option>
                             <option>3</option>
                             <option>4</option>
                             <option>5</option>
@@ -112,7 +113,7 @@
                     </label>
                     </div>
     
-                    <input type="submit" value="Send" class="submitButton">
+                    <input type="submit" value="Send Report" class="submitButton">
     
                 </form>
             </div>

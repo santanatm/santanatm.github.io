@@ -384,7 +384,7 @@ p
     font-weight: bold;
 }
 .stormcenter .section span {
-    background: #93AFD2;
+    background: #5caed0;
     padding: 5px 10px 5px 10px;
     position: absolute;
     border-radius: 50%;
@@ -397,7 +397,7 @@ p
 }
 .stormcenter input[type="button"],
 .stormcenter input[type="submit"]{
-    background: #93AFD2;
+    background:  #0B8066;
     padding: 10px 20px;
     cursor:pointer;
     border-radius: 5px;
