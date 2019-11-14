@@ -17,7 +17,7 @@ main {
   footer {
     text-align: center;
     margin-top: 1em;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   
   h1 {
@@ -76,7 +76,7 @@ main {
     margin-bottom: 15px;
   }
   
-  @media only screen and (min-width: 50em) {
+  @media only screen and (min-width: 40em) {
     main {
       max-width: 100%;
       padding:0 20px;
@@ -95,7 +95,7 @@ main {
     }
   }
   
-  @media only screen and (min-width: 70em) {
+  @media only screen and (min-width: 60em) {
     main {
       max-width: 100%;
     }
