@@ -64,14 +64,16 @@ main {
     row-gap: 5px;
     column-gap: 5px;
     margin: auto;
-    padding: .25em;
+    padding: 10px;
+    box-shadow: 0 0 8px 2px #000000;
   
   }
   .cards section img {
-    margin: 1em;
+    margin: 5px;
     width: 90%;
     height: auto;
     box-shadow: 0 0 20px #000000;
+    margin-bottom: 15px;
   }
   
   @media only screen and (min-width: 50em) {
@@ -89,7 +91,7 @@ main {
       text-align: center;
       margin: auto;
       grid-gap: 15px;
-      padding: 0;
+      padding: 15px;
     }
   }
   
