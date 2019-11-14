@@ -1,0 +1,109 @@
+body {
+    background-color: #0B8066;
+}
+main {
+    max-width: 100%;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px;
+    
+  }
+  section {
+    background-color:  #5caed0;;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 1em;
+  }
+  
+  h1 {y
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(5, 50, 71);
+    text-shadow: 3px 3px 5px gray;
+    font-size: 2rem;
+  
+  }
+  
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+    text-align: center;
+    
+    margin-bottom: 8px;
+    color: white;
+  
+  }
+  h3 {
+    font-family: 'Arial Narrow';
+    font-size: 1.5em;
+    position: relative;  
+    top: -350px;
+    left: 38px;
+    color: white;
+    background-color: rgb(24, 47, 53);
+    opacity: .4;
+    width: 40px;  
+    border-radius: 50%;  
+    
+  }
+  
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 0;
+    color: rgb(240, 213, 171);
+    margin: 0px;
+    
+  }
+  
+  .cards {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    box-shadow: 0 0 20px #555;
+    row-gap: 5px;
+    column-gap: 5px;
+    margin: auto;
+    padding: .25em;
+  
+  }
+  .cards section img {
+    margin: 1em;
+    width: 90%;
+    height: auto;
+    box-shadow: 0 0 20px #000000;
+  }
+  
+  @media only screen and (min-width: 50em) {
+    main {
+      max-width: 720px;
+      padding:0 20px;
+    }
+    h1 {
+      font-size: 2.5rem;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-self: center;
+      text-align: center;
+      margin: auto;
+      grid-gap: 15px;
+      padding: 0;
+    }
+  }
+  
+  @media only screen and (min-width: 70em) {
+    main {
+      max-width: 1100px;
+    }
+  
+    .cards {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;    
+    }
+  }
