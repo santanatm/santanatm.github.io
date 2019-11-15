@@ -37,7 +37,7 @@ fetch(dataSourceURL)
                 info.appendChild(rainfall);
                 town.appendChild(info);
                 town.appendChild(image);
-                document.querySelector('div.cards').appendChild(town);
+                document.querySelector('div.displaytowns').appendChild(town);
             }
         }
     });
