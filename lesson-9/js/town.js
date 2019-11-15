@@ -1,37 +1,43 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
-fetch(requestURL)
+const dataSourceURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+fetch(dataSourceURL)
     .then(function (response) {
-        return response.json(); })
-    .then(function (jsonObject) {
-        console.table(jsonObject); // temporary checking for valid response and data parsing
-        const towns = jsonObject['towns'];
+        return response.json();
+    })
+    .then(function (jsonObj) {
+        const towns = jsonObj['towns'];
         for (let i = 0; i < towns.length; i++) {
-            if ((towns[i].name == "Fish Haven") || (towns[i].name == "Preston") || (towns[i].name == "Soda Springs")) {
-                let townInfo = document.createElement('section');
-                let tName = document.createElement('h1');
-                let tMotto = document.createElement('h4');
-                let tYear = document.createElement('p');
-                let tPopulation = document.createElement('p');
-                let tRain = document.createElement('p');
-                let tImg = document.createElement('img')
-                let text = document.createElement('div');
-                let img = document.createElement('div');
-                townInfo.className = "townDetail-section";
-                tName.textContent = towns[i].name;
-                tMotto.textContent = towns[i].motto;
-                tYear.textContent = "Year Founded: " + towns[i].yearFounded;
-                tPopulation.textContent = "Population: " + towns[i].currentPopulation;
-                tRain.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;
-                tImg.src = "images/" + towns[i].photo;
-                tImg.alt = "Photo of " + towns[i].name;
-                text.appendChild(tName);
-                text.appendChild(tMotto);
-                text.appendChild(tYear);
-                text.appendChild(tPopulation);
-                text.appendChild(tRain);
-                img.appendChild(tImg);
-                townInfo.appendChild(text);
-                townInfo.appendChild(img);
-                document.querySelector('div.townDetail').appendChild(townInfo);
+            if (['Fish Haven', 'Soda Springs', 'Preston'].indexOf(towns[i].name) > -1) {
+                let town = document.createElement('section');
+                let info = document.createElement('div');
+                let name = document.createElement('h2');
+                let motto = document.createElement('div');
+                let founded = document.createElement('div');
+                let population = document.createElement('div');
+                let rainfall = document.createElement('div');
+                let image = document.createElement('img');
+                image.setAttribute('src', 'images/' + towns[i].photo);
+                image.setAttribute('alt', 'Image of ' + towns[i].name);
+                image.setAttribute('title', towns[i].name);
+                image.classList.add('image');
+                name.textContent = towns[i].name;
+                name.classList.add('town');
+                motto.textContent = towns[i].motto;
+                motto.classList.add('motto');
+                founded.textContent = 'Founded in: ' + towns[i].yearFounded;
+                founded.classList.add('founded');
+                population.textContent = 'Population: ' + towns[i].currentPopulation;
+                population.classList.add('population');
+                rainfall.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall;
+                rainfall.classList.add('rainfall');
+                info.classList.add('info');
+                info.appendChild(name);
+                info.appendChild(motto);
+                info.appendChild(founded);
+                info.appendChild(population);
+                info.appendChild(rainfall);
+                town.appendChild(info);
+                town.appendChild(image);
+                document.querySelector('div.cards').appendChild(town);
             }
         }
+    });
