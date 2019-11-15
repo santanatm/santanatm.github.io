@@ -17,8 +17,8 @@ fetch(requestURL)
             let alttext = fullname + ' - ' + (i + 1);
 
             h2.textContent = fullname;
-            birthdate.textContent = 'Date of birth: ' + prophets[i].birthdate;
-            birthplace.textContent = 'Place of birth: ' + prophets[i].birthplace;
+            birthdate.textContent = 'Date of Birth: ' + prophets[i].birthdate;
+            birthplace.textContent = 'Place of Birth: ' + prophets[i].birthplace;
             image.setAttribute('src', prophets[i].imageurl);
 
             image.setAttribute('alt', alttext);
