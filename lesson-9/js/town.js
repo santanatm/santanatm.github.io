@@ -10,7 +10,7 @@ fetch(dataSourceURL)
                 let town = document.createElement('section');
                 let info = document.createElement('div');
                 let name = document.createElement('h2');
-                let motto = document.createElement('div');
+                let motto = document.createElement('h4');
                 let founded = document.createElement('div');
                 let population = document.createElement('div');
                 let rainfall = document.createElement('div');

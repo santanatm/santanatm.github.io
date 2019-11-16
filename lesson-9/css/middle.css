@@ -60,6 +60,15 @@
         margin-top: auto;
         margin-bottom: auto;
     }
+    
+    .displaytowns section h4 {
+        color:#ffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 100%;
+    }
 
     .hero img {
         width: 100%;

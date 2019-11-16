@@ -67,11 +67,21 @@ header {
 }
 .displaytowns section div {
     background: #0B8066;
+    font-family: 'Montserrat', sans-serif;
     max-width: 100%;
     width: 90%;
     line-height: 250%;
     margin-right: auto;
     margin-left: auto;
+}
+
+.displaytowns section h4 {
+    color:#ffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 100%;
 }
 
 .hero img {
