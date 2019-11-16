@@ -49,19 +49,40 @@
     }
     
     .displaytowns {
-        width:100%;
         display:grid; 
         grid-template-columns: auto auto auto;
     }
 
     .displaytowns section div:nth-child(1) {
-        max-width: 100%;
+        max-width: 90%;
       }
-    
+
+      .displaytowns section div:nth-child(2) {
+        max-width: 90%;
+      }
+
       .displaytowns section {
-        display: block;
-        justify-content: space-evenly;
+        display: block;   
+        justify-content: center;
         text-align: center;
+        background: #5caed0;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .displaytowns img {
+        max-width: 100%;
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .displaytowns section div {
+        background: #0B8066;
+        max-width: 100%;
+        width: 90%;
+        line-height: 250%;
+        margin-right: auto;
+        margin-left: auto;
     }
       
     .hero img {
@@ -77,6 +98,7 @@
 
     h2 {
         font-size: 2rem;
+        
     }
 
     h4 {

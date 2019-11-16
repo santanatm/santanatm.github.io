@@ -50,6 +50,28 @@ header {
   .displaytowns section {
     display: block;
     text-align: center;
+    background: #5caed0;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.displaytowns img {
+    max-width: 100%;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.displaytowns section div {
+    background: #0B8066;
+    max-width: 100%;
+    width: 90%;
+    line-height: 250%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero img {
