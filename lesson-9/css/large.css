@@ -52,8 +52,18 @@
         width:100%;
         display:grid; 
         grid-template-columns: auto auto auto;
-    } 
+    }
 
+    .displaytowns section div:nth-child(1) {
+        max-width: 100%;
+      }
+    
+      .displaytowns section {
+        display: block;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+      
     .hero img {
         width: 100%;
     } 
