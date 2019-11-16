@@ -38,7 +38,7 @@ header {
     grid-template-columns: 1fr;
 } 
 
-.displaylinks {
+.displaytowns {
     display:block;
     width:auto;
     grid-template-columns: 1fr;
