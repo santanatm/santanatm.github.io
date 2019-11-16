@@ -38,6 +38,12 @@ header {
     grid-template-columns: 1fr;
 } 
 
+.displaylinks {
+    display:block;
+    width:auto;
+    grid-template-columns: 1fr;
+} 
+
 .hero img {
     width: 100%;
 }
