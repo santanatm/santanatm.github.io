@@ -84,6 +84,20 @@ header {
     line-height: 100%;
 }
 
+.displaylinks {
+    color: #000000;
+    background-color: #5caed0;
+    border: 1px solid #000000;
+    box-shadow: 10px 10px 10px gray;
+    max-width: 880px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    }
+}
+
 .hero img {
     width: 100%;
 }
