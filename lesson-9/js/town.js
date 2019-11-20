@@ -6,7 +6,7 @@ fetch(dataSourceURL)
     .then(function (jsonObj) {
         const towns = jsonObj['towns'];
         for (let i = 0; i < towns.length; i++) {
-            if (['Fish Haven', 'Soda Springs', 'Preston'].indexOf(towns[i].name) > -1) {
+            if (['Soda Springs', 'Fish Haven', 'Preston'].indexOf(towns[i].name) > -1) {
                 let town = document.createElement('section');
                 let info = document.createElement('div');
                 let name = document.createElement('h2');
