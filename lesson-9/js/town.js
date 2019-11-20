@@ -6,8 +6,22 @@ fetch(dataSourceURL)
     .then(function (jsonObj) {
         const towns = jsonObj['towns'];
         for (let i = 0; i < towns.length; i++) {
-            if (['Soda Springs', 'Fish Haven', 'Preston'].indexOf(towns[i].name) > -1) {
+            if (['Preston', 'Soda Springs', 'Fish Haven'].indexOf(towns[i].name) > -1) {
                 let town = document.createElement('section');
+
+                if (towns[i].name == "Preston")
+                {
+                    town.style.order = "1";
+                }
+                else if (towns[i].name == "Soda Springs")
+                {
+                    town.style.order = "2";
+                }
+                else if (towns[i].name == "Fish Haven")
+                {
+                    town.style.order = "3";
+                }
+                          
                 let info = document.createElement('div');
                 let name = document.createElement('h2');
                 let motto = document.createElement('h4');
