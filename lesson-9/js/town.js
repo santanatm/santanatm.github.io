@@ -63,3 +63,5 @@ fetch(dataSourceURL)
                 town.appendChild(image);
                 document.querySelector('div.displaytowns').appendChild(town);
             }
+        }
+    });
