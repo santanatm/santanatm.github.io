@@ -49,7 +49,7 @@ fetch(dataSourceURL)
                 history.textContent = ('History: The city of ' + towns[i].name + ' was founded in ' + towns[i].yearFounded +
                 '. We invite you to our beautiful and quiet city which has a population of ' + towns[i].currentPopulation +
                 '. Our climate is perfect for almost any activity. The annual percipitation is ' + towns[i].averageRainfall +
-                '" Each season has its own attractions, be it sunny weather to enjoy in the park with the family, a cool climate to enjoy the scenery or snow to ski. We will wait for you!');
+                '. Each season has its own attractions, be it sunny weather to enjoy in the park with the family, cool weather to enjoy the scenery or snow to ski. We will be waiting for you!');
                 history.classList.add('history');
                 
                 info.classList.add('info');
