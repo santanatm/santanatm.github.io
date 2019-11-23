@@ -7,25 +7,7 @@ fetch(currentWeather)
     document.getElementById('currentTemperature').textContent = jsObject.main.temp.toFixed(0);
     document.getElementById('highTemperature').textContent = jsObject.main.temp_max.toFixed(0);
     document.getElementById('currentHumidity').textContent = jsObject.main.humidity.toFixed(0);
-    document.getElementById('currentWindSpeed').textContent = jsObject.wind.speed.toFixed(0);  
-
-    var temperature = parseFloat(jsonObject['wind']['speed']);
-
-    var windSpeed = parseFloat(jsonObject['wind']['speed']);
-
-   
-    if (temperature > 50 || windSpeed < 3)
-    {
-        document.getElementById("windchill").innerHTML = "N/A";
-    }
-    else
-    {
-        var windChill = 35.74 + (0.6215 * temperature) - (35.75 * Math.pow(windSpeed, 0.16)) + (0.4275 * temperature * Math.pow(windSpeed, 0.16));
-
-        document.getElementById("windchill").innerHTML = windChill.toFixed(2) + "° F";
-    }    
-    
-
+    document.getElementById('currentWindSpeed').textContent = jsObject.wind.speed.toFixed(0);
   });
 
 const forecastWeather = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
