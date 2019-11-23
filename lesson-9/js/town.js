@@ -29,6 +29,8 @@ fetch(dataSourceURL)
                 let population = document.createElement('div');
                 let rainfall = document.createElement('div');
                 let image = document.createElement('img');
+                let history = document.createElement('div');
+
                 image.setAttribute('src', 'images/' + towns[i].photo);
                 image.setAttribute('alt', 'Image of ' + towns[i].name);
                 image.setAttribute('title', towns[i].name);
@@ -43,15 +45,21 @@ fetch(dataSourceURL)
                 population.classList.add('population');
                 rainfall.textContent = 'Annual Rainfall: ' + towns[i].averageRainfall;
                 rainfall.classList.add('rainfall');
+                
+                history.textContent = ('History: The city of ' + towns[i].name + ' was founded in ' + towns[i].yearFounded +
+                '. We invite you to our beautiful and quiet city which has a population of ' + towns[i].currentPopulation +
+                '. Our climate is perfect for almost any activity. The annual percipitation is ' + towns[i].averageRainfall +
+                '" Each season has its own attractions, be it sunny weather to enjoy in the park with the family, a cool climate to enjoy the scenery or snow to ski. We will wait for you!');
+                history.classList.add('history');
+                
                 info.classList.add('info');
                 info.appendChild(name);
                 info.appendChild(motto);
                 info.appendChild(founded);
                 info.appendChild(population);
                 info.appendChild(rainfall);
+                info.appendChild(history);
                 town.appendChild(info);
                 town.appendChild(image);
                 document.querySelector('div.displaytowns').appendChild(town);
             }
-        }
-    });
