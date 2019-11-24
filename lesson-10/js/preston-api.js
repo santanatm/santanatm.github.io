@@ -15,7 +15,7 @@ fetch(currentWeather)
     var formula = 35.74 + (0.6215 * temp_windchill) - (35.75 * Math.pow(wind_speed_windchill, 0.16)) + (0.4275 * temp_windchill * Math.pow(wind_speed_windchill, 0.16));
 
     if(temp_windchill < 50 && wind_speed_windchill > 3) {
-        document.getElementById("windchill").innerHTML = formula.toFixed(1) + "ºF";
+        document.getElementById("windchill").innerHTML = formula.toFixed(0) + "ºF";
     } else {
         document.getElementById("windchill").innerHTML = "N/A";
     }
