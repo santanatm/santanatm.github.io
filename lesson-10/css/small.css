@@ -135,13 +135,13 @@ header {
 
 .CurrentLabel {
     justify-content: right;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .blue {
     color: #5caed0;
     text-shadow: 2px 2px black;  
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .yellow {

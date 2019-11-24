@@ -87,13 +87,13 @@
 
     .CurrentLabel {
         justify-content: right;
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     
     .blue {
         color: #5caed0;
         text-shadow: 2px 2px black;  
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
     .displaytowns section h4 {
         color:#ffff;
