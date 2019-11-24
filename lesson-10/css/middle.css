@@ -61,6 +61,17 @@
         margin-bottom: auto;
     }
     
+    .CurrentLabel {
+        justify-content: right;
+        font-size: 1.7rem;
+    }
+    
+    .blue {
+        color: #5caed0;
+        text-shadow: 2px 2px black;  
+        font-size: 1.7rem;
+    }
+
     .displaytowns section h4 {
         color:#ffff;
         font-family: 'Montserrat', sans-serif;
