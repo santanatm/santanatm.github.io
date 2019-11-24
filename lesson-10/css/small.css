@@ -143,6 +143,10 @@ header {
     font-size: 24px;
 }
 
+.yellow {
+    color: yellow;
+}
+
 td, th {
     border: 1px solid #000000;
 }
