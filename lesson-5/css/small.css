@@ -37,7 +37,8 @@ header {
     max-width: 100%;
     width: 900px;
     display:block;
-    margin:auto;
+    border-radius: 10px 10px 0 0;
+
 }
 
 #PostOffice {

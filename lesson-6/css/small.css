@@ -41,7 +41,7 @@ header {
     max-width: 100%;
     width: 960px;
     display:block;
-    margin:auto;
+    margin: 0 auto 37px auto;
 }
 
 #PostOffice {
