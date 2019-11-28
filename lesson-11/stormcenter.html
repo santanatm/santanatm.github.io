@@ -54,7 +54,7 @@
                         <label>Full Name*<input type="text" name="fullname" placeholder="" pattern="[A-z\s]{5,}" required autocomplete="off"></label>
                         <label>Email Address<input type="email" name="email" placeholder="email@domain.com"  autocomplete="off"></label>
                         <label>Phone Number*<input type="tel" name="phone" pattern="[0-9]+" placeholder="8888888888" required autocomplete="off"></label>
-                        <label>Zip Code*<input type="text" name="zipcode" pattern="^\d{5,6}(?:[-\s]\d{4})?$" required autocomplete="off"></label>
+                        <label>Zip Code*<input type="number" name="zipcode" pattern="^\d{5,6}(?:[-\s]\d{4})?$" required autocomplete="off"></label>
                     </div>
     
                     <div class="section">
@@ -62,7 +62,7 @@
                     <div class="subsection">
                         <label>Storm Date<input type="date" name="date"></label>
     
-                        <label>Storm Type<input type="text" name="stormtype" placeholder="Select Type of Storm" list="storm">
+                        <label>Storm Type<input type="number" name="stormtype" placeholder="Select Type of Storm" list="storm">
     
                     <datalist id="storm">
                         <option value = "Flash Flood"></option>
@@ -95,7 +95,7 @@
                         <select name="region">
                         <option value="select" disabled selected>Select Region...</option>
                         <option value="Preston">Preston</option>
-                        <option value="Sugar City">Sugar City</option>
+                        <option value="Soda Springs">Soda Springs</option>
                         <option value="Fish Haven">Fish Haven</option>
                         </select></label>
                         <label>
