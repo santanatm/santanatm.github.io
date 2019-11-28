@@ -3,14 +3,17 @@ const currentWeather = "https://api.openweathermap.org/data/2.5/weather?id=56044
 fetch(currentWeather)
   .then((response) => response.json())
   .then((jsObject) => {
+    
+    console.log(jsObject);
+
     document.getElementById('currentCondition').textContent = jsObject.weather[0].main;
     document.getElementById('currentTemperature').textContent = jsObject.main.temp.toFixed(0);
     document.getElementById('highTemperature').textContent = jsObject.main.temp_max.toFixed(0);
     document.getElementById('currentHumidity').textContent = jsObject.main.humidity.toFixed(0);
     document.getElementById('currentWindSpeed').textContent = jsObject.wind.speed.toFixed(0);
 
-    var temp_windchill = jsObject.main.temp;
-    var wind_speed_windchill = jsObject.wind.speed;
+    var temp_windchill = parseFloat(document.getElementById("currentTemperature").innerHTML);
+    var wind_speed_windchill = parseFloat(document.getElementById("currentWindSpeed").innerHTML);
     
     var formula = 35.74 + (0.6215 * temp_windchill) - (35.75 * Math.pow(wind_speed_windchill, 0.16)) + (0.4275 * temp_windchill * Math.pow(wind_speed_windchill, 0.16));
 

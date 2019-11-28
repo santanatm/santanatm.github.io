@@ -106,7 +106,7 @@ header {
     max-width: 100%;
     width: 960px;
     display:block;
-    margin:auto;
+    margin: 0 auto 37px auto;
 }
 
 #PostOffice {
@@ -116,7 +116,7 @@ header {
 .CurrentWeather {
     position: absolute;
     top: 5px;
-    left: 30px;
+    left: 0px;
     background: radial-gradient(#eee, #0B8066);
     border: 1px solid #000;
     padding: 1.5rem;
@@ -335,7 +335,6 @@ h2 {
     max-width:960px;
     font-family: 'Yeseva One', cursive;
     font-size: 1.3rem;
-    line-height: 5rem;
     font-weight: bold;
     text-align: center;
     color: #000000;
