@@ -98,6 +98,8 @@
         display: block;
         margin-bottom: 20px;
         font-size: 24px;
+        color: #000000;
+        font-weight: bold;
     }
     .map {
         float: left;
