@@ -65,15 +65,16 @@
         justify-content: right;
         /*text-shadow: 2px 2px black;*/
         font-size: 1.2rem;
+        color: #ffffff;
         font-family: 'Montserrat', sans-serif;
     }
     
-    /*.blue {
+    .blue {
         color: #000000;
-        text-shadow: 2px 2px black;
+        /*text-shadow: 2px 2px black;*/
         font-size: 1.2rem;
         font-family: 'Yeseva One', cursive;
-    }*/
+    }
 
     .displaytowns section h4 {
         color:#ffff;
