@@ -78,6 +78,8 @@
     }
     .displaytowns section div {
         background: #0B8066;
+        color: #000000;
+        font-weight: bold;
         max-width: 100%;
         width: 90%;
         line-height: 250%;

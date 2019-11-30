@@ -68,6 +68,8 @@ header {
 }
 .displaytowns section div {
     background: #0B8066;
+    color: #000000;
+    font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     max-width: 100%;
     width: 90%;
@@ -76,7 +78,7 @@ header {
     margin-left: auto;
 }
 
-.displaytowns section h4 {
+.displaytowns section h3 {
     color:#ffff;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;

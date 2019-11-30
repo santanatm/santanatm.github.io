@@ -24,7 +24,7 @@ fetch(dataSourceURL)
                           
                 let info = document.createElement('div');
                 let name = document.createElement('h2');
-                let motto = document.createElement('h4');
+                let motto = document.createElement('h3');
                 let founded = document.createElement('div');
                 let population = document.createElement('div');
                 let rainfall = document.createElement('div');

@@ -53,6 +53,8 @@
 
     .displaytowns section div {
         background: #5caed0;
+        color: #000000;
+        font-weight: bold;
         max-width: 100%;
         line-height: 250%;
         margin-left: auto;
