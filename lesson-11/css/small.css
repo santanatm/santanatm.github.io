@@ -281,7 +281,7 @@ footer {
     text-align: center;
     color: #ffffff;
     align-items: center;
-    margin-left: auto; 
+    margin-left: auto;
     margin-right: auto;
 }
 footer a{
@@ -355,10 +355,8 @@ a:hover {
 
 h1 {
     color: #000000;
-    /*color: #5caed0;*/
     text-align: center;
     font-family: 'Yeseva One', cursive;
-    /*text-shadow: 2px 2px black;*/
     font-size: 1.5rem;
     margin: 0 auto;
 }
