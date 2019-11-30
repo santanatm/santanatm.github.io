@@ -233,25 +233,25 @@ table {
 }
 a.activepage:link {
     background-color: #0B8066;
-    color: #E5E9EA;
+    color: #ffffff;
     border-radius:10px;
     box-shadow: inset 0 0 6px;
 }
 a.activepage:visited {
     background-color: #0B8066;
-    color: #E5E9EA;
+    color: #ffffff;
     border-radius:10px;
     box-shadow: inset 0 0 6px;
 }
 a.activepage:hover {
     background-color: #0B8066;
-    color: #E5E9EA;
+    color: #ffffff;
     border-radius:10px;
     box-shadow: inset 0 0 6px;
 }
 a.preston:active {
     background-color: #0B8066;
-    color: #E5E9EA;
+    color: #ffffff;
     border-radius:10px;
     box-shadow: inset 0 0 6px;
 }
