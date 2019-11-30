@@ -137,7 +137,8 @@ header {
 .CurrentLabel {
     justify-content: right;
     font-size: 1rem;
-    color: #ffffff;
+    color: #000000;
+    font-weight: bold;
     /*text-shadow: 2px 2px black;*/
     font-family: 'Montserrat', sans-serif;
 }
