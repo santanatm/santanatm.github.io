@@ -7,10 +7,10 @@ fetch(currentWeather)
     console.log(jsObject);
 
     document.getElementById('currentCondition').textContent = jsObject.weather[0].main;
-    document.getElementById('currentTemperature').textContent = jsObject.main.temp.toFixed(0);
-    document.getElementById('highTemperature').textContent = jsObject.main.temp_max.toFixed(0);
-    document.getElementById('currentHumidity').textContent = jsObject.main.humidity.toFixed(0);
-    document.getElementById('currentWindSpeed').textContent = jsObject.wind.speed.toFixed(0);
+    document.getElementById('currentTemperature').textContent = jsObject.main.temp.toFixed(0) + "ºF";
+    document.getElementById('highTemperature').textContent = jsObject.main.temp_max.toFixed(0) + "ºF";
+    document.getElementById('currentHumidity').textContent = jsObject.main.humidity.toFixed(0) + "%";
+    document.getElementById('currentWindSpeed').textContent = jsObject.wind.speed.toFixed(0) + " MPH";
 
     var temp_windchill = parseFloat(document.getElementById("currentTemperature").innerHTML);
     var wind_speed_windchill = parseFloat(document.getElementById("currentWindSpeed").innerHTML);

@@ -63,14 +63,17 @@
     
     .CurrentLabel {
         justify-content: right;
+        /*text-shadow: 2px 2px black;*/
         font-size: 1.2rem;
+        font-family: 'Montserrat', sans-serif;
     }
     
-    .blue {
-        color: #5caed0;
-        text-shadow: 2px 2px black;  
+    /*.blue {
+        color: #000000;
+        text-shadow: 2px 2px black;
         font-size: 1.2rem;
-    }
+        font-family: 'Yeseva One', cursive;
+    }*/
 
     .displaytowns section h4 {
         color:#ffff;
@@ -90,6 +93,7 @@
     .fivedaytable {
         display: block;
         margin-bottom: 20px;
+        font-size: 24px;
     }
     .map {
         float: left;

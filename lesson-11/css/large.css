@@ -88,12 +88,16 @@
     .CurrentLabel {
         justify-content: right;
         font-size: 1.5rem;
+        color: #ffffff;
+        /*text-shadow: 2px 2px black;*/
+        font-family: 'Montserrat', sans-serif;
     }
     
     .blue {
-        color: #5caed0;
-        text-shadow: 2px 2px black;  
+        color: #000000;
+        /*text-shadow: 2px 2px black;*/
         font-size: 1.5rem;
+        font-family: 'Yeseva One', cursive;
     }
     .displaytowns section h4 {
         color:#ffff;

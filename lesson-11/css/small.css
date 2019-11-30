@@ -137,13 +137,16 @@ header {
 .CurrentLabel {
     justify-content: right;
     font-size: 1rem;
+    /*text-shadow: 2px 2px black;*/
+    font-family: 'Montserrat', sans-serif;
 }
 
-.blue {
-    color: #5caed0;
-    text-shadow: 2px 2px black;  
+/*.blue {
+    color: #000000;
+    text-shadow: 2px 2px black;
     font-size: 1rem;
-}
+    font-family: 'Yeseva One', cursive;
+}*/
 
 .yellow {
     color: yellow;
