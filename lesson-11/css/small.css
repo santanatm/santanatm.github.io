@@ -118,6 +118,8 @@ header {
 }
 
 .CurrentWeather {
+    box-sizing: border-box;
+    height: 200px;
     position: absolute;
     top: 5px;
     left: 0px;
@@ -134,7 +136,6 @@ header {
     text-align: right;
     width: 50%;
     position: absolute;
-    left: -5px;
 }
 
 main h2 {
@@ -147,20 +148,18 @@ main h2 {
 
 .center {
     margin: 0 auto;
-    width: 150px;
+    width: 250px;
 }
 
 .blue {
-    text-align: left;
-    position: absolute;
-    margin-left: 125px;
-    left: -5px;
     font-weight: bold;
     color: #000000;
-    /*text-shadow: 2px 2px black;*/
     font-size: 1rem;
     font-family: 'Yeseva One', cursive;
     width: 50%;
+    position: absolute;
+    text-align: left;
+    left: 180px;
 }
 
 .yellow {
@@ -429,7 +428,7 @@ p
 }
 .stormcenter .subsection{
     padding: 30px;
-    background: #B84A62;
+    background: #5CAED0;
     border-radius: 6px;
     margin-bottom: 15px;
 }
