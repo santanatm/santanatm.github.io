@@ -226,8 +226,6 @@ table {
 }
 
 .ArticleSection img {
-    max-width: 100%;
-    width: 560px;
     display:block;
     margin:auto;
 }
