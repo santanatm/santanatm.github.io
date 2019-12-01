@@ -113,6 +113,10 @@ header {
     width: 100%;
 }
 
+.CurrentWeather h2 {
+    font-size: 1.3rem;
+}
+
 .CurrentWeather {
     position: absolute;
     top: 5px;
@@ -123,30 +127,40 @@ header {
     box-shadow: 0 0 30px #111;
     opacity: .8;
     font-family: 'Yeseva One', cursive;
-    color: #ffffff; 
-    text-shadow: 2px 2px 5px black;
-    font-size: 24px;
-}
-
-.CurrentWeather h2 {
-    color: #ffffff; 
-    text-shadow: 2px 2px black;
+    font-size: 1rem;
 }
 
 .CurrentLabel {
-    justify-content: right;
-    font-size: 1rem;
-    color: #000000;
-    font-weight: bold;
-    /*text-shadow: 2px 2px black;*/
-    font-family: 'Montserrat', sans-serif;
+    text-align: right;
+    width: 50%;
+    position: absolute;
+    left: -5px;
+}
+
+main h2 {
+    padding: 15px 0;
+}
+
+#WeatherSummaryTtle {
+    padding: 0;
+}
+
+.center {
+    margin: 0 auto;
+    width: 150px;
 }
 
 .blue {
+    text-align: left;
+    position: absolute;
+    margin-left: 125px;
+    left: -5px;
+    font-weight: bold;
     color: #000000;
     /*text-shadow: 2px 2px black;*/
     font-size: 1rem;
     font-family: 'Yeseva One', cursive;
+    width: 50%;
 }
 
 .yellow {
@@ -194,8 +208,6 @@ table {
     text-align: center;
     padding: 15px;
     font-weight: bold;
-    border: 1px solid #BBDEF0;
-    border-top: 6px solid#BBDEF0;
     margin-bottom: 30px;
 }
 
@@ -227,6 +239,7 @@ table {
     background-color: #E5E9EA;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
+    padding-bottom: 15px;
 }
 a.activepage:link {
     background-color: rgba(0, 0, 0, 0.4);
@@ -260,6 +273,7 @@ a.preston:active {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
+
 #lastMod {
     font-size: 0.7rem;
     text-align: center;

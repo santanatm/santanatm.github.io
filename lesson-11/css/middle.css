@@ -60,19 +60,10 @@
     }
     
     .CurrentLabel {
-        justify-content: right;
         /*text-shadow: 2px 2px black;*/
-        font-size: 1.2rem;
         color: #000000;
         font-weight: bold;
         font-family: 'Montserrat', sans-serif;
-    }
-    
-    .blue {
-        color: #000000;
-        /*text-shadow: 2px 2px black;*/
-        font-size: 1.2rem;
-        font-family: 'Yeseva One', cursive;
     }
 
     .displaytowns section h4 {
