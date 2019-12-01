@@ -50,7 +50,7 @@
     
     .displaytowns {
         display:grid; 
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     .displaytowns section div:nth-child(1) {
