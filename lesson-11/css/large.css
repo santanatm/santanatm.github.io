@@ -4,6 +4,11 @@
         display: flex;
     }
 
+    ul.navigation {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
     .navigation li:first-child {
         display: none;
     }
@@ -51,6 +56,8 @@
     .displaytowns {
         display:grid; 
         grid-template-columns: 1fr 1fr 1fr;
+        max-width: 960px;
+        margin: 0 auto;
     }
 
     .displaytowns section div:nth-child(1) {
@@ -62,22 +69,25 @@
       }
 
       .displaytowns section {
+        height: 400px;
+        position: relative;
         display: block;   
         justify-content: center;
         text-align: center;
-        background: #5caed0;
         padding: 20px;
         margin: 10px;
     }
 
     .displaytowns img {
-        max-width: 100%;
-        width: 90%;
-        margin-right: auto;
-        margin-left: auto;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        padding: 15px;
+        box-sizing: border-box;
     }
     .displaytowns section div {
-        background: #0B8066;
+        background: #66BB6A;
         color: #000000;
         font-weight: bold;
         max-width: 100%;
