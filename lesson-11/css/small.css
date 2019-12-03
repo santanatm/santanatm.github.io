@@ -75,8 +75,8 @@ header {
     margin-left: auto;
 }
 
-.displaytowns section h3 {
-    color:#ffff;
+.displaytowns section  {
+    color:#990066;
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     margin-top: 0px;
@@ -274,7 +274,7 @@ a.preston:active {
 #lastMod {
     font-size: 0.7rem;
     text-align: center;
-    color: #ffffff;  
+    color: #990066;  
 }
 
 footer {
@@ -300,7 +300,7 @@ footer a{
 
 .slogan {
     margin-left: 20px;
-    color: #ffffff;
+    color: #990066;
     /*font-family: 'Yeseva One', cursive;*/
     font-family: 'Montserrat', sans-serif;
     font-size: 0.7rem;
