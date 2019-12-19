@@ -11,10 +11,9 @@
         "email": "santo-domingo@ChurchofjesusChristTemples.org",
         "services": ["Clothing rental available","Cafeteria food served","Patron housing available","Distribution center nearby"],
         "history": "The Santo Domingo Dominican Republic Temple was the first temple built in the Caribbean and in the Dominican Republic. The temple was announced on November 16, 1993, the groundbreaking and site dedication was on August 18, 1996, by Richard G. Scott, the public open house was from August 26 to September 9, 2000, and the dedication was on September 17, 2000, by Gordon B. Hinckley.",
-        "ordinance-schedule": "",
-		    "session-schedule": ["Tuesday to Friday: 9:00 am, 10:00 am, 5:00 pm, 6:00 pm, and 7:00 pm, Walk-ins and Appointments.","Saturdays: 6:15 am, and Every hour from 7:00 am to 4:00 pm, Walk-ins and Appointments."],
-		    "closure-schedule": ["Wednesday, 25 December 2019","Wednesday, 1 January 2020","Monday, 3 February 2020 - Saturday, 15 February 2020", "Saturday, 4 April 2020","Monday, 3 August 2020 - Saturday, 15 August 2020","Saturday, 3 October 2020","Friday, 25 December 2020"],
-		    "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/santo-domingo-dominican-republic-temple/santo-domingo-dominican-republic-temple-1444-main.jpg"
+	"session-schedule": ["Tuesday to Friday: 9:00 am, 10:00 am, 5:00 pm, 6:00 pm, and 7:00 pm, Walk-ins and Appointments.","Saturdays: 6:15 am, and Every hour from 7:00 am to 4:00 pm, Walk-ins and Appointments."],
+	"closure-schedule": ["Wednesday, 25 December 2019","Wednesday, 1 January 2020","Monday, 3 February 2020 - Saturday, 15 February 2020", "Saturday, 4 April 2020","Monday, 3 August 2020 - Saturday, 15 August 2020","Saturday, 3 October 2020","Friday, 25 December 2020"],
+	"imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/santo-domingo-dominican-republic-temple/santo-domingo-dominican-republic-temple-1444-main.jpg"
       },
       {
         "order": 2,
@@ -28,9 +27,8 @@
         "email": "port-au-prince@ChurchofJesusChristTemples.org",
         "services": ["NO Clothing rental available","NO Cafeteria food served","NO Patron housing available","NO Distribution center nearby"],
         "history": "The Port-au-Prince Haiti Temple is the first temple built in Haiti and the second built in the Caribbean, following the Santo Domingo Dominican Republic Temple (2000). The temple was announced on April 5, 2015, the groundbreaking and site dedication was on October 28, 2017, by Walter F. González, the public open house was from August 8 to August 17, 2019, and the dedication was on September 1, 2019, by David A. Bednar.",
-		    "ordinance-schedule": "",
-		    "session-schedule": ["Tuesday to Friday: 10:00 am, and 2:00 pm, Appointments Only.", "Saturdays: 9:30 am, and 1:30 pm, Appointments Only."],
-		    "closure-schedule": ["Tuesday, 24 December 2019 - Wednesday, 25 December 2019","Tuesday, 31 December 2019 - Wednesday, 1 January 2020","Thursday, 2 January 2020","Monday, 9 March 2020 - Monday, 23 March 2020","Saturday, 4 April 2020","Friday, 1 May 2020", "Monday, 7 September 2020 - Monday, 21 September 2020","Saturday, 3 October 2020","Saturday, 17 October 2020","Thursday, 24 December 2020 - Friday, 25 December 2020","Thursday, 31 December 2020"],
+	"session-schedule": ["Tuesday to Friday: 10:00 am, and 2:00 pm, Appointments Only.", "Saturdays: 9:30 am, and 1:30 pm, Appointments Only."],
+	"closure-schedule": ["Tuesday, 24 December 2019 - Wednesday, 25 December 2019","Tuesday, 31 December 2019 - Wednesday, 1 January 2020","Thursday, 2 January 2020","Monday, 9 March 2020 - Monday, 23 March 2020","Saturday, 4 April 2020","Friday, 1 May 2020", "Monday, 7 September 2020 - Monday, 21 September 2020","Saturday, 3 October 2020","Saturday, 17 October 2020","Thursday, 24 December 2020 - Friday, 25 December 2020","Thursday, 31 December 2020"],
         "imageurl": "https://churchofjesuschristtemples.org/assets/img/temples/port-au-prince-haiti-temple/port-au-prince-haiti-temple-6202-main.jpg"
       }
     ]
