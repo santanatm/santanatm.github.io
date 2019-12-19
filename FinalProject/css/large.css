@@ -1,0 +1,57 @@
+/* Wide Desktop view*/
+@media only screen and (min-width: 60em) {
+  
+body {
+  font-size: 20px;
+}
+
+  nav ul {
+      flex-direction: row;  /*Change menu*/
+    }
+  
+    nav ul li {
+      flex: 0 auto;
+    }
+
+		
+    nav li a {
+      padding: 15px 15px;
+    }
+  
+    .Menu {
+      display: none;
+    }
+  
+    .navigation li {
+      display: inline-flex;
+    }
+  
+    ul {
+      margin-top: 15px;
+    }
+  
+    header {
+      margin-bottom: -18px;
+    }
+  
+    #class {
+      max-width: 35%;
+      float: right;
+    }
+
+    .spaces {
+      display: contents;
+    }
+
+    .map {
+      display: contents;
+      grid-area: right;
+    }
+    .contact {
+      padding: 10px;
+      display: grid;
+      grid-template-areas: "left right";
+      justify-items: center;
+      font-size: 16px;
+    }
+  }

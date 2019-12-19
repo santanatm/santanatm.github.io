@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+		<meta name="description" content="hotel and services for temples Santo Domingo-Dominican Republic, Port-au-Prince-Haiti, Orlando Florida, Fort Lauderdale-Florida">
+		<meta name="author" content="Tadeo Santana">
+		<title>Temple Inn & Suites | Home | Hotels & Services for temple patrons</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato&7cSpecial+Elite" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img src="images/logo.png" alt="Temple Inn & Suites Logo" id="logo">
+    <div class="headertext">
+    <div class="spaces">
+        <br><br><br>
+    </div>
+      <h1>Temple Inn & Suites</h1>
+      <div id="motto">
+        Bringing joy to those who serve in the house of the Lord
+      </div>
+    </div>
+  </header>
+  <nav>
+    <ul class="navigation">
+      <li><a href="#" class="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="temples.html">Temples</a></li>
+      <li><a class="active" href="reservations.html">Reservations</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact us</a></li>
+    </ul>
+  </nav>
+  <main>
+    
+    <main>
+      <br><br>
+    <div id="formulario">
+     <form method="GET" action="thanks.html">
+       <fieldset>
+         <legend>Hotel Accommodations</legend>
+         <label class="top">Please select desired temple: 
+           <select name="templelocation">
+             <option>Select temple</option>
+             <option value="Santo Domingo, Dominican Republic">Santo Domingo, Dominican Republic</option>
+             <option value="Port-au Prince, Haiti">Port-au Prince, Haiti</option>
+             <option value="Orlando, Florida">Orlando, Florida</option>
+             <option value="Fort Lauderdale-Florida">Fort Lauderdale-Florida</option>
+           </select>
+           <br>
+        </label>
+        <label class="top">Check-in date: <input type="date" name="checkin"></label>
+        
+        <label class="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check-out date:<input type="date" name="checkout"></label>
+        <br>
+        <label class="top">Number of guests: <input type="number" name="guests"></label>
+        <br>
+        <label class="sbs">Please select room type: <br><input type="radio" value="Standard" name="standard">Standard Room<br><input type="radio" value="Suite" name="suite">Suite
+        </label>
+       </fieldset>
+       <br>
+       <fieldset>
+         <legend>Available Services</legend>
+         <label class="sbs">Childcare required? <br><input type="radio" value="Yes" name="care">Yes<br><input type="radio" value="No" name="care">No</label>
+         <br>
+         <label class="top"> If yes, when: <input type="date" name="careday"> From: <input type="time" name="starttime">To: <input type="time" name="endtime"></label>
+         <label class="top"></label>
+         <br>
+         <label class="sbs">Reception hall required? <br><input type="radio" value="Yes" name="reception">Yes<br><input type="radio" value="No" name="norecption">No</label>
+         <br>
+         <label class="top"> If yes, when: <input type="date" name="recepday"> From: <input type="time" name="recpstarttime">To: <input type="time" name="recpendtime"></label>
+         <br>
+         <label class="sbs">Gathering room required? <br><input type="radio" value="Yes" name="gathering">Yes<br><input type="radio" value="No" name="nogathering">No</label>
+         <br>
+         <label class="top"> If yes, when: <input type="date" name="gathday"> From: <input type="time" name="gathstarttime">To: <input type="time" name="gathendtime"></label>
+       </fieldset>
+       <br>
+       <fieldset>
+  
+         <legend>Contact Information</legend>
+         <label class="top">*Full Name: <input type="text" name="name" required></label>
+         <br>
+         <label class="top">*Email: <input type="email" name="email" required></label>
+         <br>
+         <label class="top">*Phone Number: <input type="tel" name="phone" required></label>
+         <br>
+         <label class="top">Home Location:
+           <select name="home">
+             <option>Please Select</option>
+             <option value="Alabama">Alabama</option>
+             <option value="Alaska">Alaska</option>
+             <option value="Alberta">Alberta</option>
+             <option value="Arizona">Arizona</option>
+             <option value="Arkansas">Arkansas</option>
+             <option value="British Columbia">British Columbia</option>
+             <option value="California">California</option>
+             <option value="Colorado">Colorado</option>
+             <option value="Connecticut">Connecticut</option>
+             <option value="Delaware">Delaware</option>
+             <option value="Florida">Florida</option>
+             <option value="Georgia">Georgia</option>
+             <option value="Hawaii">Hawaii</option>
+             <option value="Idaho">Idaho</option>
+             <option value="Illinois">Illinois</option>
+             <option value="Indiana">Indiana</option>
+             <option value="Iowa">Iowa</option>
+             <option value="Kansas">Kansas</option>
+             <option value="Kentucky">Kentucky</option>
+             <option value="Louisiana">Louisiana</option>
+             <option value="Maine">Maine</option>
+             <option value="Manitoba">Manitoba</option>
+             <option value="Maryland">Maryland</option>
+             <option value="Massachusetts">Massachusetts</option>
+             <option value="Michigan">Michigan</option>
+             <option value="Minnesota">Minnesota</option>
+             <option value="Mississippi">Mississippi</option>
+             <option value="Missouri">Missouri</option>
+             <option value="Montana">Montana</option>
+             <option value="Nebraska">Nebraska</option>
+             <option value="Nevada">Nevada</option>
+             <option value="New Brunswick">New Brunswick</option>
+             <option value="Newfoundland">Newfoundland</option>
+             <option value="New Hampshire">New Hampshire</option>
+             <option value="New Jersey">New Jersey</option>
+             <option value="New Mexico">New Mexico</option>
+             <option value="New York">New York</option>
+             <option value="North Carolina">North Carolina</option>
+             <option value="North Dakota">North Dakota</option>
+             <option value="Northwest Territories">Northwest Territories</option>
+             <option value="Nova Scotia">Nova Scotia</option>
+             <option value="Nunavut">Nunavut</option>
+             <option value="Ohio">Ohio</option>
+             <option value="Oklahoma">Oklahoma</option>
+             <option value="Ontario">Ontario</option>
+             <option value="Oregon">Oregon</option>
+             <option value="Pennsylvania">Pennsylvania</option>
+             <option value="Prince Edward Island">Prince Edward Island</option>
+             <option value="Quebec">Quebec</option>
+             <option value="Rhode Island">Rhode Island</option>
+             <option value="Saskatchewan">Saskatchewan</option>
+             <option value="South Carolina">South Carolina</option>
+             <option value="South Dakota">South Dakota</option>
+             <option value="Tennessee">Tennessee</option>
+             <option value="Texas">Texas</option>
+             <option value="Utah">Utah</option>
+             <option value="Vermont">Vermont</option>
+             <option value="Virginia">Virginia</option>
+             <option value="Yukon">Yukon</option>
+             <option value="Washington">Washington</option>
+             <option value="West Virginia">West Virginia</option>
+             <option value="Wisconsin">Wisonsin</option>
+             <option value="Wyoming">Wyoming</option>
+           </select>
+         </label>
+       </fieldset>
+       <br>
+       <fieldset class="comments">
+         <legend>Comments</legend>
+         <label class="top">Please let us know if you have special accommodations: <input type="text" name="comments" class="comment"></label>
+       </fieldset>
+       <br>
+      </div>
+       <input type="submit" value="Make the reservation" class="submitbutton">
+     </form>
+    </main>
+    <br><br>
+    <section class="contact">
+      <div class="contactinfo">
+        <h2>Contact information</h2>
+        <h3>Temple Inn & Suites</h3>
+        <p>4800 Montgomery Ln #300, Bethesda, MD 20814, United States</p>
+        <p>Phone: 809.353.3723</p>
+        <p>Email: contact@templeinnandsuites.com/p>
+
+        </div>
+        <div class="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30802.303909715323!2d-77.10606294971164!3d38.98551520009149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c98c0bda2181%3A0xe8ffe07c69d0aabe!2sTemple%20Inn%20%26%20Suites!5e0!3m2!1sen!2sdo!4v1576664808047!5m2!1sen!2sdo" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </section>
+
+  </main>
+  <footer>
+    <p class="footer">&copy; 2019 | Tadeo Santana | Brigham Young University - Idaho</p>
+  </footer>
+  <script src="js/slideshow.js"></script>
+  <script src="js/toggleMenu.js"></script>
+
+</body>
+
+</html>

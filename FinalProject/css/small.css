@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Special+Elite");
+
+body {
+  font-family: Lato, Arial, sans-serif;
+  font-size: 16px;
+  color: #08090A;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Special Elite, monospace;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.caption {
+  font-size: 1.5rem;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Special Elite, monospace;
+}
+
+nav {
+  list-style-type: none;
+  background: #08090A;
+}
+
+nav a {
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: #08090A;
+  background: #F4FAFF;
+}
+
+nav ul {
+  flex-direction: column;
+  list-style-type: none;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+.slideshow img{
+  max-width: 100%;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navigation li:first-child,
+nav ul {
+  display: flex;
+}
+
+.navigation li {
+  display: none;
+}
+
+.responsive li {
+  display: flex;
+}
+
+nav ul:first-child {
+  background: #08090A;
+  margin: .2rem 2%;
+  border: none;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  justify-content: center;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.spaces {
+  display: none;
+}
+
+header,
+main {
+  align-content: center;
+}
+
+header {
+  background: #FFFFFF;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+#motto {
+  font-family: Special Elite, monospace;
+  text-align: center;
+  font-size: 15px;
+  
+}
+
+.active {
+  color: #FFFFFF;
+  background: #1F487E;
+}
+
+#hero {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.mainhero {
+  position: relative;
+}
+
+footer {
+  background: #08090A;
+  color: #FFFFFF;
+  max-width: 960px;
+  align-content: center;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 1px 0px;
+}
+
+#class {
+  max-width: 100%;
+}
+#formulario {
+  font-weight: bold;
+  background: #F4FAFF;
+  color: #08090A;;
+}
+
+.submitbutton {
+  text-align: center;
+  background: #FB3640;
+  color: #FFFFFF;
+  border-radius: 0.5em;
+  box-shadow: 2px 2px 2px 2px #08090A;
+  width: 350px;
+  height: 50px;
+}
+
+#thanks{
+  text-align: center;
+  color: #FB3640;
+  font-weight: bold;
+}
+.action {
+  text-align: center;
+  font-size: 14px;
+  background: #FB3640;
+  color: #FFFFFF;
+  border-radius: 0.5em;
+  padding: .5px 0;
+  box-shadow: 2px 2px 2px 2px #08090A;
+  width: 350px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.info {
+  background: #F4FAFF;
+  padding: 10px;
+  overflow: auto;
+}
+
+.contact {
+  background: #1F487E;
+  color: #FFFFFF;
+  display: flex;
+  flex-flow: column wrap;
+  justify-items: center;
+  text-align: center;
+  font-size: 12px;
+}
+
+.map {
+  display: none;
+}

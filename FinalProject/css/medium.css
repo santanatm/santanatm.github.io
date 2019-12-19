@@ -1,0 +1,24 @@
+/* Tablet View CSS */
+@media only screen and (min-width: 40em) {
+  body {
+    font-size: 18px;
+  }
+
+  .map {
+    display: contents;
+    grid-area: right;
+    width: 300;
+    height: 225;
+  }
+  .contact {
+    padding: 10px;
+    display: grid;
+    grid-template-areas: "left right";
+    justify-items: center;
+    font-size: 12px;
+  }
+
+    .spaces {
+      display: contents;
+    }
+  }
