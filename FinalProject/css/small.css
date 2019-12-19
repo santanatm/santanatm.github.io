@@ -166,16 +166,12 @@ footer {
 }
 .action {
   text-align: center;
-  font-size: 14px;
   background: #FB3640;
   color: #FFFFFF;
   border-radius: 0.5em;
-  padding: .5px 0;
   box-shadow: 2px 2px 2px 2px #08090A;
   width: 350px;
   height: 50px;
-  margin-top: 10px;
-  margin-bottom: 10px;
 }
 
 .info {
