@@ -38,14 +38,13 @@
     </ul>
   </nav>
     
-
     <main>
       <br><br>
     <div id="formulario">
      <form method="GET" action="thanks.html">
        <fieldset>
          <legend>Hotel Accommodations</legend>
-         <Label>Please select desired temple: 
+         <label class="top">Please select desired temple: 
            <select name="templelocation">
              <option>Select temple</option>
              <option value="Santo Domingo, Dominican Republic">Santo Domingo, Dominican Republic</option>
@@ -55,44 +54,43 @@
            </select>
            <br>
         </label>
-        <Label>Check-in date: <input type="date" name="checkin"></label>
+        <label class="top">Check-in date: <input type="date" name="checkin"></label>
         
-        <Label>Check-out date:<input type="date" name="checkout"></label>
+        <label class="top">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Check-out date:<input type="date" name="checkout"></label>
         <br>
-        <Label>Number of guests: <input type="number" name="guests"></label>
+        <label class="top">Number of guests: <input type="number" name="guests"></label>
         <br>
-
-         Please select room type: <br>
-         <label><input type="radio" value="Standard" name="standard">Standard Room<br></label>
-         <Label><input type="radio" value="Suite" name="suite">Suite</label>
+        <label class="sbs">Please select room type: <br><input type="radio" value="Standard" name="standard">Standard Room<br><input type="radio" value="Suite" name="suite">Suite
+        </label>
        </fieldset>
        <br>
        <fieldset>
          <legend>Available Services</legend>
-         <Label>Childcare required? <br><input type="radio" value="Yes" name="care">Yes<br><input type="radio" value="No" name="care">No</label>
+         Childcare required?<br>
+         <label><input type="radio" value="Yes" name="care">Yes<br><input type="radio" value="No" name="care">No</label>
          <br>
-         <Label> If yes, when: <input type="date" name="careday"> From: <input type="time" name="starttime">To: <input type="time" name="endtime"></label>
-         <Label></label>
+         <label class="top"> If yes, when: <input type="date" name="careday"> From: <input type="time" name="starttime">To: <input type="time" name="endtime"></label>
+         <label class="top"></label>
          <br>
-         <Label>Reception hall required? <br><input type="radio" value="Yes" name="reception">Yes<br><input type="radio" value="No" name="norecption">No</label>
+         <label class="sbs">Reception hall required? <br><input type="radio" value="Yes" name="reception">Yes<br><input type="radio" value="No" name="norecption">No</label>
          <br>
-         <Label> If yes, when: <input type="date" name="recepday"> From: <input type="time" name="recpstarttime">To: <input type="time" name="recpendtime"></label>
+         <label class="top"> If yes, when: <input type="date" name="recepday"> From: <input type="time" name="recpstarttime">To: <input type="time" name="recpendtime"></label>
          <br>
-         <Label>Gathering room required? <br><input type="radio" value="Yes" name="gathering">Yes<br><input type="radio" value="No" name="nogathering">No</label>
+         <label class="sbs">Gathering room required? <br><input type="radio" value="Yes" name="gathering">Yes<br><input type="radio" value="No" name="nogathering">No</label>
          <br>
-         <Label> If yes, when: <input type="date" name="gathday"> From: <input type="time" name="gathstarttime">To: <input type="time" name="gathendtime"></label>
+         <label class="top"> If yes, when: <input type="date" name="gathday"> From: <input type="time" name="gathstarttime">To: <input type="time" name="gathendtime"></label>
        </fieldset>
        <br>
        <fieldset>
   
          <legend>Contact Information</legend>
-         <Label>*Full Name: <input type="text" name="name" required></label>
+         <label class="top">*Full Name: <input type="text" name="name" required></label>
          <br>
-         <Label>*Email: <input type="email" name="email" required></label>
+         <label class="top">*Email: <input type="email" name="email" required></label>
          <br>
-         <Label>*Phone Number: <input type="tel" name="phone" required></label>
+         <label class="top">*Phone Number: <input type="tel" name="phone" required></label>
          <br>
-         <Label>Home Location:
+         <label class="top">Home Location:
            <select name="home">
              <option>Please Select</option>
              <option value="Alabama">Alabama</option>
@@ -164,13 +162,13 @@
        <br>
        <fieldset class="comments">
          <legend>Comments</legend>
-         <Label>Please let us know if you have special accommodations: <input type="text" name="comments" class="comment"></label>
+         <label class="top">Please let us know if you have special accommodations: <input type="text" name="comments" class="comment"></label>
        </fieldset>
        <br>
       </div>
        <input type="submit" value="Make the reservation" class="submitbutton">
      </form>
-    </main>
+    
     <br><br>
     <section class="contact">
       <div class="contactinfo">
