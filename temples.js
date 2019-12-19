@@ -6,7 +6,7 @@ fetch(requestURL)
     })
     .then(function (jsonObj) {
         console.table(jsonObj);
-/*        const temples = jsonObj['temples'];
+        const temples = jsonObj['temples'];
         for (let i = 0; i < temples.length; i++) {
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
@@ -30,6 +30,6 @@ fetch(requestURL)
             card.appendChild(image);
 
             document.querySelector('div.cards').appendChild(card);
-        }*/
+        }
     });
 
