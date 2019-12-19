@@ -7,8 +7,6 @@
   .map {
     display: contents;
     grid-area: right;
-    width: 300;
-    height: 225;
   }
   .contact {
     padding: 10px;
