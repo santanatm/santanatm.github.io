@@ -61,26 +61,32 @@
         <br>
         <label class="top">Number of guests: <input type="number" name="guests"></label>
         <br>
+
         Please select room type:<br>
-        <label><input type="radio" value="Standard" name="standard">Standard Room<br><input type="radio" value="Suite" name="suite">Suite</label>
-       
+        <label><input type="radio" name="standard" value="Standard">Standard Room<br></label>
+        <label><input type="radio" name="suite" value="Suite">Suite</label>
       </fieldset>
-       <br>
-       <fieldset>
-         <legend>Available Services</legend>
+
+      <br>
+      <fieldset>
+      <legend>Available Services</legend>
          Childcare required?<br>
-         <label><input type="radio" value="Yes" name="care">Yes<br><input type="radio" value="No" name="care">No</label>
+         <label><input type="radio" name="care" value="Yes">Yes<br></label>
+         <label><input type="radio" name="care" value="No">No</label>
          <br>
          <label class="top"> If yes, when: <input type="date" name="careday"> From: <input type="time" name="starttime">To: <input type="time" name="endtime"></label>
          <label class="top"></label>
          <br>
+
          Reception hall required? <br>
-         <label><input type="radio" value="Yes" name="reception">Yes<br><input type="radio" value="No" name="norecption">No</label>>
+         <label><input type="radio" name="reception" value="Yes">Yes<br></label>
+         <label><input type="radio" name="reception" value="No">No</label>
          <br>
          <label class="top"> If yes, when: <input type="date" name="recepday"> From: <input type="time" name="recpstarttime">To: <input type="time" name="recpendtime"></label>
          <br>
          Gathering room required? <br>
-         <label<input type="radio" value="Yes" name="gathering">Yes<br><input type="radio" value="No" name="nogathering">No</label>
+         <label><input type="radio" name="gathering" value="Yes">Yes<br></label>
+         <label><input type="radio" name="gathering" value="No">No</label>
          <br>
          <label class="top"> If yes, when: <input type="date" name="gathday"> From: <input type="time" name="gathstarttime">To: <input type="time" name="gathendtime"></label>
        </fieldset>
