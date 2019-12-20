@@ -51,8 +51,14 @@ fetch(requestURL, {
         for (let m = 0; m < temples[0].closureschedule.length; m++) {
             closureschedule.textContent = closureschedule.textContent + temples[0].closureschedule[m] + ", ";
         }
-        MyTemple.appendChild(h2);
+
+ 
+        document.getElementById('address').textContent = address;
+
+/*
         MyTemple.appendChild(image);
+
+
         MyTemple.appendChild(address);
         MyTemple.appendChild(telephone);
         MyTemple.appendChild(email);
@@ -62,7 +68,8 @@ fetch(requestURL, {
         MyTemple.appendChild(sessionschedule);
         MyTemple.appendChild(closureschedule);
         document.querySelector('div.MyTemples0').appendChild(MyTemple);
-        
+  */
+
     });
 
 const currentWeather = "https://api.openweathermap.org/data/2.5/weather?id=3492908&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
