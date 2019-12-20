@@ -6,6 +6,27 @@ body {
   color: #08090A;
 }
 
+section {
+  background-color:  #1F487E;;
+}
+  
+.MyTemples {
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 1fr;
+  row-gap: 5px;
+  column-gap: 5px;
+  margin: auto;
+  padding: 10px;
+
+}
+.MyTemples section img {
+  margin: 5px;
+  width: 90%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
 h1,
 h2,
 h3,
@@ -88,6 +109,8 @@ nav ul:first-child {
 main {
   max-width: 960px;
   margin: 0 auto;
+  margin: 20px auto;
+  padding: 10px;
 }
 
 .spaces {
