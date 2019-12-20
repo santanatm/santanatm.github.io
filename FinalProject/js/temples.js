@@ -123,7 +123,8 @@ fetch(requestURL, {
 
 
 //const currentWeather = "https://api.openweathermap.org/data/2.5/weather?id=3492908&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
-const currentWeather = "https://api.openweathermap.org/data/2.5/weather?id=4167147&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
+//const currentWeather = "https://api.openweathermap.org/data/2.5/weather?id=4167147&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
+const currentWeather = "https://api.openweathermap.org/data/2.5/weather?id=4155966&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
 
 fetch(currentWeather)
     .then((response) => response.json())
