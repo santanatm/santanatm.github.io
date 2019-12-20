@@ -91,19 +91,17 @@ fetch(requestURL, {
             document.getElementById('currentHumidity').textContent = jsObject.main.humidity.toFixed(0) + "%";
             document.getElementById('currentWindSpeed').textContent = jsObject.wind.speed.toFixed(0) + " MPH";
 
-
-
-            let temp_windchill = parseFloat(jsObject.main.temp.toFixed(0));
-            let wind_speed_windchill = parseFloat(jsObject.wind.speed.toFixed(0));
+            let temp_windchill = parseFloat(currentTemperature.textContent);
+            let wind_speed_windchill = parseFloat(currentWindSpeed.textContent);
                 
-            let formula = 35.74 + (0.6215 * temp_windchill) - (35.75 * Math.pow(wind_speed_windchill, 0.16)) + (0.4275 * temp_windchill * Math.pow(wind_speed_windchill, 0.16));
+            let formula = 35.74 + (0.6215 * temp_windchill.textContent) - (35.75 * Math.pow(wind_speed_windchill.textContent, 0.16)) + (0.4275 * temp_windchill.textContent * Math.pow(wind_speed_windchill.textContent, 0.16));
             
-            if(temp_windchill < 50 && wind_speed_windchill > 3) {
-                windchill = formula.toFixed(0) + "ºF";
+            if(temp_windchill.textContent < 50 && wind_speed_windchill.textContent > 3) {
+                windchill.textContent = formula.textContent.toFixed(0) + "ºF";
             } else {
-                windchill = "N/A";
+                windchill.textContent = "N/A";
             }
-        
+
         });
 
             MyTemple.appendChild(h2);
