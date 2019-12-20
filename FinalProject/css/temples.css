@@ -13,52 +13,7 @@ main {
   section {
     background-color:  #1F487E;;
   }
-  
-  footer {
-    text-align: center;
-    margin-top: 1em;
-    font-size: 1rem;
-    margin: 25px;
     
-  }
-  
-  h1 {
-    text-align: center;
-    color: #FFFFFF;;
-    text-shadow: 3px 3px 5px #08090A;
-    font-size: 2rem;
-  
-  }
-  
-  h2 {
-    font-size: 1.25em;
-    text-align: center;
-    
-    margin-bottom: 8px;
-    color: #FFFFFF;
-  
-  }
-  h3 {
-    font-size: 1.5em;
-    position: relative;  
-    top: -350px;
-    left: 38px;
-    color: #FFFFFF;
-    background-color: #08090A;
-    opacity: .4;
-    width: 40px;  
-    border-radius: 50%;  
-    
-  }
-  
-  p {
-    font-weight: 500;
-    margin: 0;
-    color: #FFFFFF;
-    margin: 0px;
-    
-  }
-  
   .MyTemples {
     display: inline-grid;
     grid-template-columns: 1fr;
@@ -83,9 +38,7 @@ main {
       max-width: 100%;
       padding:0 20px;
     }
-    h1 {
-      font-size: 2.5rem;
-    }
+  
     .MyTemples {
       display: grid;
       grid-template-columns: 1fr 1fr;
