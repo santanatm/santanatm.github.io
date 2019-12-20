@@ -83,7 +83,16 @@ fetch(requestURL, {
             highTemperature.textContent = jsObject.main.temp_max.toFixed(0) + "ºF";
             currentHumidity.textContent = jsObject.main.humidity.toFixed(0) + "%";
             currentWindSpeed.textContent = jsObject.wind.speed.toFixed(0) + " MPH";
-            
+
+            document.getElementById('citiname').textContent = jsObject.name;
+            document.getElementById('currentCondition').textContent = jsObject.weather[0].main;
+            document.getElementById('currentTemperature').textContent = jsObject.main.temp.toFixed(0) + "ºF";
+            document.getElementById('highTemperature').textContent = jsObject.main.temp_max.toFixed(0) + "ºF";
+            document.getElementById('currentHumidity').textContent = jsObject.main.humidity.toFixed(0) + "%";
+            document.getElementById('currentWindSpeed').textContent = jsObject.wind.speed.toFixed(0) + " MPH";
+
+
+
             let temp_windchill = parseFloat(jsObject.main.temp.toFixed(0));
             let wind_speed_windchill = parseFloat(jsObject.wind.speed.toFixed(0));
                 
