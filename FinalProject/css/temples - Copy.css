@@ -33,7 +33,7 @@ body {
   
     .MyTemples {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       justify-self: center;
       text-align: center;
       margin: auto;
@@ -50,6 +50,6 @@ body {
   
     .MyTemples {
       display: grid;
-      grid-template-columns: 1fr 1fr;    
+      grid-template-columns: 1fr;    
     }
   }
