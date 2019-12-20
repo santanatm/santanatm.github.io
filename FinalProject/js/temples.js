@@ -39,24 +39,24 @@ fetch(requestURL, {
             image.setAttribute('alt', alttext);
             image.setAttribute('title', alttext);
 
-            services.textContent ="";
+            services.textContent ='';
             for (let j = 0; j < temples[i].services.length; j++) {
-                services.textContent = services.textContent + temples[i].services[j] + "\n";
+                services.textContent = services.textContent + temples[i].services[j] + '\n';
             }
 
-            ordinanceschedule.textContent ="";
+            ordinanceschedule.textContent ='';
             for (let k = 0; k < temples[i].ordinanceschedule.length; k++) {
-                ordinanceschedule.textContent = ordinanceschedule.textContent + temples[i].ordinanceschedule[k] + "\n";
+                ordinanceschedule.textContent = ordinanceschedule.textContent + temples[i].ordinanceschedule[k] + '\n';
             }
 
-            sessionschedule.textContent ="";
+            sessionschedule.textContent ='';
             for (let l = 0; l < temples[i].sessionschedule.length; l++) {
-                sessionschedule.textContent = sessionschedule.textContent + temples[i].sessionschedule[l] + "\n";
+                sessionschedule.textContent = sessionschedule.textContent + temples[i].sessionschedule[l] + '\n';
             }
 
-            closureschedule.textContent ="";
+            closureschedule.textContent ='';
             for (let m = 0; m < temples[i].closureschedule.length; m++) {
-                closureschedule.textContent = closureschedule.textContent + temples[i].closureschedule[m] + "\n";
+                closureschedule.textContent = closureschedule.textContent + temples[i].closureschedule[m] + '\n';
             }
 
             MyTemple.appendChild(h2);
