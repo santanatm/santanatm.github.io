@@ -61,52 +61,52 @@
         <br>
         <label>Number of guests:<input type="number" name="guests"></label>
         <br>
-        <label>Please select room type:<br><input type="radio" name="standard" value="Standard">Standard Room<br></label>
-        <label>Please select room type: <br><input type="radio" name="standard" value="Standard">Standard Room<br>
-                                            <input type="radio" name="suite" value="Suite">Suite</label>
+        <label>Please select room type: <br><input type="radio" name="standard" value="Standard">Standard Room<br></label>
+        <label><input type="radio" name="suite" value="Suite">Suite</label>
       </fieldset>
 
       <br>
       <fieldset>
       <legend>Available Services</legend>
-         Childcare required?<br>
-         <label><input type="radio" name="care" value="Yes">Yes<br></label>
+         <label>Childcare required?<br><input type="radio" name="care" value="Yes">Yes<br></label>
          <label><input type="radio" name="care" value="No">No</label>
          <br>
-         If yes, when:
-         <label><input type="date" name="careday"> From:</label>
-         <label><input type="time" name="starttime">To:</label>
-         <label><input type="time" name="endtime"></label>
+
+         <label>If yes, when:<input type="date" name="careday"></label>
+         <label>From:<input type="time" name="starttime"></label>
+         <label>To:<input type="time" name="endtime"></label>
          <br>
 
-         Reception hall required? <br>
-         <label><input type="radio" name="reception" value="Yes">Yes<br></label>
+         <label>Reception hall required? <br><input type="radio" name="reception" value="Yes">Yes<br></label>
          <label><input type="radio" name="reception" value="No">No</label>
          <br>
-         If yes, when:<label><input type="date" name="recepday"> From:</label>
-         <label><input type="time" name="recpstarttime">To:</label>
-         <label><input type="time" name="recpendtime"></label>
+
+         <label>If yes, when:<input type="date" name="careday"></label>
+         <label>From:<input type="time" name="starttime"></label>
+         <label>To:<input type="time" name="endtime"></label>
          <br>
+
          Gathering room required? <br>
          <label><input type="radio" name="gathering" value="Yes">Yes<br></label>
          <label><input type="radio" name="gathering" value="No">No</label>
          <br>
-         If yes, when:<label><input type="date" name="gathday"> From:</label>
-         <label><input type="time" name="gathstarttime">To:</label>
-         <label><input type="time" name="gathendtime"></label>
+         
+         <label>If yes, when:<input type="date" name="careday"></label>
+         <label>From:<input type="time" name="starttime"></label>
+         <label>To:<input type="time" name="endtime"></label>
+
        </fieldset>
        <br>
        <fieldset>
   
          <legend>Contact Information</legend>
-         *Full Name:<label><input type="text" name="name" required></label>
+         <label>*Full Name:<input type="text" name="name" required></label>
          <br>
-         *Email:<label><input type="email" name="email" required></label>
+         <label>*Email:<input type="email" name="email" required></label>
          <br>
-         *Phone Number:<label><input type="tel" name="phone" required></label>
+         <label>*Phone Number:<input type="tel" name="phone" required></label>
          <br>
-         Home Location:
-         <label>
+         <label>Home Location:
            <select name="home">
              <option>Please Select</option>
              <option value="Alabama">Alabama</option>
@@ -178,7 +178,7 @@
        <br>
        <fieldset class="comments">
          <legend>Comments</legend>
-         Please let us know if you have special accommodations:<label><input type="text" name="comments" class="comment"></label>
+         <label>lease let us know if you have special accommodations:<input type="text" name="comments" class="comment"></label>
        </fieldset>
        <br>
       <label><input type="submit" value="Make the reservation" class="submitbutton"></label>
