@@ -255,7 +255,7 @@ fetch(requestURL2, {
         
     });
 
-const currentWeather2 = "https://api.openweathermap.org/data/2.5/weather?id=3718426&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
+const currentWeather2 = "https://api.openweathermap.org/data/2.5/weather?id=4167147&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
 
 fetch(currentWeather2)
     .then((response) => response.json())
@@ -350,7 +350,7 @@ fetch(requestURL3, {
         
     });
 
-const currentWeather3 = "https://api.openweathermap.org/data/2.5/weather?id=3718426&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
+const currentWeather3 = "https://api.openweathermap.org/data/2.5/weather?id=4155966&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
 
 fetch(currentWeather3)
     .then((response) => response.json())
