@@ -1,6 +1,4 @@
-const requestURL = 'https://santanatm.github.io/temples.json';
-//const requestURL = 'https://meganmcbride.github.io/final/json/templeinfo.json';
-
+const requestURL = 'https://santanatm.github.io/FinalProject/json/temples.json';
 
 fetch(requestURL, {
     headers : { 
