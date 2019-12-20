@@ -59,6 +59,18 @@ fetch(requestURL, {
                 closureschedule.textContent = closureschedule.textContent + temples[i].closureschedule[m] + "\n";
             }
 
+            document.getElementById('h2').textContent = h2;
+            document.getElementById('image').textContent = image;
+            document.getElementById('address').textContent = address;
+            document.getElementById('telephone').textContent = telephone;
+            document.getElementById('email').textContent = email;
+            document.getElementById('services').textContent = services;
+            document.getElementById('history').textContent = history;
+            document.getElementById('ordinanceschedule').textContent = ordinanceschedule;
+            document.getElementById('sessionschedule').textContent = sessionschedule;
+            document.getElementById('closureschedule').textContent = closureschedule;
+            
+/*
             MyTemple.appendChild(h2);
             MyTemple.appendChild(image);
             MyTemple.appendChild(address);
@@ -71,6 +83,7 @@ fetch(requestURL, {
             MyTemple.appendChild(closureschedule);
 
             document.querySelector('div.MyTemples').appendChild(MyTemple);
+*/        
         }
     });
 
