@@ -20,6 +20,8 @@ fetch(requestURL, {
             let address = document.createElement('div');
             let telephone = document.createElement('div');
             let email = document.createElement('div');
+            let services = document.createElement('div');
+
             let history = document.createElement('div');
             
             let displayname = temples[i].displayname;
@@ -35,12 +37,19 @@ fetch(requestURL, {
             image.setAttribute('alt', alttext);
             image.setAttribute('title', alttext);
 
+            services.textContent ="";
+            for (let j = 0; j < temples[i].services.length; j++) {
+                services.textContent = services.textContent + temples[i].services[j];
+            }
+
+
             MyTemple.appendChild(h2);
             MyTemple.appendChild(image);
             MyTemple.appendChild(address);
             MyTemple.appendChild(telephone);
             MyTemple.appendChild(email);
             MyTemple.appendChild(history);
+            MyTemple.appendChild(services);
 
             document.querySelector('div.MyTemples').appendChild(MyTemple);
         }
