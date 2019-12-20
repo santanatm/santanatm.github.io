@@ -54,6 +54,7 @@ fetch(currentWeather)
         
     console.log(jsObject);
     
+    document.getElementById('citiname').textContent = jsObject.name;
     document.getElementById('currentCondition').textContent = jsObject.weather[0].main;
     document.getElementById('currentTemperature').textContent = jsObject.main.temp.toFixed(0) + "ºF";
     document.getElementById('highTemperature').textContent = jsObject.main.temp_max.toFixed(0) + "ºF";
