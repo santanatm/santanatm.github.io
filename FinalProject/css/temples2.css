@@ -1,0 +1,55 @@
+body {
+    background-color: #FFFFFF;
+}
+
+  section {
+    background-color:  #F4FAFF;;
+  }
+    
+  .MyTemples {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    row-gap: 5px;
+    column-gap: 5px;
+    margin: auto;
+    padding: 0px;
+    justify-self: center;
+    text-align: center;
+  
+  }
+  .MyTemples section img {
+    margin: 5px;
+    width: 90%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  @media only screen and (min-width: 40em) {
+    main {
+      max-width: 100%;
+      padding: 0px;
+    }
+  
+    .MyTemples {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-self: center;
+      text-align: center;
+      margin: auto;
+      grid-gap: 15px;
+      padding: 0px;
+    }
+
+  }
+  
+  @media only screen and (min-width: 60em) {
+    main {
+      max-width: 100%;
+    }
+  
+    .MyTemples {
+      display: grid;
+      grid-template-columns: 1fr;    
+    }
+  }
