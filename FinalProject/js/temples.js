@@ -70,7 +70,7 @@ fetch(requestURL, {
 
             weather.textContent= temples[i].currentWeather;
 
-            const currentWeather = weather;
+            const currentWeather = weather.textContent;
             fetch(currentWeather)
             .then((response) => response.json())
             .then((jsObject) => {
