@@ -54,7 +54,7 @@ fetch(requestURL, {
                 sessionschedule.textContent = sessionschedule.textContent + temples[i].sessionschedule[l] + '\n';
             }
 
-            closureschedule.textContent ='Closure Schedule\n';
+            closureschedule.textContent ='Closure Schedule:\n';
             for (let m = 0; m < temples[i].closureschedule.length; m++) {
                 closureschedule.textContent = closureschedule.textContent + temples[i].closureschedule[m] + '\n';
             }
