@@ -46,3 +46,30 @@ fetch(requestURL, {
         }
     });
 
+const currentWeather = "https://api.openweathermap.org/data/2.5/weather?id=3492908&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
+
+fetch(currentWeather)
+    .then((response) => response.json())
+    .then((jsObject) => {
+        
+    console.log(jsObject);
+    
+    document.getElementById('currentCondition').textContent = jsObject.weather[0].main;
+    document.getElementById('currentTemperature').textContent = jsObject.main.temp.toFixed(0) + "ºF";
+    document.getElementById('highTemperature').textContent = jsObject.main.temp_max.toFixed(0) + "ºF";
+    document.getElementById('currentHumidity').textContent = jsObject.main.humidity.toFixed(0) + "%";
+    document.getElementById('currentWindSpeed').textContent = jsObject.wind.speed.toFixed(0) + " MPH";
+    
+    var temp_windchill = parseFloat(document.getElementById("currentTemperature").innerHTML);
+    var wind_speed_windchill = parseFloat(document.getElementById("currentWindSpeed").innerHTML);
+        
+    var formula = 35.74 + (0.6215 * temp_windchill) - (35.75 * Math.pow(wind_speed_windchill, 0.16)) + (0.4275 * temp_windchill * Math.pow(wind_speed_windchill, 0.16));
+    
+    if(temp_windchill < 50 && wind_speed_windchill > 3) {
+        document.getElementById("windchill").innerHTML = formula.toFixed(0) + "ºF";
+    } else {
+        document.getElementById("windchill").innerHTML = "N/A";
+    }
+
+});
+      

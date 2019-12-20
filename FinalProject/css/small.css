@@ -162,6 +162,20 @@ footer {
   height: 50px;
 }
 
+.CurrentWeather {
+  box-sizing: border-box;
+  height: 200px;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  background: radial-gradient(#eee, #1F487E);
+  border: 1px solid #08090A;
+  padding: 1.5rem;
+  box-shadow: 0 0 30px #FB3640;
+  opacity: .8;
+  font-size: 1rem;
+}
+
 #thanks{
   text-align: center;
   color: #FB3640;
