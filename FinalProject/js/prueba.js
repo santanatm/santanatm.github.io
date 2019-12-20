@@ -93,9 +93,9 @@ fetch(currentWeather)
 
 });
 
-const requestURL = 'https://santanatm.github.io/FinalProject/json/temples.json';
+const requestURL1 = 'https://santanatm.github.io/FinalProject/json/temples.json';
 
-fetch(requestURL, {
+fetch(requestURL1, {
     headers : { 
       'Content-Type': 'application/json',
       'Accept': 'application/json'
@@ -160,9 +160,9 @@ fetch(requestURL, {
         
     });
 
-const currentWeather = "https://api.openweathermap.org/data/2.5/weather?id=3718426&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
+const currentWeather1 = "https://api.openweathermap.org/data/2.5/weather?id=3718426&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
 
-fetch(currentWeather)
+fetch(currentWeather1)
     .then((response) => response.json())
     .then((jsObject) => {
         
