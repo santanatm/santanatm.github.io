@@ -45,18 +45,18 @@ fetch(requestURL, {
             }
 
             ordinanceschedule.textContent ="";
-            for (let j = 0; j < temples[i].ordinanceschedule.length; j++) {
-                ordinanceschedule.textContent = ordinanceschedule.textContent + temples[i].services[j] + "\n";
+            for (let k = 0; k < temples[i].ordinanceschedule.length; k++) {
+                ordinanceschedule.textContent = ordinanceschedule.textContent + temples[i].services[k] + "\n";
             }
 
             sessionschedule.textContent ="";
-            for (let j = 0; j < temples[i].sessionschedule.length; j++) {
-                sessionschedule.textContent = sessionschedule.textContent + temples[i].services[j] + "\n";
+            for (let l = 0; l < temples[i].sessionschedule.length; l++) {
+                sessionschedule.textContent = sessionschedule.textContent + temples[i].services[l] + "\n";
             }
 
             closureschedule.textContent ="";
-            for (let j = 0; j < temples[i].closureschedule.length; j++) {
-                closureschedule.textContent = closureschedule.textContent + temples[i].services[j] + "\n";
+            for (let m = 0; m < temples[i].closureschedule.length; m++) {
+                closureschedule.textContent = closureschedule.textContent + temples[i].services[m] + "\n";
             }
 
             MyTemple.appendChild(h2);
