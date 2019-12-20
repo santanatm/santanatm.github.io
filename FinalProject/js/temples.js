@@ -21,8 +21,10 @@ fetch(requestURL, {
             let telephone = document.createElement('div');
             let email = document.createElement('div');
             let services = document.createElement('div');
-
             let history = document.createElement('div');
+            let ordinanceschedule = document.createElement('div');
+            let sessionschedule = document.createElement('div');
+            let closureschedule = document.createElement('div');
             
             let displayname = temples[i].displayname;
             let alttext = displayname;
@@ -39,17 +41,34 @@ fetch(requestURL, {
 
             services.textContent ="";
             for (let j = 0; j < temples[i].services.length; j++) {
-                services.textContent = services.textContent + temples[i].services[j];
+                services.textContent = services.textContent + temples[i].services[j] + "\n";
             }
 
+            ordinanceschedule.textContent ="";
+            for (let j = 0; j < temples[i].ordinanceschedule.length; j++) {
+                ordinanceschedule.textContent = ordinanceschedule.textContent + temples[i].services[j] + "\n";
+            }
+
+            sessionschedule.textContent ="";
+            for (let j = 0; j < temples[i].sessionschedule.length; j++) {
+                sessionschedule.textContent = sessionschedule.textContent + temples[i].services[j] + "\n";
+            }
+
+            closureschedule.textContent ="";
+            for (let j = 0; j < temples[i].closureschedule.length; j++) {
+                closureschedule.textContent = closureschedule.textContent + temples[i].services[j] + "\n";
+            }
 
             MyTemple.appendChild(h2);
             MyTemple.appendChild(image);
             MyTemple.appendChild(address);
             MyTemple.appendChild(telephone);
             MyTemple.appendChild(email);
-            MyTemple.appendChild(history);
             MyTemple.appendChild(services);
+            MyTemple.appendChild(history);
+            MyTemple.appendChild(ordinanceschedule);
+            MyTemple.appendChild(sessionschedule);
+            MyTemple.appendChild(closureschedule);
 
             document.querySelector('div.MyTemples').appendChild(MyTemple);
         }
