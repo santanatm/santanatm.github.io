@@ -84,13 +84,6 @@ fetch(requestURL, {
             currentHumidity.textContent = jsObject.main.humidity.toFixed(0) + "%";
             currentWindSpeed.textContent = jsObject.wind.speed.toFixed(0) + " MPH";
 
-            document.getElementById('citiname').textContent = jsObject.name;
-            document.getElementById('currentCondition').textContent = jsObject.weather[0].main;
-            document.getElementById('currentTemperature').textContent = jsObject.main.temp.toFixed(0) + "ºF";
-            document.getElementById('highTemperature').textContent = jsObject.main.temp_max.toFixed(0) + "ºF";
-            document.getElementById('currentHumidity').textContent = jsObject.main.humidity.toFixed(0) + "%";
-            document.getElementById('currentWindSpeed').textContent = jsObject.wind.speed.toFixed(0) + " MPH";
-
             let temp_windchill = parseFloat(currentTemperature.textContent);
             let wind_speed_windchill = parseFloat(currentWindSpeed.textContent);
                 
@@ -128,7 +121,7 @@ fetch(requestURL, {
         }
     });
 
-/*
+
 const currentWeather = "https://api.openweathermap.org/data/2.5/weather?id=3492908&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
 
 fetch(currentWeather)
@@ -156,4 +149,3 @@ fetch(currentWeather)
     }
 
 });
-*/
