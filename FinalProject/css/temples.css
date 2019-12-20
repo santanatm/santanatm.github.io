@@ -13,40 +13,13 @@ body {
     row-gap: 5px;
     column-gap: 5px;
     margin: auto;
-    padding: 10px;
+    padding: 0px;
   
   }
   .MyTemples section img {
     margin: 5px;
-    width: 100%;
+    width: 90%;
     height: auto;
     margin-bottom: 15px;
   }
   
-  @media only screen and (min-width: 40em) {
-    main {
-      max-width: 100%;
-      padding:0 20px;
-    }
-  
-    .MyTemples {
-      display: grid;
-      grid-template-columns: 1fr;
-      justify-self: center;
-      text-align: center;
-      margin: auto;
-      grid-gap: 15px;
-      padding: 15px;
-    }
-  }
-  
-  @media only screen and (min-width: 60em) {
-    main {
-      max-width: 100%;
-    }
-  
-    .MyTemples {
-      display: grid;
-      grid-template-columns: 1fr;    
-    }
-  }
