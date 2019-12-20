@@ -72,6 +72,20 @@ nav ul {
   display: none;
 }
 
+
+.MenuTemples li:first-child,
+nav ul {
+  background-color: #1F487E;
+}
+
+.MenuTemples li {
+  background-color: #1F487E;
+}
+
+.MenuTemples a {
+  background-color: #1F487E;
+}
+
 .responsive li {
   display: flex;
 }
