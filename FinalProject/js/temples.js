@@ -25,16 +25,7 @@ fetch(requestURL, {
             let ordinanceschedule = document.createElement('div');
             let sessionschedule = document.createElement('div');
             let closureschedule = document.createElement('div');
-            
-            let weather = document.createElement('div');
-            let citiname = document.createElement('div');
-            let currentCondition = document.createElement('div');
-            let currentTemperature = document.createElement('div');
-            let highTemperature = document.createElement('div');
-            let currentHumidity = document.createElement('div');
-            let currentWindSpeed = document.createElement('div');
-            let windchill = document.createElement('div');
-
+              
             let displayname = temples[i].displayname;
             let alttext = displayname;
 
@@ -68,6 +59,14 @@ fetch(requestURL, {
                 closureschedule.textContent = closureschedule.textContent + temples[i].closureschedule[m] + ", ";
             }
 
+            let weather = document.createElement('div');
+            let citiname = document.createElement('div');
+            let currentCondition = document.createElement('div');
+            let currentTemperature = document.createElement('div');
+            let highTemperature = document.createElement('div');
+            let currentHumidity = document.createElement('div');
+            let currentWindSpeed = document.createElement('div');
+
             weather.textContent= temples[i].currentWeather;
 
             const currentWeather = weather.textContent;
@@ -83,18 +82,6 @@ fetch(requestURL, {
             highTemperature.textContent = jsObject.main.temp_max.toFixed(0) + "ºF";
             currentHumidity.textContent = jsObject.main.humidity.toFixed(0) + "%";
             currentWindSpeed.textContent = jsObject.wind.speed.toFixed(0) + " MPH";
-
-            let temp_windchill = parseFloat(currentTemperature.textContent);
-            let wind_speed_windchill = parseFloat(currentWindSpeed.textContent);
-                
-            let formula = 35.74 + (0.6215 * temp_windchill.textContent) - (35.75 * Math.pow(wind_speed_windchill.textContent, 0.16)) + (0.4275 * temp_windchill.textContent * Math.pow(wind_speed_windchill.textContent, 0.16));
-            
-            if(temp_windchill.textContent < 50 && wind_speed_windchill.textContent > 3) {
-                windchill.textContent = formula.textContent.toFixed(0) + "ºF";
-            } else {
-                windchill.textContent = "N/A";
-            }
-
         });
 
             MyTemple.appendChild(h2);
@@ -108,7 +95,6 @@ fetch(requestURL, {
             MyTemple.appendChild(sessionschedule);
             MyTemple.appendChild(closureschedule);
 
-            MyTemple.appendChild(weather);
             MyTemple.appendChild(citiname);
             MyTemple.appendChild(currentCondition);
             MyTemple.appendChild(currentTemperature);
@@ -120,7 +106,7 @@ fetch(requestURL, {
             document.querySelector('div.MyTemples').appendChild(MyTemple);
         }
     });
-
+/*
 
 //const currentWeather = "https://api.openweathermap.org/data/2.5/weather?id=3492908&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
 //const currentWeather = "https://api.openweathermap.org/data/2.5/weather?id=4167147&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
@@ -151,3 +137,4 @@ fetch(currentWeather)
     }
 
 });
+*/
