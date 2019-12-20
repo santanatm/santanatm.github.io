@@ -72,6 +72,9 @@ nav ul {
   display: none;
 }
 
+.MenuTemples nav{
+  background-color: #1F487E;
+  }
 
 .MenuTemples li:first-child,
 nav ul {
