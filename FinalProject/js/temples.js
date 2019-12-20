@@ -102,24 +102,21 @@ fetch(requestURL, {
             MyTemple.appendChild(currentHumidity);
             MyTemple.appendChild(currentWindSpeed);
 
-            document.getElementById('citiname').textContent = jsObject.name;
-            document.getElementById('currentCondition').textContent = jsObject.weather[0].main;
-            document.getElementById('currentTemperature').textContent = jsObject.main.temp.toFixed(0) + "ºF";
-            document.getElementById('highTemperature').textContent = jsObject.main.temp_max.toFixed(0) + "ºF";
-            document.getElementById('currentHumidity').textContent = jsObject.main.humidity.toFixed(0) + "%";
-            document.getElementById('currentWindSpeed').textContent = jsObject.wind.speed.toFixed(0) + " MPH";
+            //document.getElementById('citiname').textContent = jsObject.name;
+            //document.getElementById('currentCondition').textContent = jsObject.weather[0].main;
+            //document.getElementById('currentTemperature').textContent = jsObject.main.temp.toFixed(0) + "ºF";
+            //document.getElementById('highTemperature').textContent = jsObject.main.temp_max.toFixed(0) + "ºF";
+            //document.getElementById('currentHumidity').textContent = jsObject.main.humidity.toFixed(0) + "%";
+            //document.getElementById('currentWindSpeed').textContent = jsObject.wind.speed.toFixed(0) + " MPH";
 
             document.querySelector('div.MyTemples').appendChild(MyTemple);
-
             
-            /*
             document.querySelector('div.citiname').appendChild(citiname);
             document.querySelector('div.currentCondition').appendChild(currentCondition);
             document.querySelector('div.currentTemperature').appendChild(currentTemperature);
             document.querySelector('div.highTemperature').appendChild(highTemperature);
             document.querySelector('div.currentHumidity').appendChild(currentHumidity);
             document.querySelector('div.currentWindSpeed').appendChild(currentWindSpeed);
-*/
         }
     });
 /*
