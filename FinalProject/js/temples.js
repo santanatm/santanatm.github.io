@@ -101,9 +101,16 @@ fetch(requestURL, {
             MyTemple.appendChild(highTemperature);
             MyTemple.appendChild(currentHumidity);
             MyTemple.appendChild(currentWindSpeed);
-            MyTemple.appendChild(windchill);
 
             document.querySelector('div.MyTemples').appendChild(MyTemple);
+
+            document.querySelector('div.citiname').appendChild(citiname);
+            document.querySelector('div.currentCondition').appendChild(currentCondition);
+            document.querySelector('div.currentTemperature').appendChild(currentTemperature);
+            document.querySelector('div.highTemperature').appendChild(highTemperature);
+            document.querySelector('div.currentHumidity').appendChild(currentHumidity);
+            document.querySelector('div.currentWindSpeed').appendChild(currentWindSpeed);
+
         }
     });
 /*
