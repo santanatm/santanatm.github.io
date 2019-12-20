@@ -110,13 +110,18 @@ fetch(requestURL, {
             //document.getElementById('currentWindSpeed').textContent = jsObject.wind.speed.toFixed(0) + " MPH";
 
             document.querySelector('div.MyTemples').appendChild(MyTemple);
-            
+       /*     
             document.querySelector('div.citiname').appendChild(citiname);
             document.querySelector('div.currentCondition').appendChild(currentCondition);
             document.querySelector('div.currentTemperature').appendChild(currentTemperature);
             document.querySelector('div.highTemperature').appendChild(highTemperature);
             document.querySelector('div.currentHumidity').appendChild(currentHumidity);
             document.querySelector('div.currentWindSpeed').appendChild(currentWindSpeed);
+
+        */
+
+        
+
         }
     });
 /*
