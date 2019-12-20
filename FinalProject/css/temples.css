@@ -28,7 +28,7 @@ body {
   @media only screen and (min-width: 40em) {
     main {
       max-width: 100%;
-      padding:0 20px;
+      padding: 0px;
     }
   
     .MyTemples {
@@ -38,7 +38,7 @@ body {
       text-align: center;
       margin: auto;
       grid-gap: 15px;
-      padding: 15px;
+      padding: 0px;
     }
   }
   
