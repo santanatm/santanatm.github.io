@@ -42,7 +42,7 @@ fetch(requestURL, {
             MyTemple.appendChild(email);
             MyTemple.appendChild(history);
 
-            document.querySelector('div.MyTemples').appendChild(MyTemple);
+            document.querySelector('div.MyTemples[i]').appendChild(MyTemple);
         }
     });
 
