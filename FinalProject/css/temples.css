@@ -25,4 +25,30 @@ body {
     margin-bottom: 15px;
   }
   
+  @media only screen and (min-width: 40em) {
+    main {
+      max-width: 100%;
+      padding:0 20px;
+    }
   
+    .MyTemples {
+      display: grid;
+      grid-template-columns: 1fr;
+      justify-self: center;
+      text-align: center;
+      margin: auto;
+      grid-gap: 15px;
+      padding: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 60em) {
+    main {
+      max-width: 100%;
+    }
+  
+    .MyTemples {
+      display: grid;
+      grid-template-columns: 1fr;    
+    }
+  }
