@@ -22,14 +22,12 @@ main {
     column-gap: 5px;
     margin: auto;
     padding: 10px;
-    box-shadow: 0 0 8px 2px #08090A;
   
   }
   .MyTemples section img {
     margin: 5px;
     width: 90%;
     height: auto;
-    box-shadow: 0 0 20px #08090A;
     margin-bottom: 15px;
   }
   
