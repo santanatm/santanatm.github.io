@@ -41,22 +41,22 @@ fetch(requestURL, {
 
             services.textContent ='Services:' + "\n";
             for (let j = 0; j < temples[i].services.length; j++) {
-                services.textContent = services.textContent + temples[i].services[j] + "\n";
+                services.textContent = services.textContent + temples[i].services[j] + "\, ";
             }
 
             ordinanceschedule.textContent ='Ordinances Schedule:' + "\n";
             for (let k = 0; k < temples[i].ordinanceschedule.length; k++) {
-                ordinanceschedule.textContent = ordinanceschedule.textContent + temples[i].ordinanceschedule[k] + "\n";
+                ordinanceschedule.textContent = ordinanceschedule.textContent + temples[i].ordinanceschedule[k] + ", ";
             }
 
             sessionschedule.textContent ='Sessions Schedule:' + "\n";
             for (let l = 0; l < temples[i].sessionschedule.length; l++) {
-                sessionschedule.textContent = sessionschedule.textContent + temples[i].sessionschedule[l] + "\n";
+                sessionschedule.textContent = sessionschedule.textContent + temples[i].sessionschedule[l] + ", ";
             }
 
             closureschedule.textContent ='Closure Schedule:' + "\n";
             for (let m = 0; m < temples[i].closureschedule.length; m++) {
-                closureschedule.textContent = closureschedule.textContent + temples[i].closureschedule[m] + "\n";
+                closureschedule.textContent = closureschedule.textContent + temples[i].closureschedule[m] + ", ";
             }
 
             MyTemple.appendChild(h2);
