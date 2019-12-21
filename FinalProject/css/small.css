@@ -165,16 +165,17 @@ header {
   position: relative;
 }
 
-footer {
+footer p {
   background: #08090A;
   color: #FFFFFF;
   max-width: 960px;
+  height: 20px;
   align-content: center;
   margin: auto;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  padding: 1px 0px;
+  padding: 10px 0px;
 }
 
 #class {
