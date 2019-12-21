@@ -31,7 +31,7 @@ body {
       padding: 0px;
     }
   
-    .MyTemples {
+    .MyTemples {f
       display: grid;
       grid-template-columns: 1fr 1fr;
       justify-self: center;

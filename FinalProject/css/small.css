@@ -274,14 +274,15 @@ footer {
   -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
   -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
   box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+  grid-template-columns: 1fr 1fr;
 }
 .Container img {
   border-radius: 2%;
   width: 100%;
   margin: 0 auto;
-  -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-  -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-  box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
+  -webkit-box-shadow: 2px 8px 16px 2px #08090A;
+  -moz-box-shadow: 2px 8px 16px 2px #08090A;
+  box-shadow: 2px 8px 16px 2px #08090A;
 }
 .Container li {
   padding: 0.38em 0;
