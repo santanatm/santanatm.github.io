@@ -150,6 +150,15 @@ header {
   padding-bottom: 20px;
 }
 
+.headerimg {
+  background-image: url("../images/front.jpg");
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
 #motto {
   font-family: Special Elite, monospace;
   text-align: center;
