@@ -24,10 +24,10 @@ fetch(requestURL)
     var templeordinances = "";
     for (let j = 0; j < jsObject.temples[0].ordinanceschedule.length; j++) {
         if (j + 1 == jsObject.temples[0].ordinanceschedule.length) {
-            templeordinances = templeordinances + jsObject.temples[0].ordinanceschedule[j];
+            templeordinances = templeordinances + jsObject.temples[0].ordinanceschedule[j] + ".";
         }
         else {
-            templeordinances = templeordinances + jsObject.temples[0].ordinanceschedule[j] + ", ";
+            templeordinances = templeordinances + jsObject.temples[0].ordinanceschedule[j] + "; ";
         }      
     }
     document.getElementById('ordinanceschedule').textContent = templeordinances;
@@ -36,13 +36,23 @@ fetch(requestURL)
 
     var templesessions = "";
     for (let j = 0; j < jsObject.temples[0].sessionschedule.length; j++) {
-        templesessions = templesessions + jsObject.temples[0].sessionschedule[j] + ", ";
+        if (j + 1 == jsObject.temples[0].sessionschedule.length) {
+            templesessions = templesessions + jsObject.temples[0].sessionschedule[j] + ".";  
+        }
+        else {
+            templesessions = templesessions + jsObject.temples[0].sessionschedule[j] + "; ";
+        }
     }
     document.getElementById('sessionschedule').textContent = templesessions;
 
     var templeclosure = "";
     for (let j = 0; j < jsObject.temples[0].closureschedule.length; j++) {
-        templeclosure = templeclosure + jsObject.temples[0].closureschedule[j] + "; ";
+        if (j + 1 == jsObject.temples[0].closureschedule.length) {
+            templeclosure = templeclosure + jsObject.temples[0].closureschedule[j] + ".";
+        }
+        else {
+            templeclosure = templeclosure + jsObject.temples[0].closureschedule[j] + "; ";
+        }
     }
     document.getElementById('closureschedule').textContent = templeclosure;
 
