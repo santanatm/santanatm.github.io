@@ -6,8 +6,8 @@ fetch(requestURL)
     .then((response) => response.json())
     .then((jsObject) => {
 
-    document.getElementById('address').textContent = jsObject.temples[0].address1 + ", " + jsObject.temples[0].address2 + ", " + jsObject.temples[0].address3 + ", " + jsObject.temples[0].address4;
-    document.getElementById('telephone').textContent = jsObject.temples[0].telephone;
+    document.getElementById('address').textContent = jsObject.temples[0].address1 + ", " + jsObject.temples[0].address2 + ", " + jsObject.temples[0].address3 + ", " + jsObject.temples[0].address4 + ".";
+    document.getElementById('telephone').textContent = jsObject.temples[0].telephone + ".";
     document.getElementById('email').textContent = jsObject.temples[0].email;
 
     var templeservices = "";
