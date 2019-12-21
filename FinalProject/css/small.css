@@ -23,10 +23,17 @@ h6 {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 0 auto;
   text-align: center;
 }
+
+h3 {
+  font-size: 1.2rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
 
 .caption {
   font-size: 1.5rem;
@@ -181,6 +188,19 @@ footer p {
 #class {
   max-width: 100%;
 }
+
+
+#contact-form {
+  font-weight: bold;
+  background: #F4FAFF;
+  color: #08090A;
+  flex-flow: row;
+  justify-content: center;
+  width: 350px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
 #formulario {
   font-weight: bold;
   background: #F4FAFF;
@@ -334,3 +354,4 @@ a {
   font-size: 18px;
   font-weight: bold;
 }
+
