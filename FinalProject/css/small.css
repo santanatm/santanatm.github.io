@@ -219,26 +219,9 @@ footer {
   margin-top: 1rem;
 }
 
-/*
-.CurrentWeather {
-  margin: 0 auto;
-  max-width: 318px; 
-  background-color: #FB3640;
-  color: #08090A;
-  display: block;
-  text-align: center;
-  padding: 15px;
-  font-weight: bold;
-  font-size: 1.5rem;
-  margin-bottom: 30px;
-}
-*/
-
-
 .CurrentWeather {
   background-color: #FB3640;
   box-sizing: border-box;
-  /*height: 250px;*/
   position: absolute;
   top: 269px;
   left: 281px;
