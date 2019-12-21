@@ -227,14 +227,21 @@ footer p {
   margin-top: 1rem;
 }
 
+.CurrentLabel {
+  color: #FB3640;
+  font-weight: bold;
+}
+
 .CurrentWeather {
-  background-color: #FB3640;
+  margin: 0 auto;
   box-sizing: border-box;
-  position: absolute;
-  top: 269px;
-  left: 281px;
-  padding: 1.5rem;
-  font-size: 1rem;
+  height: auto;
+  background: #F4FAFF;
+  padding: .5rem;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 #thanks{

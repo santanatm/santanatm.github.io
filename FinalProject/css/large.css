@@ -59,4 +59,9 @@ body {
       display:grid; 
       grid-template-columns: auto auto auto;
   }
+  .gallery a {
+    font-family: Lato, Arial, sans-serif;
+    font-size: 18px;
+    color: red;
+  }
   }
