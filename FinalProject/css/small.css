@@ -309,9 +309,12 @@ footer p {
   display: none;
 }
 
+.Container section {
+  margin: 0 auto;
+}
+
 .Container {
   background-color: #F4FAFF;
-  width: 375px;
   padding: 2em;
   border-radius: 0.2em;
   color: #1f1f1f;
