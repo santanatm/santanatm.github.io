@@ -275,6 +275,16 @@ footer p {
   font-size: 12px;
 }
 
+.contactinfo p{
+  background: #1F487E;
+  color: #FFFFFF;
+  display: flex;
+  flex-flow: column wrap;
+  justify-items: center;
+  text-align: center;
+  font-size: 12px;
+}
+
 .map {
   display: none;
 }

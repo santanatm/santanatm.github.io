@@ -54,6 +54,17 @@ body {
       justify-items: center;
       font-size: 16px;
     }
+
+    .contactinfo p{
+      background: #1F487E;
+      color: #FFFFFF;
+      display: flex;
+      flex-flow: column wrap;
+      justify-items: center;
+      text-align: center;
+      font-size: 16px;
+    }
+
     .gallery {
       width:100%;
       display:grid; 
