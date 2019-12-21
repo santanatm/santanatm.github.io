@@ -54,4 +54,8 @@ body {
       justify-items: center;
       font-size: 16px;
     }
+      .MyTemples {
+        display: grid;
+        grid-template-columns: 1fr 1fr;    
+      }
   }

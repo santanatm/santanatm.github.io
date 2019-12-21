@@ -19,4 +19,15 @@
     .spaces {
       display: contents;
     }
+
+    .MyTemples {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-self: center;
+      text-align: center;
+      margin: auto;
+      grid-gap: 15px;
+      padding: 0px;
+    }
+    
   }
