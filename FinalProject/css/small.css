@@ -6,6 +6,13 @@ body {
   color: #08090A;
 }
 
+p {
+  font-family: Lato, Arial, sans-serif;
+  font-size: 18px;
+  color: #08090A;
+}
+
+
 h1,
 h2,
 h3,
@@ -210,10 +217,10 @@ footer {
 .TempleGeneralInfo {
   margin: 0 auto;
   box-sizing: border-box;
-  height: 900px;
+  height: auto;
   background: #F4FAFF;
   padding: .5rem;
-  font-size: 1.5rem;
+  font-size: 18px;
   text-align: left;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -298,4 +305,8 @@ footer {
   margin-left: -1em;
 }
 
-
+.gallery {
+  display:block;
+  width:auto;
+  grid-template-columns: 1fr;
+} 

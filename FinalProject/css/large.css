@@ -54,4 +54,9 @@ body {
       justify-items: center;
       font-size: 16px;
     }
+    .gallery {
+      width:100%;
+      display:grid; 
+      grid-template-columns: auto auto auto;
+  }
   }
