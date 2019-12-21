@@ -271,10 +271,10 @@ footer {
   border-radius: 0.2em;
   color: #1f1f1f;
   margin: 2em;
-  -webkit-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-  -moz-box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-  box-shadow: 2px 8px 16px 2px rgb(32, 32, 32);
-  grid-template-columns: 1fr 1fr;
+  -webkit-box-shadow: 2px 8px 16px 2px #08090A;
+  -moz-box-shadow: 2px 8px 16px 2px #08090A;
+  box-shadow: 2px 8px 16px 2px #08090A;
+
 }
 .Container img {
   border-radius: 2%;
@@ -283,6 +283,7 @@ footer {
   -webkit-box-shadow: 2px 8px 16px 2px #08090A;
   -moz-box-shadow: 2px 8px 16px 2px #08090A;
   box-shadow: 2px 8px 16px 2px #08090A;
+
 }
 .Container li {
   padding: 0.38em 0;
