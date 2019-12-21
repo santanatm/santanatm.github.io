@@ -297,24 +297,3 @@ footer {
 }
 
 
-
-
-
-.MyTemples {
-  display: inline-grid;
-  grid-template-columns: 1fr;
-  grid-auto-rows: 1fr;
-  row-gap: 5px;
-  column-gap: 5px;
-  margin: auto;
-  padding: 0px;
-  justify-self: center;
-  text-align: center;
-
-}
-.MyTemples section img {
-  margin: 5px;
-  width: 90%;
-  height: auto;
-  margin-bottom: 15px;
-}
