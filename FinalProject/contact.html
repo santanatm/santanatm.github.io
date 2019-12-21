@@ -40,40 +40,34 @@
   
   <main>
     <br><br>
-    <div class="formField">
 
-      <div class="contact-form">
+    <div id="formulario">
+      <form method="GET" action="thanks.html">
+        <input id="name" type="text" class="input" aria-label="name" placeholder="Name" required>
+        <br>
+        <input id="email" type="email" class="input" aria-label="email" placeholder="Email Address" required>
+        <br>
+        <input type="tel" id="phone" class="input" aria-label="phone" placeholder="Phone">
+        <br>
+        <select name="subject" id="messageSubject" aria-label="messageSubject" class="subjArea">
+            <option class="subjArea" disabled selected value>Subject - Please choose</option>
+            <option class="subjOpt" value="question">I have a question</option>
+            <option class="subjOpt" value="suggestion">I have a suggestion</option>
+            <option class="subjOpt" value="reservation">I want to make a reservation</option>
+            <option class="subjOpt" value="concern">I have some concerns</option>
+            <option class="subjOpt" value="cancellation">I need to cancel my reservation</option>
+            <option class="subjOpt" value="other">Other...</option>
+        </select>
 
-          <form action="#" method="post">
-              <div class="input-field">
+        <div class="message">
+            <textarea id="message" aria-label="message" placeholder="Message"></textarea>
+        </div>
 
-                  
-                  <input id="name" type="text" class="input" aria-label="name" placeholder="Name" required>
-
-                  <input id="email" type="email" class="input" aria-label="email" placeholder="Email Address" required>
-
-                  <input type="tel" id="phone" class="input" aria-label="phone" placeholder="Phone">
-
-                  <select name="subject" id="messageSubject" aria-label="messageSubject" class="subjArea">
-                      <option class="subjArea" disabled selected value>Subject - Please choose</option>
-                      <option class="subjOpt" value="question">I have a question</option>
-                      <option class="subjOpt" value="suggestion">I have a suggestion</option>
-                      <option class="subjOpt" value="reservation">I want to make a reservation</option>
-                      <option class="subjOpt" value="concern">I have some concerns</option>
-                      <option class="subjOpt" value="cancellation">I need to cancel my reservation</option>
-                      <option class="subjOpt" value="other">Other...</option>
-                  </select>
-
-                  <div class="message">
-                      <textarea id="message" aria-label="message" placeholder="Message"></textarea>
-                  </div>
-
-                  <div class="btn">Contact Temple Inn and Suites</div>
-              </div>
-          </form>
-
-      </div>
-
+        <br>
+        <input type="submit" value="Make the reservation" class="submitbutton">
+      </form>
+     </div>    
+ 
     <br><br>
     <section class="contact">
       <div class="contactinfo">
