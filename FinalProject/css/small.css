@@ -318,3 +318,9 @@ footer p {
   width:auto;
   grid-template-columns: 1fr;
 } 
+
+a {
+  font-family: Lato, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
