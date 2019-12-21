@@ -1,76 +1,41 @@
+
+
 const requestURL = 'https://santanatm.github.io/FinalProject/json/temples.json';
 
-fetch(requestURL, {
-    headers : { 
-      'Content-Type': 'application/json',
-      'Accept': 'application/json'
-     }
+fetch(requestURL)
+    .then((response) => response.json())
+    .then((jsObject) => {
+        
+    console.log(jsObject);
 
-  })
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (jsonObj) {
-        console.table(jsonObj);
-        const temples = jsonObj['temples'];
-        let MyTemple = document.createElement('section');
-        let h2 = document.createElement('h2');
-        let image = document.createElement('img');
-        let address = document.createElement('div');
-        let telephone = document.createElement('div');
-        let email = document.createElement('div');
-        let services = document.createElement('div');
-        let history = document.createElement('div');
-        let ordinanceschedule = document.createElement('div');
-        let sessionschedule = document.createElement('div');
-        let closureschedule = document.createElement('div');
-            
-        let displayname = temples[0].displayname;
-        let alttext = displayname;
-        h2.textContent = displayname;
-        address.textContent = 'Address: ' + temples[0].address1 + ',' + temples[0].address2 + ',' + temples[0].address3 + ',' + temples[0].address4  ;
-        telephone.textContent = 'Telephone: ' + temples[0].telephone;
-        email.textContent = 'Email: ' + temples[0].email;
-        image.setAttribute('src', temples[0].imageurl);
-        history.textContent= 'History: ' + temples[0].history;
-        image.setAttribute('alt', alttext);
-        image.setAttribute('title', alttext);
-        services.textContent ='Services:' + "\n";
-        for (let j = 0; j < temples[0].services.length; j++) {
-            services.textContent = services.textContent + temples[0].services[j] + "\, ";
+    document.getElementById('address').textContent = jsObject.temples[0].address1 + ", " + jsObject.temples[0].address2 + ", " + jsObject.temples[0].address3 + ", " + jsObject.temples[0].address4;
+
+        var templeservices = "";
+        for (let j = 0; j < jsObject.temples[0].services.length; j++) {
+            templeservices = templeservices + jsObject.temples[0].services[j] + ", ";
         }
-        ordinanceschedule.textContent ='Ordinances Schedule:' + "\n";
-        for (let k = 0; k < temples[0].ordinanceschedule.length; k++) {
-            ordinanceschedule.textContent = ordinanceschedule.textContent + temples[0].ordinanceschedule[k] + ", ";
+        document.getElementById('services').textContent = templeservices;
+
+        var templeordinances = "";
+        for (let j = 0; j < jsObject.temples[0].ordinanceschedule.length; j++) {
+            templeordinances = templeordinances + jsObject.temples[0].ordinanceschedule[j] + ", ";
         }
-        sessionschedule.textContent ='Sessions Schedule:' + "\n";
-        for (let l = 0; l < temples[0].sessionschedule.length; l++) {
-            sessionschedule.textContent = sessionschedule.textContent + temples[0].sessionschedule[l] + ", ";
+        document.getElementById('ordinanceschedule').textContent = templeordinances;
+
+        var templesessions = "";
+        for (let j = 0; j < jsObject.temples[0].sessionschedule.length; j++) {
+            templesessions = templesessions + jsObject.temples[0].sessionschedule[j] + ", ";
         }
-        closureschedule.textContent ='Closure Schedule:' + "\n";
-        for (let m = 0; m < temples[0].closureschedule.length; m++) {
-            closureschedule.textContent = closureschedule.textContent + temples[0].closureschedule[m] + ", ";
+        document.getElementById('sessionschedule').textContent = templesessions;
+
+        var templeclosure = "";
+        for (let j = 0; j < jsObject.temples[0].closureschedule.length; j++) {
+            templeclosure = templeclosure + jsObject.temples[0].closureschedule[j] + ", ";
         }
-
- 
-        document.getElementById('address').textContent = address;
-
-/*
-        MyTemple.appendChild(image);
+        document.getElementById('closureschedule').textContent = templeclosure;
 
 
-        MyTemple.appendChild(address);
-        MyTemple.appendChild(telephone);
-        MyTemple.appendChild(email);
-        MyTemple.appendChild(services);
-        MyTemple.appendChild(history);
-        MyTemple.appendChild(ordinanceschedule);
-        MyTemple.appendChild(sessionschedule);
-        MyTemple.appendChild(closureschedule);
-        document.querySelector('div.MyTemples0').appendChild(MyTemple);
-  */
-
-    });
+});
 
 const currentWeather = "https://api.openweathermap.org/data/2.5/weather?id=3492908&appid=00a968af0c9bdd2cf561a37bc3775927&units=imperial";
 
@@ -99,4 +64,3 @@ fetch(currentWeather)
     }
 
 });
-
