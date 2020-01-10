@@ -6,17 +6,18 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 50px;
     text-align: right;
 }
 
 body {
     font-family: Helvetica, Arial, sans-serif;
+    width: 400px;
+    margin: 0 auto;
   }
 
 header {
     background-color: #6495ED;
-    padding: 50px;
+    padding: 50px 25px 10px;
   }
 
 main {
@@ -24,12 +25,10 @@ main {
     padding: 50px 20px 20px 30px;
 }
 
-
 li {
-    font-size: 25px;
     list-style: none;
     text-align: right;
-    line-height : 50px;
+    line-height : 30px;
 }
 
 a:link {
