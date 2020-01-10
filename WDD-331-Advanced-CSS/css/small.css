@@ -3,15 +3,27 @@
 
 h1, h2 {
   font-family: 'Lora', serif;
+  margin-top: 0;
 }
 
 h1 {
     text-align: right;
 }
 
+h2, p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.post-date {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: gray;
+}
+
 body {
-    font-family: Helvetica, Arial, sans-serif;
-    width: 400px;
+    width: 375px;
     margin: 0 auto;
   }
 
@@ -23,6 +35,10 @@ header {
 main {
     background-color: #FAEBD7;
     padding: 50px 20px 20px 30px;
+}
+
+body ul li a {
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 li {
@@ -73,6 +89,26 @@ article a:hover {
     color: #6495ED;
   }
 
-.post-date {
-    color: gray;
+article p {
+    padding-bottom: 20px;
+}
+
+img{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+}
+
+main article p a,
+main article p a:visited
+ {
+    text-decoration: none;   
+    color: #6495ED !important;
+}
+
+main article p a:active,
+main article p a:hover
+ {
+    text-decoration: underline;
+    color: #DEB887 !important;
 }
