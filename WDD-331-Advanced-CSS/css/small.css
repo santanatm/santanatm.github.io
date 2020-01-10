@@ -1,4 +1,79 @@
 /* Phone View */
-body {
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
+h1, h2 {
+  font-family: 'Lora', serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: right;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+header {
+    background-color: #6495ED;
+    padding: 50px;
+  }
+
+main {
+    background-color: #FAEBD7;
+    padding: 50px 20px 20px 30px;
+}
+
+
+li {
+    font-size: 25px;
+    list-style: none;
+    text-align: right;
+    line-height : 50px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #FAEBD7;
+}
+  
+a:visited {
+    text-decoration: none;
+    color: #FAEBD7;
+  }
+  
+ a:active {
+    color: #DEB887;
+  }
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+  }
+
+article {
+    background-color: white;
+}
+
+article a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+article a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+article a:active {
+    color: #DEB887;
+  }
+
+article a:hover {
+    text-decoration: underline;
+    color: #6495ED;
+  }
+
+.post-date {
+    color: gray;
 }
