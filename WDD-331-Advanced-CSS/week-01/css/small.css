@@ -47,7 +47,7 @@ li {
     line-height : 30px;
 }
 
-a:link {
+a {
     text-decoration: none;
     color: #FAEBD7;
 }
@@ -70,7 +70,7 @@ article {
     background-color: white;
 }
 
-article a:link {
+article a {
     text-decoration: none;
     color: black;
   }
@@ -103,12 +103,12 @@ main article p a,
 main article p a:visited
  {
     text-decoration: none;   
-    color: #6495ED !important;
+    color: #6495ED;
 }
 
 main article p a:active,
 main article p a:hover
  {
     text-decoration: underline;
-    color: #DEB887 !important;
+    color: #DEB887;
 }
