@@ -44,6 +44,7 @@ img {
   margin: 0 auto;
 }
 
+/****************************************************/
 body {
   width: 375px;
   margin: 0 auto;
@@ -106,5 +107,7 @@ main article p a:active, main article p a:hover {
   text-decoration: underline;
   color: #DEB887;
 }
+
+/****************************************************/
 
 /*# sourceMappingURL=small.css.map */
