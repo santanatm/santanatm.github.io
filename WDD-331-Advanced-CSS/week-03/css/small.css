@@ -1,15 +1,21 @@
 /* Phone View */
+/***********variables******************/
+/**************************************/
 @import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
-h1, h2 {
+h1 {
+  text-align: right;
   font-family: "Lora", serif;
   margin-top: 0;
 }
 
-h1 {
-  text-align: right;
+h2 {
+  font-family: "Lora", serif;
+  margin-top: 0;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-h2, p {
+p {
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -21,29 +27,29 @@ h2, p {
   color: gray;
 }
 
-body {
-  width: 375px;
-  margin: 0 auto;
-}
-
 header {
   background-color: #6495ED;
   padding: 50px 25px 10px;
-}
-
-main {
-  background-color: #FAEBD7;
-  padding: 50px 20px 20px 30px;
-}
-
-body ul li a {
-  font-family: Helvetica, Arial, sans-serif;
 }
 
 li {
   list-style: none;
   text-align: right;
   line-height: 30px;
+}
+
+img {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+
+body {
+  width: 375px;
+  margin: 0 auto;
+}
+body ul li a {
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -59,11 +65,11 @@ a:active {
 }
 a:hover {
   text-decoration: underline;
-  color: white;
+  color: white-color;
 }
 
 article {
-  background-color: white;
+  background-color: white-color;
 }
 article a {
   text-decoration: none;
@@ -84,12 +90,10 @@ article p {
   padding-bottom: 20px;
 }
 
-img {
-  display: block;
-  width: 200px;
-  margin: 0 auto;
+main {
+  background-color: #FAEBD7;
+  padding: 50px 20px 20px 30px;
 }
-
 main article p a {
   text-decoration: none;
   color: #6495ED;

@@ -18,16 +18,20 @@ $black-color: black;
 
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
-h1, h2 {
+h1 {
+  text-align: right;
   font-family: $lora-font;
   margin-top: 0;
 }
 
-h1 {
-  text-align: right;
+h2 {
+  font-family: $lora-font;
+  margin-top: 0;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
-h2, p {
+p {
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -36,26 +40,12 @@ h2, p {
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 5px;
-  color: gray-color;
-}
-
-body {
-  width: 375px;
-  margin: 0 auto;
+  color: $gray-color;
 }
 
 header {
   background-color: $blue-color;
   padding: 50px 25px 10px;
-}
-
-main {
-  background-color: $ivory-color;
-  padding: 50px 20px 20px 30px;
-}
-
-body ul li a {
-  font-family: $helvetica-font;
 }
 
 li {
@@ -71,6 +61,15 @@ img {
 }
 
 // Nesting
+body {
+  width: 375px;
+  margin: 0 auto;
+
+  ul li a {
+    font-family: $helvetica-font;
+  }
+}
+
 a {
   text-decoration: none;
   color: $ivory-color;
@@ -95,11 +94,11 @@ article {
 
   a {
     text-decoration: none;
-    color: black-color;
+    color: $black-color;
 
     &:visited {
       text-decoration: none;
-      color: black-color;
+      color: $black-color;
     }
 
     &:active {
@@ -117,17 +116,22 @@ article {
   }
 }
 
-main article p a {
-  text-decoration: none;
-  color: $blue-color;
+main {
+  background-color: $ivory-color;
+  padding: 50px 20px 20px 30px;
 
-  &:visited {
+  article p a {
     text-decoration: none;
     color: $blue-color;
-  }
 
-  &:active, &:hover {
-    text-decoration: underline;
-    color: $ochre-color;
+    &:visited {
+      text-decoration: none;
+      color: $blue-color;
+    }
+
+    &:active, &:hover {
+      text-decoration: underline;
+      color: $ochre-color;
+    }
   }
 }
