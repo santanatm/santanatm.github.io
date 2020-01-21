@@ -9,7 +9,7 @@ $blue-color: #6495ED;
 $ochre-color: #DEB887;
 
 h1, h2 {
-  font-family: 'Lora', serif;
+  font-family: $lora-font;
   margin-top: 0;
 }
 
@@ -40,12 +40,12 @@ header {
 }
 
 main {
-  background-color: $main-color;
+  background-color: $ivory-color;
   padding: 50px 20px 20px 30px;
 }
 
 body ul li a {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: $helvetica-font;
 }
 
 li {
@@ -56,11 +56,11 @@ li {
 
 a {
   text-decoration: none;
-  color: $main-color;
+  color: $ivory-color;
 
   &:visited {
     text-decoration: none;
-    color: $main-color;
+    color: $ivory-color;
   }
 
   &:active {
