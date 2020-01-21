@@ -1,12 +1,22 @@
 /* Phone View */
-@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
-//variables
+/***********variables******************/
+
+//fonts
 $lora-font: 'Lora', serif;
 $helvetica-font: Helvetica, Arial, sans-serif;
+
+//colors
 $ivory-color: #FAEBD7;
 $blue-color: #6495ED;
 $ochre-color: #DEB887;
+$gray-color: gray;
+$white-color: white;
+$black-color: black;
+
+/**************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
 h1, h2 {
   font-family: $lora-font;
@@ -26,7 +36,7 @@ h2, p {
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 5px;
-  color: gray;
+  color: gray-color;
 }
 
 body {
@@ -69,20 +79,20 @@ a {
 
   &:hover {
     text-decoration: underline;
-    color: white;
+    color: white-color;
   }
 }
 
 article {
-  background-color: white;
+  background-color: white-color;
 
   a {
     text-decoration: none;
-    color: black;
+    color: black-color;
 
     &:visited {
       text-decoration: none;
-      color: black;
+      color: black-color;
     }
 
     &:active {
