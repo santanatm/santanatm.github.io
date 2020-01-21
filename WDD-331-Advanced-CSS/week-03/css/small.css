@@ -1,0 +1,106 @@
+/* Phone View */
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+h1, h2 {
+  font-family: "Lora", serif;
+  margin-top: 0;
+}
+
+h1 {
+  text-align: right;
+}
+
+h2, p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.post-date {
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  color: gray;
+}
+
+body {
+  width: 375px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #6495ED;
+  padding: 50px 25px 10px;
+}
+
+main {
+  background-color: #FAEBD7;
+  padding: 50px 20px 20px 30px;
+}
+
+body ul li a {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+  text-align: right;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #FAEBD7;
+}
+a:visited {
+  text-decoration: none;
+  color: #FAEBD7;
+}
+a:active {
+  color: #DEB887;
+}
+a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+article {
+  background-color: white;
+}
+article a {
+  text-decoration: none;
+  color: black;
+}
+article a:visited {
+  text-decoration: none;
+  color: black;
+}
+article a:active {
+  color: #DEB887;
+}
+article a:hover {
+  text-decoration: underline;
+  color: #6495ED;
+}
+article p {
+  padding-bottom: 20px;
+}
+
+img {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+
+main article p a {
+  text-decoration: none;
+  color: #6495ED;
+}
+main article p a:visited {
+  text-decoration: none;
+  color: #6495ED;
+}
+main article p a:active, main article p a:hover {
+  text-decoration: underline;
+  color: #DEB887;
+}
+
+/*# sourceMappingURL=small.css.map */
