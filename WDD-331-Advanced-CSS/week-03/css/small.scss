@@ -1,6 +1,13 @@
 /* Phone View */
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
+//variables
+$lora-font: 'Lora', serif;
+$helvetica-font: Helvetica, Arial, sans-serif;
+$ivory-color: #FAEBD7;
+$blue-color: #6495ED;
+$ochre-color: #DEB887;
+
 h1, h2 {
   font-family: 'Lora', serif;
   margin-top: 0;
@@ -28,12 +35,12 @@ body {
 }
 
 header {
-  background-color: #6495ED;
+  background-color: $blue-color;
   padding: 50px 25px 10px;
 }
 
 main {
-  background-color: #FAEBD7;
+  background-color: $main-color;
   padding: 50px 20px 20px 30px;
 }
 
@@ -49,15 +56,15 @@ li {
 
 a {
   text-decoration: none;
-  color: #FAEBD7;
+  color: $main-color;
 
   &:visited {
     text-decoration: none;
-    color: #FAEBD7;
+    color: $main-color;
   }
 
   &:active {
-    color: #DEB887;
+    color: $ochre-color;
   }
 
   &:hover {
@@ -79,12 +86,12 @@ article {
     }
 
     &:active {
-      color: #DEB887;
+      color: $ochre-color;
     }
 
     &:hover {
       text-decoration: underline;
-      color: #6495ED;
+      color: $blue-color;
     }
   }
 
@@ -101,15 +108,15 @@ img {
 
 main article p a {
   text-decoration: none;
-  color: #6495ED;
+  color: $blue-color;
 
   &:visited {
     text-decoration: none;
-    color: #6495ED;
+    color: $blue-color;
   }
 
   &:active, &:hover {
     text-decoration: underline;
-    color: #DEB887;
+    color: $ochre-color;
   }
 }
