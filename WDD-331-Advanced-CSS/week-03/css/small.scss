@@ -1,6 +1,8 @@
 /* Phone View */
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 
-/***********variables******************/
+
+//***********variables******************//
 
 //fonts
 $lora-font: 'Lora', serif;
@@ -14,9 +16,28 @@ $gray-color: gray;
 $white-color: white;
 $black-color: black;
 
-/**************************************/
+//**************************************//
 
-@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+//***********Mixins******************//
+
+@mixin margin-20 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@mixin padding {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+@mixin display-block {
+  display: block;
+  -webkit-display: block;
+  -mox-display: block;
+  -o-display: block;
+  -ms-display: block;
+}
+//**************************************//
 
 h1 {
   text-align: right;
@@ -27,18 +48,15 @@ h1 {
 h2 {
   font-family: $lora-font;
   margin-top: 0;
-  margin-left: 20px;
-  margin-right: 20px;
+  @include margin-20;   //Mixin
 }
 
 p {
-  margin-left: 20px;
-  margin-right: 20px;
+  @include margin-20;   //Mixin
 }
 
 .post-date {
-  padding-left: 20px;
-  padding-top: 20px;
+  @include padding;    //Mixin
   padding-bottom: 5px;
   color: $gray-color;
 }
@@ -55,14 +73,13 @@ li {
 }
 
 img {
-  display: block;
+  @include display-block;
   width: 200px;
   margin: 0 auto;
 }
 
-// Nesting
+//*********************Nesting************************//
 
-/****************************************************/
 body {
   width: 375px;
   margin: 0 auto;
@@ -137,4 +154,4 @@ main {
     }
   }
 }
-/****************************************************/
+//****************************************************//

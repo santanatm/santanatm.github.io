@@ -1,6 +1,4 @@
 /* Phone View */
-/***********variables******************/
-/**************************************/
 @import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
 h1 {
   text-align: right;
@@ -40,11 +38,14 @@ li {
 
 img {
   display: block;
+  -webkit-display: block;
+  -mox-display: block;
+  -o-display: block;
+  -ms-display: block;
   width: 200px;
   margin: 0 auto;
 }
 
-/****************************************************/
 body {
   width: 375px;
   margin: 0 auto;
@@ -107,7 +108,5 @@ main article p a:active, main article p a:hover {
   text-decoration: underline;
   color: #DEB887;
 }
-
-/****************************************************/
 
 /*# sourceMappingURL=small.css.map */
