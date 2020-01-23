@@ -73,7 +73,7 @@ li {
 }
 
 img {
-  @include display-block;
+  @include display-block;  //Mixin
   width: 200px;
   margin: 0 auto;
 }
