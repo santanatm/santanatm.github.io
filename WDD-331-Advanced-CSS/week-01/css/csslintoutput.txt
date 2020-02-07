@@ -1,0 +1,82 @@
+
+
+csslint: There are 16 problems in C:\Users\santa\Documents\!BYUi\WDD-331 - Advanced CSS\Projects\santanatm.github.io\WDD-331-Advanced-CSS\week-01\css\small.css.
+
+small.css
+1: warning at line 2, col 1
+@import prevents parallel downloads, use <link> instead.
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+small.css
+2: warning at line 9, col 1
+Heading (h1) has already been defined.
+h1 {
+
+small.css
+3: warning at line 13, col 1
+Heading (h2) has already been defined.
+h2, p {
+
+small.css
+4: warning at line 18, col 1
+Rule doesn't have all its properties in alphabetical order.
+.post-date {
+
+small.css
+5: warning at line 25, col 1
+Rule doesn't have all its properties in alphabetical order.
+body {
+
+small.css
+6: warning at line 44, col 1
+Rule doesn't have all its properties in alphabetical order.
+li {
+
+small.css
+7: warning at line 50, col 1
+Rule doesn't have all its properties in alphabetical order.
+a {
+
+small.css
+8: warning at line 55, col 1
+Rule doesn't have all its properties in alphabetical order.
+a:visited {
+
+small.css
+9: warning at line 64, col 1
+Rule doesn't have all its properties in alphabetical order.
+a:hover {
+
+small.css
+10: warning at line 73, col 1
+Rule doesn't have all its properties in alphabetical order.
+article a {
+
+small.css
+11: warning at line 78, col 1
+Rule doesn't have all its properties in alphabetical order.
+article a:visited {
+
+small.css
+12: warning at line 87, col 1
+Rule doesn't have all its properties in alphabetical order.
+article a:hover {
+
+small.css
+13: warning at line 96, col 1
+Rule doesn't have all its properties in alphabetical order.
+img{
+
+small.css
+14: warning at line 102, col 1
+Rule doesn't have all its properties in alphabetical order.
+main article p a,
+
+small.css
+15: warning at line 109, col 1
+Rule doesn't have all its properties in alphabetical order.
+main article p a:active,
+
+small.css
+16: warning
+You have 2 h1s, 2 h2s defined in this stylesheet.
