@@ -1,0 +1,8 @@
+
+
+csslint: There is 1 problem in C:\Users\santa\Documents\!BYUi\WDD-331 - Advanced CSS\Projects\santanatm.github.io\WDD-331-Advanced-CSS\week-01\css\small.css.
+
+small.css
+1: warning at line 2, col 1
+@import prevents parallel downloads, use <link> instead.
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
