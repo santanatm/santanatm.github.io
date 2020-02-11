@@ -1,3 +1,9 @@
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+}
+
 .heart:before,
 .heart:after {
     position: absolute;
