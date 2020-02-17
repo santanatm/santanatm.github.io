@@ -35,3 +35,16 @@
    fill:red;
    stroke:black;
 }
+
+.black-line {
+   fill:black;
+   stroke:black;
+   stroke-width:3;
+}
+
+.yellow-line {
+   fill:yellow;
+   stroke:yellow;
+   stroke-width:3;
+}
+
