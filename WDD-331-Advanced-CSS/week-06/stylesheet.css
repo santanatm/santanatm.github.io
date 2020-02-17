@@ -70,7 +70,29 @@
 .second-card {
    height: 300px;
    width: 200px;
-   fill:red;
-   stroke:black;
+   fill:blue;
+   stroke:fuchsia;
    stroke-width:3;
+}
+.white-lines {
+   stroke:white;
+   stroke-width:1;
+}
+
+.card-border {
+   fill:black;
+   stroke:white;
+   stroke-width:1;
+}
+
+.card-middle {
+   fill:black;
+   stroke:white;
+   stroke-width:1; 
+}
+
+.card-center {
+   fill:fuchsia;
+   stroke:white;
+   stroke-width:1; 
 }
