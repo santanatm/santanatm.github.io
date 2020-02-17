@@ -8,6 +8,12 @@
    fill:black;
 }
 
+.face-expression {
+   fill:none;
+   stroke:black;
+   stroke-width:0.5;
+}
+
 .eye {
    fill:black;
 }
@@ -48,3 +54,7 @@
    stroke-width:3;
 }
 
+.dots{
+   fill:black;
+   stroke:black;
+}
