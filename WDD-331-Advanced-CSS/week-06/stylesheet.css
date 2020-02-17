@@ -4,6 +4,14 @@
    width: 460px;
 }
 
+.first-card {
+   height: 300px;
+   width: 200px;
+   fill:red;
+   stroke:black;
+   stroke-width:3;
+}
+
 .nose {
    fill:black;
 }
