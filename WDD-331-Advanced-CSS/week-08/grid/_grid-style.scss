@@ -1,0 +1,106 @@
+//variables to setup basic size and shape of the card and pips
+$card-width: 40vw;
+$card-height: $card-width*1.4;
+$font-size-number: $card-width * 0.1;
+$icon-size: $card-width / 5;
+
+$first-colum: 1;
+$second-colum: 2;
+$third-column: 3;
+$fourth-column: 4;
+$fifth-column: 5;
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+//styles to draw a basic outline of a card
+.card {
+    border: 1px solid grey;
+    height: $card-height;
+    width: $card-width;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 2px 2px 4px grey;
+}
+
+//because it is a card front we want a bit of extra padding
+.card-front {
+    padding: .5em;
+}
+
+//set icon size
+.icon {
+    width: $icon-size;
+    height: $icon-size;
+}
+
+.number {
+    text-align: center;
+    font-size: $font-size-number;
+  //an icon that is part of a number should be half the normal size
+    & > .icon {
+        width: $icon-size * .5;
+        height: $icon-size *.5;
+    }
+}
+
+//rotate bottom pips 180deg
+.rotate {
+    transform: rotate(180deg);
+}
+
+.row{
+  display: grid;
+  grid-template-columns: 12.5% 25% 25% 25% 12.5%;
+  grid-template-rows: auto auto auto auto;
+  
+  align-content: space-between;
+  height: 100%; 
+}
+
+.cell{
+  flex: 1;
+  text-align: center;
+}
+
+.box1{
+  grid-column: $first-colum;
+}
+
+.box2{
+    grid-column: $second-colum;
+}
+
+.box3{
+  grid-column: $fourth-column;
+}
+
+.box4{
+  grid-column: $third-column;
+}
+
+.box5{
+  grid-column: $second-colum;
+}
+
+.box6{
+  grid-column: $fourth-column;
+}
+
+.box7{
+  grid-column: $second-colum;
+}
+
+.box8{
+  grid-column: $fourth-column;
+}
+
+.box9{
+  grid-column: $fifth-column;
+}
