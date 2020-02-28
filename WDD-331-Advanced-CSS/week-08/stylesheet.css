@@ -86,7 +86,7 @@
   grid-column: 5;
 }
 
-@supports not (display: grid) {
+@supports (display: grid) {
   .row {
     display: flex;
     flex-flow: row wrap;
@@ -95,7 +95,7 @@
     height: 100%;
   }
 
-  .cell {
+  .cell s{
     flex: 1;
     text-align: center;
   }
