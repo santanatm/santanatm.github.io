@@ -105,7 +105,7 @@ $fifth-column: 5;
   grid-column: $fifth-column;
 }
 
-@supports (display: grid) {
+@supports not (display: grid) {
 
 //variables to setup basic size and shape of the card and pips
 $num-columns : 8;
