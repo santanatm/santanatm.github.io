@@ -8,11 +8,11 @@
 
 .card {
   border: 1px solid grey;
-  height: 56vw;
-  width: 40vw;
   border-radius: 10px;
-  margin: 20px;
   box-shadow: 2px 2px 4px grey;
+  height: 56vw;
+  margin: 20px;
+  width: 40vw;
 }
 
 .card-front {
@@ -20,17 +20,17 @@
 }
 
 .icon {
-  width: 8vw;
   height: 8vw;
+  width: 8vw;
 }
 
 .number {
-  text-align: center;
   font-size: 4vw;
+  text-align: center;
 }
 .number > .icon {
-  width: 4vw;
   height: 4vw;
+  width: 4vw;
 }
 
 .rotate {
@@ -38,10 +38,11 @@
 }
 
 .row {
+  align-items: center;
+  align-content: space-between;
   display: grid;
   grid-template-columns: 12.5% 25% 25% 25% 12.5%;
   grid-template-rows: auto auto auto auto;
-  align-content: space-between;
   height: 100%;
 }
 
@@ -88,10 +89,10 @@
 
 @supports not (display: grid) {
   .row {
+    align-content: space-between;
+    align-items: center;
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
-    align-content: space-between;
     height: 100%;
   }
 
