@@ -1,0 +1,129 @@
+@import 'partials/reset';
+@import 'partials/colors';
+//@import 'partials/prefix-mixins';
+//@import 'partials/layout'; // responsive grid and media queries
+@import 'partials/typography';
+@import 'partials/navegation';
+//@import 'partials/branding';
+//@import 'partials/buttons';
+
+
+/**************Smoll*****************
+/************Screen smoll*******************/
+body
+{
+    background-image: url("img/im-space-sen-garden.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+header
+{
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-items: center;
+    h1
+    {
+        color: $color-5;
+        margin: 50px auto;
+        text-align: center;
+    }
+    h2::before
+    {
+        content: '';
+        background-color: $color-2;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 200%;
+        height: auto;
+        //position: absolute;
+        top: -50%;
+        
+        right: 0px;
+        z-index: -1;
+    }
+    h2 {
+        display: flex;
+        align-items: center;
+        color: $color-5;
+        position: relative;
+        
+        width: 250px;
+        
+
+        text-align: center;
+    }
+}
+
+.summary
+{
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    align-items: center;
+
+}
+
+/**************Large*****************
+/************Screen large*******************/
+@media only screen and (min-width: 1028px)
+{
+    
+    .page-wrapper
+    {
+        width: 800px;
+        margin: 25px auto;
+    }
+    header
+    {
+        display: block;
+
+        h1
+        {
+            color: $color-5;
+            text-align: right;
+        }
+        h2::before
+        {
+            content: '';
+            background-color: $color-2;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            width: 200%;
+            height: auto;
+            //position: absolute;
+            top: -50%;
+            
+            right: 0px;
+            z-index: -1;
+        }
+        h2 {
+            display: flex;
+            align-items: center;
+            color: $color-5;
+            position: relative;
+            
+            width: 250px;
+            
+
+            text-align: left;
+        }
+    }
+    .summary
+    {
+        p
+        {
+            margin: 25px auto;
+            width: 650px;
+            text-align: center;
+        }
+
+        p + p
+        {
+            width: 321px;
+        }
+    }
+}

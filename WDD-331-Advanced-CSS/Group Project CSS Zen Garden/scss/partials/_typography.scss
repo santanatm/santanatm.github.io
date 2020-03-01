@@ -1,0 +1,47 @@
+/* -------------------------------- 
+
+xTypography 
+
+-------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800,900&display=swap');
+// fonts
+$primary-font: 'Montserrat', serif;
+$secondary-font: 'Montserrat', sans-serif;
+
+h1,
+h2 {
+  font-family: $secondary-font;
+  color: $color-2;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 1.2;
+  margin: 0 0 0.4em;
+}
+
+h2 {
+  font-size: 27px;
+  font-weight: bold;
+  //text-transform: uppercase;
+  margin: 1em 0;
+
+}
+
+section > h2::before {
+  /* number before each section title */
+  color: darken($color-4, 15%);
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  color: $color-4;
+  font-family: $primary-font;
+
+  a {
+    color: $color-1;
+    text-decoration: underline;
+  }
+}
