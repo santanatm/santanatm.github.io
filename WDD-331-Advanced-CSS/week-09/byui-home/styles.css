@@ -73,6 +73,12 @@ a {
   src: local("Open Sans"), local("OpenSans"), url(https://fonts.gstatic.com/s/opensans/v13/uYKcPVoh6c5R0NpdEY5A-Q.woff) format("woff");
   src: local("Open Sans"), local("OpenSans"), url(https://fonts.gstatic.com/s/opensans/v13/yYRnAC2KygoXnEC8IdU0gQLUuEpTyoUstqEm5AMlJo4.ttf) format("truetype");
 }
+a, p, h1, h2, h3, h4, h5, h6 {
+  font-family: "BYUI Open Sans";
+  font-style: normal;
+  font-weight: 300;
+}
+
 @font-face {
   font-family: "icomoon";
   src: url("icomoon.eot?z9anye#iefix") format("embedded-opentype"), url("icomoon.ttf?z9anye") format("truetype"), url("icomoon.woff?z9anye") format("woff"), url("icomoon.svg?z9anye#icomoon") format("svg");
@@ -1117,13 +1123,161 @@ img {
   width: 100%;
 }
 
-.icon-search:before .icon-audience,
-.icon-menu:before,
-.icon-user,
-.icon-magnifying-glass:before {
-  font-size: 15px;
+.icon-search:before,
+.icon-audience:before,
+.icon-menu:before {
   color: white;
-  padding-right: 15px;
+  font-size: 30px;
+  padding: 0 10px;
+}
+
+.header-title {
+  background-color: #eaeaea;
+  width: 100%;
+  height: auto;
+  padding: 15px 0;
+  border-bottom: 1px solid #727272;
+}
+.header-title h2 {
+  font-size: 20px;
+  text-align: center;
+  font-family: "BYUI Open Sans";
+  font-weight: 300;
+}
+
+.space-empty {
+  width: 100%;
+  height: 30px;
+}
+
+.baner_first {
+  margin-bottom: 20px;
+}
+.baner_first img {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+}
+
+#boxs-links,
+.caja-dos {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.box {
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+  border: 1px solid #b4b3b5;
+}
+.box img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.box a {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: white;
+  padding: 9px 12px;
+  color: #056cb6;
+  font-size: 15px;
+}
+.box a span {
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+.box a span + span {
+  display: block;
+  align-self: flex-end;
+  width: 100%;
+  text-align: right;
+}
+
+.getInformation {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.getInformation a.botonList {
+  background-color: #eaeaea;
+  border-radius: 5px;
+  border: 1px solid #b4b3b5;
+  padding: 10px 15px;
+  display: flex;
+  width: 100%;
+  text-transform: uppercase;
+  color: #020202;
+  font-weight: bold;
+}
+.getInformation a.botonList span {
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+.getInformation a.botonList span + span {
+  display: block;
+  align-self: flex-end;
+  width: 100%;
+  text-align: right;
+}
+.getInformation a.botonList .getInformation:hover #lista {
+  display: block;
+}
+.getInformation #lista {
+  display: none;
+  position: absolute;
+  top: 38px;
+  left: 0;
+  width: 100%;
+  box-shadow: rgba(0, 0, 255, 0.4) 0 0 25px, rgba(0, 128, 0, 0.2) 0 0 3px 1px inset;
+}
+.getInformation #lista a {
+  background-color: white;
+  padding: 15px;
+  color: #056cb6;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #b4b3b5;
+}
+
+.resources {
+  margin-bottom: 30px;
+}
+.resources h3 {
+  background-color: #727272;
+  padding: 10px 15px;
+  color: white;
+  font-size: 22px;
+  font-weight: 400;
+}
+.resources div {
+  border-left: 1px solid #b4b3b5;
+  border-right: 1px solid #b4b3b5;
+}
+.resources div a {
+  background-color: #eaeaea;
+  display: flex;
+  width: 100%;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #b4b3b5;
+  padding: 10px 15px;
+  color: #0076b6;
+}
+.resources div a span {
+  text-align: left;
+  display: block;
+  width: 100%;
+}
+.resources div a span + span {
+  display: block;
+  align-self: flex-end;
+  width: 100%;
+  text-align: right;
 }
 
 /*# sourceMappingURL=styles.css.map */

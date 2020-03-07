@@ -11,6 +11,22 @@ $body-font: #020202;
 $link-blue: #0076b6; //why do we have both of these blues?
 $byui-blue: #056cb6;
 
+//mixins
+@mixin spanTags {
+  span
+    {
+      text-align: left;
+      display: block;
+      width: 100%;
+    }
+    span + span
+    {
+      display: block;
+      align-self:flex-end;
+      width: 100%;
+      text-align: right;
+    }
+}
 // Utility classes
 *,
 *:before,
@@ -68,13 +84,153 @@ img {
   width: 100%;
 }
 
-.icon-search:before
-.icon-audience,
-.icon-menu:before,
-.icon-user,
-.icon-magnifying-glass:before
+.icon-search:before,
+.icon-audience:before,
+.icon-menu:before
 {
- font-size: 15px;
- color: white;
- padding-right:15px;
+  color: white;
+  font-size: 30px;
+  padding: 0 10px;
+}
+
+.header-title
+{
+  background-color:$light-gray;
+  width: 100%;
+  height: auto;
+  padding: 15px 0;
+  border-bottom: 1px solid $dark-gray;
+    h2
+    {
+      font-size: 20px;
+      text-align: center;
+      font-family: 'BYUI Open Sans';
+      font-weight: 300;
+    }
+}
+
+.space-empty
+{
+  width:100%;
+  height: 30px;
+}
+
+.baner_first
+{
+  img{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+  margin-bottom: 20px;
+}
+
+#boxs-links,
+.caja-dos
+{
+  //box-sizing: border-box;
+  width: 100%;
+  padding: 0 15px;
+}
+.box{
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+  border: 1px solid $med-gray;
+  img
+  {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  a
+  {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: white;
+    padding: 9px 12px;
+    color: $byui-blue;
+    font-size: 15px;
+    @include spanTags;
+  }
+}
+
+//**************** segunda caja
+
+.getInformation
+{
+  position: relative;
+  width: 100%;
+  a.botonList
+  {
+    background-color: $light-gray;
+    border-radius: 5px;
+    border: 1px solid $med-gray;
+    padding: 10px 15px;
+    display: flex;
+    width: 100%;
+    text-transform: uppercase;
+    color: $body-font;
+    font-weight: bold;
+    @include spanTags;
+    .getInformation:hover #lista
+    {
+      display: block;
+    }
+  }
+  #lista
+  {
+    display: none;
+    position: absolute;
+    top: 38px;
+    left: 0;
+    width: 100%;
+    box-shadow: (rgba(blue, 0.4) 0 0 25px, rgba(green, 0.2) 0 0 3px 1px inset);
+    a
+    {
+      background-color: white;
+      padding: 15px;
+      color: $byui-blue;
+      display: block;
+      width: 100%;
+      border-bottom: 1px solid $med-gray;
+    }
+  }
+  margin-bottom: 30px;
+}
+
+.resources
+{
+  h3
+  {
+    background-color: $dark-gray;
+    padding: 10px 15px;
+    color: white;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  div
+  {
+    a
+    {
+      background-color: $light-gray;
+      display: flex;
+      width: 100%;
+      background-color: #f8f9fa;
+      border-bottom: 1px solid $med-gray;
+      padding: 10px 15px;
+      color: $link-blue;
+      @include spanTags;
+    }
+    border-left: 1px solid $med-gray;
+    border-right: 1px solid $med-gray;
+  }
+  margin-bottom: 30px;
+}
+
+.importantDates
+{
+  
 }
