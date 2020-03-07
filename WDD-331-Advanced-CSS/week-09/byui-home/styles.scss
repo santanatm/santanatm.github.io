@@ -23,8 +23,8 @@ $byui-blue: #056cb6;
     {
       display: block;
       align-self:flex-end;
-      width: 100%;
-      text-align: right;
+      width: 20%;
+      text-align: right !important;
     }
 }
 // Utility classes
@@ -126,7 +126,9 @@ img {
 }
 
 #boxs-links,
-.caja-dos
+.caja-dos,
+.caja-tres,
+.caja-cuatro
 {
   //box-sizing: border-box;
   width: 100%;
@@ -224,6 +226,9 @@ img {
       color: $link-blue;
       @include spanTags;
     }
+    a:hover{
+      background-color: $light-gray;
+    }
     border-left: 1px solid $med-gray;
     border-right: 1px solid $med-gray;
   }
@@ -232,5 +237,168 @@ img {
 
 .importantDates
 {
+  h3.highlights-heading
+  {
+    background-color: $byui-blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 22px;
+  }
+  div
+  {
+    a
+    {
+      border-bottom: 1px solid $med-gray;
+      display: flex;
+      padding: 10px 15px;
+      font-size: 13px;
+      color: $body-font;
+      div
+      {
+        width:25%;
+        font-weight: bold;
+      }
+      span{
+        width:10%;
+      }
+      span+div
+      {
+        width:100%;
+        text-align: left;
+        font-weight: normal;
+      }
+    }
+    a:hover{
+      background-color: $light-gray;
+      color:$link-blue;
+    }
+  }
+}
+
+.caja-tres
+{
+  h2{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 36px 0 24px 0;
+  }
+  article
+  {
+    padding: 25px 0;
+    border-top: 1px solid #B4B3B5;
+    div.post-image
+      {
+        display: none;
+      }
+
+    div.post-image+div{
+      h4{
+        margin-top: 18px;
+        margin-bottom: 12px;
+        a
+        {
+          font-size: 17px;
+          font-weight: 500;
+          margin-bottom: 12px;
+          color: $link-blue;
+        }
+      }
+      .article-date {
+        font-size: 11px;
+        font-weight: 700;
+        margin-bottom: 6px;
+        text-transform: uppercase;
+      }
+      p.article-abstract{
+        font-weight: 300;
+        margin: 0 0 24px;
+        line-height: 24px;
+        margin-bottom: 12px;
+      }
+    }
+  }
+}
+
+.caja-cuatro
+{
+  h5{
+    border: 1px solid $med-gray;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: $light-gray;
+    font-weight: 600;
+    margin: 0;
+    padding: 12px 16px;
+    z-index: -1;
+  }
+  div
+  {
+    border-left: 1px solid #B4B3B5;
+    border-right: 1px solid #B4B3B5;
+    border-bottom: 1px solid #B4B3B5;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    padding: 7px;
+    a{
+      img{
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1028px)
+{
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+    #cajas
+    {
+      display: grid;
+      grid-template-columns: 70% 30%;
+      grid-gap: 30px;
+      justify-content: center;
+      .caja-uno
+      {
+        padding: 0;
+        .baner_first
+        {
+          img{
+            padding: 0;
+          }
+        }
+      }
+      .caja-dos
+      {
+        padding: 0;
+      }
+      .caja-tres{
+        article
+        {
+          display: flex;
+          flex-direction: row;
+          div.post-image
+          {
+            display: block;
+            margin-right: 35px;
+            img{
+              width: 165px;
+            }
+          }
+        }
+      }
+    }
+
+    #boxs-links
+    {
+      display: grid;
+      grid-gap: 30px;
+      grid-template-columns: 1fr 1fr 1fr;
+      justify-content: center;
+      padding: 0;
+    }
+  }
   
 }
