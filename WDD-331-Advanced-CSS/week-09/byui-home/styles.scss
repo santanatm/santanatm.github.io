@@ -1,3 +1,4 @@
+@import 'reset';
 @import 'typography';
 @import 'icons';
 
@@ -29,21 +30,51 @@ img {
   margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-
-body {
-  background-color: #fff;
-  color: #020202;
-  font-family: "BYUI Open Sans","Open Sans","Lucida Sans Unicode","Lucida Grande",Verdana,sans-serif;
-  font-weight: 400;
-  margin: 0;
-}
-
-body, p, ul, ol {
-  font-size: 15px;
-  font-style: normal;
-  text-transform: inherit;
 }
 
 
+.site-banner
+{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  background-color: $byui-blue;
+
+  height: 60px;
+}
+
+.icon-byui-logo::before
+{
+  color: white;
+  font-size: 30px;
+}
+.site-banner__left
+{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+
+  box-sizing: border-box;
+  background-color: black;
+  
+  padding: 10px;
+  height: 60px;
+}
+.site-banner__right
+{
+  display: flex;
+  justify-content:flex-end;
+
+  width: 100%;
+}
+
+.icon-search:before
+.icon-audience,
+.icon-menu:before,
+.icon-user,
+.icon-magnifying-glass:before
+{
+ font-size: 15px;
+ color: white;
+ padding-right:15px;
+}
