@@ -1159,7 +1159,7 @@ img {
   width: 100%;
 }
 
-#boxs-links,
+#boxes-links,
 .box-two, s .box-three,
 .box-four {
   padding: 0 15px;
@@ -1375,13 +1375,13 @@ img {
 
 @media only screen and (min-width: 1028px) {
   main {
-    max-width: 1140px;
     margin: 0 auto;
+    max-width: 1140px;
   }
   main #boxes {
     display: grid;
-    grid-template-columns: 70% 30%;
     grid-gap: 30px;
+    grid-template-columns: 70% 30%;
     justify-content: center;
   }
   main #boxes .box-one {
@@ -1404,7 +1404,7 @@ img {
   main #boxes .box-three article div.post-image img {
     width: 165px;
   }
-  main #boxs-links {
+  main #boxes-links {
     display: grid;
     grid-gap: 30px;
     grid-template-columns: 1fr 1fr 1fr;
