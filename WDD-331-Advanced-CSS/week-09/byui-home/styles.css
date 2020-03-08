@@ -1206,14 +1206,14 @@ img {
 }
 .getInformation a.botonList {
   background-color: #eaeaea;
-  border-radius: 5px;
   border: 1px solid #b4b3b5;
-  padding: 10px 15px;
-  display: flex;
-  width: 100%;
-  text-transform: uppercase;
+  border-radius: 5px;
   color: #020202;
+  display: flex;
   font-weight: bold;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  width: 100%;
 }
 .getInformation a.botonList span {
   display: block;
@@ -1230,20 +1230,20 @@ img {
   display: block;
 }
 .getInformation #information-list {
+  box-shadow: rgba(0, 0, 255, 0.4) 0 0 25px, rgba(0, 128, 0, 0.2) 0 0 3px 1px inset;
   display: none;
+  left: 0;
   position: absolute;
   top: 38px;
-  left: 0;
   width: 100%;
-  box-shadow: rgba(0, 0, 255, 0.4) 0 0 25px, rgba(0, 128, 0, 0.2) 0 0 3px 1px inset;
 }
 .getInformation #information-list a {
   background-color: white;
-  padding: 15px;
+  border-bottom: 1px solid #b4b3b5;
   color: #056cb6;
   display: block;
+  padding: 15px;
   width: 100%;
-  border-bottom: 1px solid #b4b3b5;
 }
 
 .resources {
@@ -1251,10 +1251,10 @@ img {
 }
 .resources h3 {
   background-color: #727272;
-  padding: 10px 15px;
   color: white;
   font-size: 22px;
   font-weight: 400;
+  padding: 10px 15px;
 }
 .resources div {
   border-left: 1px solid #b4b3b5;
@@ -1262,9 +1262,9 @@ img {
 }
 .resources div a {
   background-color: #eaeaea;
+  background-color: #f8f9fa;
   display: flex;
   width: 100%;
-  background-color: #f8f9fa;
   border-bottom: 1px solid #b4b3b5;
   padding: 10px 15px;
   color: #0076b6;

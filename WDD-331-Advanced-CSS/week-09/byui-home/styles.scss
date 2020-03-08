@@ -4,12 +4,16 @@
 
 $sm-break: 48em;
 // colors
+$black: black;
+$blue: blue;
 $body-font: #020202;
 $byui-blue: #056cb6;
 $dark-gray: #727272;
+$green: green;
 $light-gray: #eaeaea;
 $link-blue: #0076b6;
 $med-gray: #b4b3b5;
+$white: white;
 
 //mixins
 @mixin spanTags {
@@ -55,13 +59,13 @@ img {
 }
 
 .icon-byui-logo::before {
-  color: white;
+  color: $white;
   font-size: 30px;
 }
 
 .site-banner__left {
   align-items:center;
-  background-color: black;
+  background-color: $black;
   box-sizing: border-box;
   display: flex;
   height: 60px;
@@ -78,7 +82,7 @@ img {
 .icon-search:before,
 .icon-audience:before,
 .icon-menu:before {
-  color: white;
+  color: $white;
   font-size: 30px;
   padding: 0 10px;
 }
@@ -133,7 +137,7 @@ img {
   a {
     align-items: center;
     align-items: flex-start;
-    background-color: white;
+    background-color: $white;
     color: $byui-blue;
     display: flex;
     flex-direction: row;
@@ -143,44 +147,40 @@ img {
   }
 }
 
-//**************** Second Box **********************
-.getInformation
-{
+.getInformation {
   position: relative;
   width: 100%;
-  a.botonList
-  {
+  a.botonList {
     background-color: $light-gray;
-    border-radius: 5px;
     border: 1px solid $med-gray;
-    padding: 10px 15px;
-    display: flex;
-    width: 100%;
-    text-transform: uppercase;
+    border-radius: 5px;
     color: $body-font;
+    display: flex;
     font-weight: bold;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    width: 100%;
     @include spanTags;
-    .getInformation:hover #information-list
-    {
+
+    .getInformation:hover #information-list{
       display: block;
     }
   }
-  #information-list
-  {
+  
+  #information-list {
+    box-shadow: (rgba($blue, 0.4) 0 0 25px, rgba($green, 0.2) 0 0 3px 1px inset);
     display: none;
+    left: 0;
     position: absolute;
     top: 38px;
-    left: 0;
     width: 100%;
-    box-shadow: (rgba(blue, 0.4) 0 0 25px, rgba(green, 0.2) 0 0 3px 1px inset);
-    a
-    {
-      background-color: white;
-      padding: 15px;
+    a {
+      background-color: $white;
+      border-bottom: 1px solid $med-gray;
       color: $byui-blue;
       display: block;
+      padding: 15px;
       width: 100%;
-      border-bottom: 1px solid $med-gray;
     }
   }
   margin-bottom: 30px;
@@ -188,32 +188,31 @@ img {
 
 .resources
 {
-  h3
-  {
+  h3 {
     background-color: $dark-gray;
-    padding: 10px 15px;
-    color: white;
+    color: $white;
     font-size: 22px;
     font-weight: 400;
+    padding: 10px 15px;
   }
-  div
-  {
-    a
-    {
+  div {
+    a {
       background-color: $light-gray;
+      background-color: #f8f9fa;
       display: flex;
       width: 100%;
-      background-color: #f8f9fa;
       border-bottom: 1px solid $med-gray;
       padding: 10px 15px;
       color: $link-blue;
       @include spanTags;
     }
+
     a:hover{
       background-color: $light-gray;
     }
-    border-left: 1px solid $med-gray;
-    border-right: 1px solid $med-gray;
+
+      border-left: 1px solid $med-gray;
+      border-right: 1px solid $med-gray;
   }
   margin-bottom: 30px;
 }
@@ -223,7 +222,7 @@ img {
   h3.highlights-heading
   {
     background-color: $byui-blue;
-    color: white;
+    color: $white;
     padding: 10px 20px;
     font-size: 22px;
   }
