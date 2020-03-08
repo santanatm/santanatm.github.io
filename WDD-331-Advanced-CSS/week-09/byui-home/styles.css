@@ -1155,7 +1155,7 @@ img {
 }
 .baner_first img {
   height: auto;
-  padding: 0;
+  padding: 15px;
   width: 100%;
 }
 
