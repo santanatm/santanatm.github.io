@@ -12,7 +12,8 @@ $dark-gray: #727272;
 $green: green;
 $light-gray: #eaeaea;
 $link-blue: #0076b6;
-$med-gray: #b4b3b5;
+$medium-gray: #b4b3b5;
+$soft-gray: #f8f9fa;
 $white: white;
 
 //mixins
@@ -124,7 +125,7 @@ img {
   width: 100%;
 }
 .box{
-  border: 1px solid $med-gray;
+  border: 1px solid $medium-gray;
   height: auto;
   margin-bottom: 40px;
   width: 100%;
@@ -152,7 +153,7 @@ img {
   width: 100%;
   a.botonList {
     background-color: $light-gray;
-    border: 1px solid $med-gray;
+    border: 1px solid $medium-gray;
     border-radius: 5px;
     color: $body-font;
     display: flex;
@@ -176,7 +177,7 @@ img {
     width: 100%;
     a {
       background-color: $white;
-      border-bottom: 1px solid $med-gray;
+      border-bottom: 1px solid $medium-gray;
       color: $byui-blue;
       display: block;
       padding: 15px;
@@ -198,12 +199,12 @@ img {
   div {
     a {
       background-color: $light-gray;
-      background-color: #f8f9fa;
-      display: flex;
-      width: 100%;
-      border-bottom: 1px solid $med-gray;
-      padding: 10px 15px;
+      background-color: $soft-gray;
+      border-bottom: 1px solid $medium-gray;
       color: $link-blue;
+      display: flex;
+      padding: 10px 15px;
+      width: 100%;
       @include spanTags;
     }
 
@@ -211,43 +212,40 @@ img {
       background-color: $light-gray;
     }
 
-      border-left: 1px solid $med-gray;
-      border-right: 1px solid $med-gray;
+      border-left: 1px solid $medium-gray;
+      border-right: 1px solid $medium-gray;
   }
   margin-bottom: 30px;
 }
 
-.importantDates
-{
-  h3.highlights-heading
-  {
+.importantDates {
+  h3.highlights-heading {
     background-color: $byui-blue;
     color: $white;
-    padding: 10px 20px;
     font-size: 22px;
+    padding: 10px 20px;
   }
-  div
-  {
-    a
-    {
-      border-bottom: 1px solid $med-gray;
-      display: flex;
-      padding: 10px 15px;
-      font-size: 13px;
+  div {
+    a {
+      border-bottom: 1px solid $medium-gray;
       color: $body-font;
-      div
-      {
-        width:25%;
+      display: flex;
+      font-size: 13px;
+      padding: 10px 15px;
+      
+      div {
         font-weight: bold;
+        width:25%;
       }
+
       span{
         width:10%;
       }
-      span+div
-      {
-        width:100%;
-        text-align: left;
+
+      span+div {
         font-weight: normal;
+        text-align: left;
+        width:100%;
       }
     }
     a:hover{
@@ -257,33 +255,32 @@ img {
   }
 }
 
-.box-three
-{
+.box-three {
   h2{
     font-size: 28px;
     font-weight: 600;
     line-height: 28px;
     margin: 36px 0 24px 0;
   }
-  article
-  {
-    padding: 25px 0;
+
+  article {
     border-top: 1px solid #B4B3B5;
-    div.post-image
-      {
+    padding: 25px 0;
+    
+    div.post-image {
         display: none;
       }
 
-    div.post-image+div{
-      h4{
-        margin-top: 18px;
+    div.post-image+div {
+      h4 {
         margin-bottom: 12px;
-        a
-        {
+        margin-top: 18px;
+        
+        a {
+          color: $link-blue;
           font-size: 17px;
           font-weight: 500;
           margin-bottom: 12px;
-          color: $link-blue;
         }
       }
       .article-date {
@@ -292,44 +289,46 @@ img {
         margin-bottom: 6px;
         text-transform: uppercase;
       }
-      p.article-abstract{
+      p.article-abstract {
         font-weight: 300;
-        margin: 0 0 24px;
         line-height: 24px;
+        margin: 0 0 24px;
         margin-bottom: 12px;
       }
     }
   }
 }
 
-.box-four
-{
-  h5{
-    border: 1px solid $med-gray;
+.box-four {
+  h5 {
+    background-color: $light-gray;
+    border: 1px solid $medium-gray;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    background-color: $light-gray;
     font-weight: 600;
     margin: 0;
     padding: 12px 16px;
     z-index: -1;
   }
-  div
-  {
+
+  div {
+    border-bottom: 1px solid #B4B3B5;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
     border-left: 1px solid #B4B3B5;
     border-right: 1px solid #B4B3B5;
-    border-bottom: 1px solid #B4B3B5;
-    border-bottom-right-radius: 4px;
-    border-bottom-left-radius: 4px;
     padding: 7px;
+    
     a{
       img{
-        width: 100%;
         height: auto;
+        width: 100%;
       }
     }
   }
 }
+
+//Large view
 
 @media only screen and (min-width: 1028px)
 {

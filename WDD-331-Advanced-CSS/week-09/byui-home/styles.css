@@ -1263,11 +1263,11 @@ img {
 .resources div a {
   background-color: #eaeaea;
   background-color: #f8f9fa;
-  display: flex;
-  width: 100%;
   border-bottom: 1px solid #b4b3b5;
-  padding: 10px 15px;
   color: #0076b6;
+  display: flex;
+  padding: 10px 15px;
+  width: 100%;
 }
 .resources div a span {
   display: block;
@@ -1287,27 +1287,27 @@ img {
 .importantDates h3.highlights-heading {
   background-color: #056cb6;
   color: white;
-  padding: 10px 20px;
   font-size: 22px;
+  padding: 10px 20px;
 }
 .importantDates div a {
   border-bottom: 1px solid #b4b3b5;
-  display: flex;
-  padding: 10px 15px;
-  font-size: 13px;
   color: #020202;
+  display: flex;
+  font-size: 13px;
+  padding: 10px 15px;
 }
 .importantDates div a div {
-  width: 25%;
   font-weight: bold;
+  width: 25%;
 }
 .importantDates div a span {
   width: 10%;
 }
 .importantDates div a span + div {
-  width: 100%;
-  text-align: left;
   font-weight: normal;
+  text-align: left;
+  width: 100%;
 }
 .importantDates div a:hover {
   background-color: #eaeaea;
@@ -1321,21 +1321,21 @@ img {
   margin: 36px 0 24px 0;
 }
 .box-three article {
-  padding: 25px 0;
   border-top: 1px solid #B4B3B5;
+  padding: 25px 0;
 }
 .box-three article div.post-image {
   display: none;
 }
 .box-three article div.post-image + div h4 {
-  margin-top: 18px;
   margin-bottom: 12px;
+  margin-top: 18px;
 }
 .box-three article div.post-image + div h4 a {
+  color: #0076b6;
   font-size: 17px;
   font-weight: 500;
   margin-bottom: 12px;
-  color: #0076b6;
 }
 .box-three article div.post-image + div .article-date {
   font-size: 11px;
@@ -1345,32 +1345,32 @@ img {
 }
 .box-three article div.post-image + div p.article-abstract {
   font-weight: 300;
-  margin: 0 0 24px;
   line-height: 24px;
+  margin: 0 0 24px;
   margin-bottom: 12px;
 }
 
 .box-four h5 {
+  background-color: #eaeaea;
   border: 1px solid #b4b3b5;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-  background-color: #eaeaea;
   font-weight: 600;
   margin: 0;
   padding: 12px 16px;
   z-index: -1;
 }
 .box-four div {
+  border-bottom: 1px solid #B4B3B5;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
   border-left: 1px solid #B4B3B5;
   border-right: 1px solid #B4B3B5;
-  border-bottom: 1px solid #B4B3B5;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
   padding: 7px;
 }
 .box-four div a img {
-  width: 100%;
   height: auto;
+  width: 100%;
 }
 
 @media only screen and (min-width: 1028px) {
