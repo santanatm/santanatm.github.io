@@ -4,163 +4,146 @@
 
 $sm-break: 48em;
 // colors
-$dark-gray: #727272;
-$med-gray: #b4b3b5;
-$light-gray: #eaeaea;
 $body-font: #020202;
-$link-blue: #0076b6; //why do we have both of these blues?
 $byui-blue: #056cb6;
+$dark-gray: #727272;
+$light-gray: #eaeaea;
+$link-blue: #0076b6;
+$med-gray: #b4b3b5;
 
 //mixins
 @mixin spanTags {
-  span
-    {
-      text-align: left;
+  span {
       display: block;
+      text-align: left;
       width: 100%;
     }
-    span + span
-    {
-      display: block;
+    span + span {
       align-self:flex-end;
-      width: 20%;
+      display: block;
       text-align: right !important;
+      width: 20%;
     }
 }
 // Utility classes
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 img {
   max-width: 100%;
 }
 .sr-only {
-  position: absolute;
-  width: 1px;
+  clip: rect(0, 0, 0, 0);
   height: 1px;
-  padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
-
-.site-banner
-{
-  display: flex;
-  justify-content:center;
+.site-banner {
   align-items:center;
   background-color: $byui-blue;
-
+  display: flex;
   height: 60px;
+  justify-content:center;
 }
 
-.icon-byui-logo::before
-{
+.icon-byui-logo::before {
   color: white;
   font-size: 30px;
 }
-.site-banner__left
-{
-  display: flex;
-  justify-content:center;
-  align-items:center;
 
-  box-sizing: border-box;
+.site-banner__left {
+  align-items:center;
   background-color: black;
-  
-  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
   height: 60px;
+  justify-content:center;
+  padding: 10px;
 }
-.site-banner__right
-{
+
+.site-banner__right {
   display: flex;
   justify-content:flex-end;
-
   width: 100%;
 }
 
 .icon-search:before,
 .icon-audience:before,
-.icon-menu:before
-{
+.icon-menu:before {
   color: white;
   font-size: 30px;
   padding: 0 10px;
 }
 
-.header-title
-{
+.header-title {
   background-color:$light-gray;
-  width: 100%;
+  border-bottom: 1px solid $dark-gray;
   height: auto;
   padding: 15px 0;
-  border-bottom: 1px solid $dark-gray;
-    h2
-    {
-      font-size: 20px;
-      text-align: center;
+  width: 100%;
+    h2 {
       font-family: 'BYUI Open Sans';
+      font-size: 20px;
       font-weight: 300;
+      text-align: center;
     }
 }
 
-.space-empty
-{
-  width:100%;
+.space-empty {
   height: 30px;
+  width:100%;
 }
 
-.baner_first
-{
-  img{
-    width: 100%;
+.baner_first {
+  img {
     height: auto;
     padding: 15px;
+    width: 100%;
   }
   margin-bottom: 20px;
 }
 
 #boxs-links,
-.caja-dos,
-.caja-tres,
-.caja-cuatro
-{
+.box-two,s
+.box-three,
+.box-four {
   //box-sizing: border-box;
-  width: 100%;
   padding: 0 15px;
+  width: 100%;
 }
 .box{
-  width: 100%;
+  border: 1px solid $med-gray;
   height: auto;
   margin-bottom: 40px;
-  border: 1px solid $med-gray;
-  img
-  {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  
+  img {
     display: block;
+    height: auto;
+    width: 100%;
   }
-  a
-  {
-    display: flex;
+  a {
     align-items: center;
-    flex-direction: row;
     align-items: flex-start;
     background-color: white;
-    padding: 9px 12px;
     color: $byui-blue;
+    display: flex;
+    flex-direction: row;
     font-size: 15px;
+    padding: 9px 12px;
     @include spanTags;
   }
 }
 
-//**************** segunda caja
-
+//**************** Second Box **********************
 .getInformation
 {
   position: relative;
@@ -177,12 +160,12 @@ img {
     color: $body-font;
     font-weight: bold;
     @include spanTags;
-    .getInformation:hover #lista
+    .getInformation:hover #information-list
     {
       display: block;
     }
   }
-  #lista
+  #information-list
   {
     display: none;
     position: absolute;
@@ -275,7 +258,7 @@ img {
   }
 }
 
-.caja-tres
+.box-three
 {
   h2{
     font-size: 28px;
@@ -320,7 +303,7 @@ img {
   }
 }
 
-.caja-cuatro
+.box-four
 {
   h5{
     border: 1px solid $med-gray;
@@ -354,13 +337,13 @@ img {
   main{
     max-width: 1140px;
     margin: 0 auto;
-    #cajas
+    #boxes
     {
       display: grid;
       grid-template-columns: 70% 30%;
       grid-gap: 30px;
       justify-content: center;
-      .caja-uno
+      .box-one
       {
         padding: 0;
         .baner_first
@@ -370,11 +353,11 @@ img {
           }
         }
       }
-      .caja-dos
+      .box-two
       {
         padding: 0;
       }
-      .caja-tres{
+      .box-three{
         article
         {
           display: flex;

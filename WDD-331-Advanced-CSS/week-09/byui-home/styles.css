@@ -1075,9 +1075,9 @@ article, a, p, h1, h2, h3, h4, h5, h6 {
 *,
 *:before,
 *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 img {
@@ -1085,21 +1085,21 @@ img {
 }
 
 .sr-only {
-  position: absolute;
-  width: 1px;
+  clip: rect(0, 0, 0, 0);
   height: 1px;
-  padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 .site-banner {
-  display: flex;
-  justify-content: center;
   align-items: center;
   background-color: #056cb6;
+  display: flex;
   height: 60px;
+  justify-content: center;
 }
 
 .icon-byui-logo::before {
@@ -1108,13 +1108,13 @@ img {
 }
 
 .site-banner__left {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  box-sizing: border-box;
   background-color: black;
-  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
   height: 60px;
+  justify-content: center;
+  padding: 10px;
 }
 
 .site-banner__right {
@@ -1133,71 +1133,70 @@ img {
 
 .header-title {
   background-color: #eaeaea;
-  width: 100%;
+  border-bottom: 1px solid #727272;
   height: auto;
   padding: 15px 0;
-  border-bottom: 1px solid #727272;
+  width: 100%;
 }
 .header-title h2 {
-  font-size: 20px;
-  text-align: center;
   font-family: "BYUI Open Sans";
+  font-size: 20px;
   font-weight: 300;
+  text-align: center;
 }
 
 .space-empty {
-  width: 100%;
   height: 30px;
+  width: 100%;
 }
 
 .baner_first {
   margin-bottom: 20px;
 }
 .baner_first img {
-  width: 100%;
   height: auto;
   padding: 15px;
+  width: 100%;
 }
 
 #boxs-links,
-.caja-dos,
-.caja-tres,
-.caja-cuatro {
-  width: 100%;
+.box-two, s .box-three,
+.box-four {
   padding: 0 15px;
+  width: 100%;
 }
 
 .box {
-  width: 100%;
+  border: 1px solid #b4b3b5;
   height: auto;
   margin-bottom: 40px;
-  border: 1px solid #b4b3b5;
+  width: 100%;
 }
 .box img {
-  width: 100%;
-  height: auto;
   display: block;
+  height: auto;
+  width: 100%;
 }
 .box a {
-  display: flex;
   align-items: center;
-  flex-direction: row;
   align-items: flex-start;
   background-color: white;
-  padding: 9px 12px;
   color: #056cb6;
+  display: flex;
+  flex-direction: row;
   font-size: 15px;
+  padding: 9px 12px;
 }
 .box a span {
-  text-align: left;
   display: block;
+  text-align: left;
   width: 100%;
 }
 .box a span + span {
-  display: block;
   align-self: flex-end;
-  width: 20%;
+  display: block;
   text-align: right !important;
+  width: 20%;
 }
 
 .getInformation {
@@ -1217,20 +1216,20 @@ img {
   font-weight: bold;
 }
 .getInformation a.botonList span {
-  text-align: left;
   display: block;
+  text-align: left;
   width: 100%;
 }
 .getInformation a.botonList span + span {
-  display: block;
   align-self: flex-end;
-  width: 20%;
+  display: block;
   text-align: right !important;
+  width: 20%;
 }
-.getInformation a.botonList .getInformation:hover #lista {
+.getInformation a.botonList .getInformation:hover #information-list {
   display: block;
 }
-.getInformation #lista {
+.getInformation #information-list {
   display: none;
   position: absolute;
   top: 38px;
@@ -1238,7 +1237,7 @@ img {
   width: 100%;
   box-shadow: rgba(0, 0, 255, 0.4) 0 0 25px, rgba(0, 128, 0, 0.2) 0 0 3px 1px inset;
 }
-.getInformation #lista a {
+.getInformation #information-list a {
   background-color: white;
   padding: 15px;
   color: #056cb6;
@@ -1271,15 +1270,15 @@ img {
   color: #0076b6;
 }
 .resources div a span {
-  text-align: left;
   display: block;
+  text-align: left;
   width: 100%;
 }
 .resources div a span + span {
-  display: block;
   align-self: flex-end;
-  width: 20%;
+  display: block;
   text-align: right !important;
+  width: 20%;
 }
 .resources div a:hover {
   background-color: #eaeaea;
@@ -1315,43 +1314,43 @@ img {
   color: #0076b6;
 }
 
-.caja-tres h2 {
+.box-three h2 {
   font-size: 28px;
   font-weight: 600;
   line-height: 28px;
   margin: 36px 0 24px 0;
 }
-.caja-tres article {
+.box-three article {
   padding: 25px 0;
   border-top: 1px solid #B4B3B5;
 }
-.caja-tres article div.post-image {
+.box-three article div.post-image {
   display: none;
 }
-.caja-tres article div.post-image + div h4 {
+.box-three article div.post-image + div h4 {
   margin-top: 18px;
   margin-bottom: 12px;
 }
-.caja-tres article div.post-image + div h4 a {
+.box-three article div.post-image + div h4 a {
   font-size: 17px;
   font-weight: 500;
   margin-bottom: 12px;
   color: #0076b6;
 }
-.caja-tres article div.post-image + div .article-date {
+.box-three article div.post-image + div .article-date {
   font-size: 11px;
   font-weight: 700;
   margin-bottom: 6px;
   text-transform: uppercase;
 }
-.caja-tres article div.post-image + div p.article-abstract {
+.box-three article div.post-image + div p.article-abstract {
   font-weight: 300;
   margin: 0 0 24px;
   line-height: 24px;
   margin-bottom: 12px;
 }
 
-.caja-cuatro h5 {
+.box-four h5 {
   border: 1px solid #b4b3b5;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
@@ -1361,7 +1360,7 @@ img {
   padding: 12px 16px;
   z-index: -1;
 }
-.caja-cuatro div {
+.box-four div {
   border-left: 1px solid #B4B3B5;
   border-right: 1px solid #B4B3B5;
   border-bottom: 1px solid #B4B3B5;
@@ -1369,7 +1368,7 @@ img {
   border-bottom-left-radius: 4px;
   padding: 7px;
 }
-.caja-cuatro div a img {
+.box-four div a img {
   width: 100%;
   height: auto;
 }
@@ -1379,30 +1378,30 @@ img {
     max-width: 1140px;
     margin: 0 auto;
   }
-  main #cajas {
+  main #boxes {
     display: grid;
     grid-template-columns: 70% 30%;
     grid-gap: 30px;
     justify-content: center;
   }
-  main #cajas .caja-uno {
+  main #boxes .box-one {
     padding: 0;
   }
-  main #cajas .caja-uno .baner_first img {
+  main #boxes .box-one .baner_first img {
     padding: 0;
   }
-  main #cajas .caja-dos {
+  main #boxes .box-two {
     padding: 0;
   }
-  main #cajas .caja-tres article {
+  main #boxes .box-three article {
     display: flex;
     flex-direction: row;
   }
-  main #cajas .caja-tres article div.post-image {
+  main #boxes .box-three article div.post-image {
     display: block;
     margin-right: 35px;
   }
-  main #cajas .caja-tres article div.post-image img {
+  main #boxes .box-three article div.post-image img {
     width: 165px;
   }
   main #boxs-links {
